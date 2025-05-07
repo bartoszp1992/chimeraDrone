@@ -1,3 +1,22 @@
+kupione:
+-frame: Chimera 2,2"
+-straps: 10x130mm
+-FC: BETAFPV F405 4S 20A Toothpick Brushless Flight Controller V5 BLHeli_S (ICM42688)
+	-BLHeli_S/Bluejay(open source)
+	-OSD AT7456E(analog on screen display)
+-propellers: Gemfan 2218 3-Blade Propellers (1.5mm Shaft)
+-motors: LAVA Series 1104 | 7200KV Brushless Motors
+-receiver: SpeedyBee Nano 2.4G 2.4G-TCXO 915M ExpressLRS ELRS Receiver
+-camera: CADDXFPV Ant Lite
+-VTX: Foxeer Reaper Nano V2 VTx 5.8G 72CH 350mW Tramp
+-battery: Tattu R-line 550mAh 3S
+-GPS: Foxeer M10Q-120 compass
+-controller: Radiomaster Pocket Crush White ELRS LBT
+-googles: BETAFPV VR03
+
+
+
+planowane:
 -frame: Chimera 2,2" / PAVO 20 pro
 -straps: Zestaw pasków BetaFPV
 -FC: BetaFPV F722 35A AIO ICM42688 V2
