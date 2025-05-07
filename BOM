@@ -1,4 +1,4 @@
-kupione:
+bought:
 -frame: Chimera 2,2"
 -straps: 10x130mm
 -FC: BETAFPV F405 4S 20A Toothpick Brushless Flight Controller V5 BLHeli_S (ICM42688)
@@ -15,8 +15,7 @@ kupione:
 -googles: BETAFPV VR03
 
 
-
-planowane:
+planned:
 -frame: Chimera 2,2" / PAVO 20 pro
 -straps: Zestaw pasków BetaFPV
 -FC: BetaFPV F722 35A AIO ICM42688 V2
