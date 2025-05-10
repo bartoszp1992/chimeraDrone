@@ -258,8 +258,19 @@
 				)
 			)
 			(rectangle
-				(start -8.89 -7.62)
-				(end -1.27 -20.32)
+				(start -8.89 -6.35)
+				(end -1.27 -13.97)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -8.89 -13.97)
+				(end -1.27 -25.4)
 				(stroke
 					(width 0)
 					(type default)
@@ -283,13 +294,21 @@
 		(symbol "F405_4S_20A_Toothpick_Brushless_Flight_Controller_V5_BLHeli_S_1_1"
 			(rectangle
 				(start -8.89 7.62)
-				(end 13.97 -20.32)
+				(end 13.97 -25.4)
 				(stroke
 					(width 0)
 					(type solid)
 				)
 				(fill
 					(type background)
+				)
+			)
+			(text "LED\nBUZ"
+				(at -3.81 -11.176 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(text "RX PORT"
@@ -300,8 +319,8 @@
 					)
 				)
 			)
-			(text "DIGITAL VTX"
-				(at -2.794 -14.478 900)
+			(text "D. HD VTX"
+				(at -2.794 -19.558 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -398,7 +417,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -407,7 +426,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -12.7 0)
+				(at -11.43 -17.78 0)
 				(length 2.54)
 				(name "Rx4"
 					(effects
@@ -425,7 +444,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -15.24 0)
+				(at -11.43 -20.32 0)
 				(length 2.54)
 				(name "Tx4"
 					(effects
@@ -443,7 +462,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -17.78 0)
+				(at -11.43 -22.86 0)
 				(length 2.54)
 				(name "GND"
 					(effects
