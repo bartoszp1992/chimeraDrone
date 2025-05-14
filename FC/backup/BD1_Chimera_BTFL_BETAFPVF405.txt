@@ -1,0 +1,83 @@
+defaults nosave
+
+
+# version
+# Betaflight / STM32F405 (S405) 4.5.2 Mar 20 2025 / 05:10:20 (024f8e13d) MSP API: 1.46
+# config rev: 0f78778
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name BETAFPVF405
+manufacturer_id BEFH
+mcu_id 002300283133510c34383739
+signature 
+
+# name: BD1 "Chimera"
+
+# feature
+feature GPS
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+
+# serial
+serial 0 2 115200 115200 0 115200
+serial 2 64 115200 57600 0 115200
+serial 3 1 115200 57600 0 115200
+serial 5 8192 115200 57600 0 115200
+
+# vtxtable
+vtxtable bands 1
+vtxtable channels 8
+vtxtable band 1 B_BAND   B CUSTOM     1    2    3    4    5    6    7    8
+vtxtable powerlevels 1
+vtxtable powervalues 100
+vtxtable powerlabels EU
+
+# master
+set acc_calibration = 29,17,41,1
+set gps_ublox_use_galileo = ON
+set osd_vbat_pos = 2592
+set osd_flymode_pos = 3682
+set osd_ah_pos = 2234
+set osd_current_pos = 2624
+set osd_craft_name_pos = 2675
+set osd_gps_speed_pos = 3662
+set osd_gps_lon_pos = 3080
+set osd_gps_lat_pos = 3112
+set osd_gps_sats_pos = 2048
+set osd_compass_bar_pos = 2053
+set osd_altitude_pos = 3694
+set osd_warnings_pos = 14869
+set osd_battery_usage_pos = 2656
+set osd_disarmed_pos = 2422
+set craft_name = BD1 "Chimera"
+set pilot_name = Bartosz
+
+profile 0
+
+profile 1
+
+profile 2
+
+profile 3
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
