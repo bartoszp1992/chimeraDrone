@@ -6,7 +6,7 @@ bought:
 	-OSD AT7456E(analog on screen display)
 -propellers: Gemfan 2218 3-Blade Propellers (1.5mm Shaft)
 -motors: LAVA Series 1104 | 7200KV Brushless Motors
--receiver: SpeedyBee Nano 2.4G 2.4G-TCXO 915M ExpressLRS ELRS Receiver
+-receiver: SpeedyBee Nano 2.4G ExpressLRS ELRS Receiver
 -camera: CADDXFPV Ant Lite
 -VTX: Foxeer Reaper Nano V2 VTx 5.8G 72CH 350mW Tramp
 -battery: Tattu R-line 550mAh 3S
