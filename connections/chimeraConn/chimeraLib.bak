@@ -258,28 +258,6 @@
 				)
 			)
 			(rectangle
-				(start -8.89 -6.35)
-				(end -1.27 -13.97)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -8.89 -13.97)
-				(end -1.27 -25.4)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
 				(start 5.08 7.62)
 				(end 13.97 -12.7)
 				(stroke
@@ -303,24 +281,8 @@
 					(type background)
 				)
 			)
-			(text "LED\nBUZ"
-				(at -3.81 -11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(text "RX PORT"
 				(at -3.048 0.762 900)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "D. HD VTX"
-				(at -2.794 -19.558 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -428,7 +390,7 @@
 			(pin input line
 				(at -11.43 -17.78 0)
 				(length 2.54)
-				(name "Rx4"
+				(name "Tx1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -446,7 +408,7 @@
 			(pin input line
 				(at -11.43 -20.32 0)
 				(length 2.54)
-				(name "Tx4"
+				(name "Rx1"
 					(effects
 						(font
 							(size 1.27 1.27)
