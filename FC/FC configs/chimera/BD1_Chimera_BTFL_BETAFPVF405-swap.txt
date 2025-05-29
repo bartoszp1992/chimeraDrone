@@ -58,6 +58,7 @@ set acc_calibration = 29,17,41,1
 set dshot_idle_value = 300
 set bat_capacity = 550
 set vbat_max_cell_voltage = 435
+set ibata_scale = 240
 set gps_ublox_use_galileo = ON
 set osd_warn_bitmask = 270333
 set osd_vbat_pos = 2369
