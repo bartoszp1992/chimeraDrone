@@ -200,6 +200,15 @@ limitData:
       revert: 0
       curve: 32
       name: ""
+   2:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 32
+      name: ""
    3:
       min: 0
       max: 0
@@ -213,17 +222,17 @@ expoData:
  -
    mode: 3
    scale: 0
-   trimSource: 0
+   trimSource: 1
    srcRaw: Rud
    chn: 0
    swtch: "NONE"
    flightModes: 000000000
-   weight: 100
+   weight: 70
    name: ""
    offset: 0
    curve: 
-      type: 1
-      value: 0
+      type: 3
+      value: 1
  -
    mode: 3
    scale: 0
@@ -267,19 +276,44 @@ expoData:
       type: 1
       value: 0
 curves: 
+   0:
+      type: 0
+      smooth: 1
+      points: 5
+      name: ""
    31:
       type: 1
       smooth: 0
       points: -1
       name: "CNT"
 points: 
-   155:
+   0:
       val: -100
-   158:
+   1:
+      val: -40
+   2:
+      val: -25
+   3:
+      val: -15
+   4:
+      val: -5
+   5:
+      val: 5
+   6:
+      val: 15
+   7:
+      val: 25
+   8:
+      val: 40
+   9:
       val: 100
-   159:
-      val: -1
    160:
+      val: -100
+   163:
+      val: 100
+   164:
+      val: -1
+   165:
       val: 1
 customFn: 
    0:

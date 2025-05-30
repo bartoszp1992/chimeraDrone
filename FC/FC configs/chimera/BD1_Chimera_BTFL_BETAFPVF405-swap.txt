@@ -52,8 +52,8 @@ vtxtable powervalues 100 350
 vtxtable powerlabels EU MAX
 
 # master
-set acc_trim_pitch = 4
-set acc_trim_roll = 1
+set acc_trim_pitch = 5
+set acc_trim_roll = 4
 set acc_calibration = 29,17,41,1
 set dshot_idle_value = 300
 set bat_capacity = 550
@@ -97,7 +97,7 @@ profile 2
 profile 3
 
 # restore original profile selection
-profile 0
+profile 1
 
 rateprofile 0
 
