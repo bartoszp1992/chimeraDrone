@@ -281,6 +281,38 @@ points:
       val: -1
    160:
       val: 1
+flightModeData: 
+   0:
+      trim: 
+         0:
+            value: 20
+            mode: 0
+         3:
+            value: -2
+            mode: 0
+      name: ""
+      swtch: "NONE"
+      fadeIn: 0
+      fadeOut: 0
+      gvars: 
+         0:
+            val: 0
+         1:
+            val: 0
+         2:
+            val: 0
+         3:
+            val: 0
+         4:
+            val: 0
+         5:
+            val: 0
+         6:
+            val: 0
+         7:
+            val: 0
+         8:
+            val: 0
 thrTraceSrc: Thr
 switchWarningState: AuBuCuDu
 rssiSource: none

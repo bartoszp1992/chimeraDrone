@@ -231,8 +231,8 @@ expoData:
    name: ""
    offset: 0
    curve: 
-      type: 3
-      value: 1
+      type: 1
+      value: 75
  -
    mode: 3
    scale: 0
@@ -255,9 +255,9 @@ expoData:
    chn: 2
    swtch: "NONE"
    flightModes: 000000000
-   weight: 58
+   weight: 55
    name: ""
-   offset: -42
+   offset: -45
    curve: 
       type: 1
       value: 0

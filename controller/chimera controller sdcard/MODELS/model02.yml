@@ -231,8 +231,8 @@ expoData:
    name: ""
    offset: 0
    curve: 
-      type: 3
-      value: 1
+      type: 1
+      value: 75
  -
    mode: 3
    scale: 0
@@ -327,7 +327,7 @@ flightModeData:
             value: 2
             mode: 0
          1:
-            value: 14
+            value: 16
             mode: 0
          2:
             value: 2
