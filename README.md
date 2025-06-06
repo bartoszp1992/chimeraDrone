@@ -6,9 +6,14 @@
 
 **It's 2,2" freestyle cinewhoop type drone, for 3S/4S batteries**
 
-**Drone can reach 90-100kmh on full power**
+- vmax
+: 90-100kmh on full power
+- Ready-to-flight mass(with lamp, battery and wings)
+: <210grams
+- Carry weight
+: Can fly with GoPro camera
 
-*BD1 stands for "Bart's Design 1"*
+
 
 ## 3D printing
 ![chimera render](images/renderPerspective.png)
@@ -25,7 +30,6 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 >one battery for one 2-3 minutes flight. Make sure you have more than 1
 
 ### parts
-
 - **duct-light**
 : PA6, 3 wall loops, no supports, 20% honeycomb infill, concentric top surface, bottom surface and solid infill, rotate 180deg in X axis(upside down)
 - **frame**
@@ -46,6 +50,9 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : PETG, 100%
 - **cable lock**
 : PETG, 100%, X90 deg
+- **duct**
+: PETG-CF, 3 wall loops, 100% infill
+>very robust duct. It make your drone heavier thatn 225grams, but can handle drops from 20 meters into grass
 
 ## BOM
 
@@ -118,3 +125,6 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] record night fly
 - [ ] record full power flight
 - [ ] make assembly manual
+
+
+*BD1 stands for "Bart's Design 1"*
