@@ -2,9 +2,7 @@
 
 ![chimera photo](images/chimera1.jpg)
 
-**Chimera is fully 3D printed drone construction project**
-
-**It's 2,2" freestyle cinewhoop type drone, for 3S/4S batteries**
+**Chimera is 2,2" freestyle cinewhoop type drone, for 3S/4S batteries, with fully 3D printed construction**
 
 - vmax
 : 90-100kmh on full power
@@ -12,7 +10,15 @@
 : <210grams
 - Carry weight
 : Can fly with GoPro camera
+- Thrust
+: >950grams
+- flight time
+: 1,5 - 5min
+- estimated cost
+: 500-550 USD
 
+
+[![YT video](https://img.youtube.com/vi/YoZOXZiCAGSI/0.jpg)](https://www.youtube.com/watch?v=oZOXZiCAGSI)
 
 
 ## 3D printing
