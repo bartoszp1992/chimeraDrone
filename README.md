@@ -18,7 +18,7 @@
 : 500-550 USD
 
 
-[![YT video](https://img.youtube.com/vi/YoZOXZiCAGSI/0.jpg)](https://www.youtube.com/watch?v=oZOXZiCAGSI)
+[![YT video](https://img.youtube.com/vi/oZOXZiCAGSI/0.jpg)](https://www.youtube.com/watch?v=oZOXZiCAGSI)
 
 
 ## 3D printing
