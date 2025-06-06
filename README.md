@@ -18,6 +18,7 @@
 : 500-550 USD
 
 Youtube Video **(with old nano VTX camera)**:
+
 [![YT video](https://img.youtube.com/vi/oZOXZiCAGSI/0.jpg)](https://www.youtube.com/watch?v=oZOXZiCAGSI)
 
 
