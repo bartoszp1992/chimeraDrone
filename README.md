@@ -25,7 +25,7 @@ Youtube Video **(with old nano VTX camera)**:
 ## 3D printing
 ![chimera render](images/renderPerspective.png)
 
-All on 0.4 bass nozzle, make sure you have at least 5 pieces- CF filaments will wear off quickly. Trim Z-offset after every CF print
+All on 0.4 brass nozzle, make sure you have at least 5 pieces- CF filaments will wear off quickly. Trim Z-offset after every CF print
 
 I don't recommend using SS nozzle becouse it's too cold for my printer.
 
@@ -79,52 +79,52 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - 4 x grip nuts
 
 ### electronic
-- **FC**
+- [x] **FC**
 : BETAFPV F405 4S 20A Toothpick Brushless Flight Controller V5 BLHeli_S (ICM42688)
 >you can use any other 20A+, compatible with 3/4S and 26mm pitch
-- **propellers**
+- [x] **propellers**
 : GEMFAN 2218 3-blade Propellers (1.5mm shaft)
-- **motors**
+- [x] **motors**
 : BETAFPV Lava series 1104 | 7200KV Brushless Motors
-- **receiver**
+- [x] **receiver**
 : SpeedyBee Nano 2.4G ExpressLRS ELRS Receiver
 >or any other ELRS receiver which can fit into modules mounts in body
-- **camera**
+- [x] **camera**
 : Foxxeer Cat 3 Micro(19x19mm) or other analog camera
-- **VTX**
+- [x] **VTX**
 : Foxeer Reaper Nano V2 VTx 5.8G 72CH 350mW Tramp
-- **Video antenna**
+- [x] **Video antenna**
 : Walksnail Avatar HD Mini 1s Lite
-- **battery**
+- [x] **battery**
 : LAVA 3/4S 550mAh 75C
-- **GNSS**
+- [x] **GNSS**
 : Foxeer M10Q-120 compass
-- **Controller**
+- [ ] **Controller**
 : Radiomaster Pocket Crush White ELRS LBT, or any other with ELRS and edgeTX
-- **Googles**
+- [ ] **Googles**
 : BETAFPV VR03 or any other analog googles
-- **Cable**
+- [x] **Cable**
 : MicroUSB angled cable for FC config
-- **Charger**
+- [x] **Charger**
 : iMax B6 V2 with some 12V supplier
-- **some drone lamp**
+- [x] **some drone lamp**
 : if you want make night flies
-- **2 x additional XT30 connectors set**
+- [x] **2 x additional XT30 connectors set**
 : to connect battery to charger and FC
-- **red and black 18AWG silicon wire cables**
+- [x] **red and black 18AWG silicon wire cables**
 : to make connection with FC
 
 
 
 ### mechanical
 
-- 1x 10x130mm battery velcro strap
-- 8x 20mm M2 screws with barrel head for stack mount, and wing mount
+- [x] 1x 10x130mm battery velcro strap
+- [x] 8x 20mm M2 screws with barrel head for stack mount, and wing mount
 >make sure you have spares- these screws can bend after hard landing :joy:
-- 4x 10mm M2 screws with barrel head for body mount
-- 12x M2 H3 D3.6mm brass insert
+- [x] 4x 10mm M2 screws with barrel head for body mount
+- [x] 12x M2 H3 D3.6mm brass insert
 >you can recover it from broken parts, but make sure you have spares
-- 4x M2 1,6mm nut to lock stack screws
+- [x] 4x M2 1,6mm nut to lock stack screws
 
 # todo list
 - [ ] make case
