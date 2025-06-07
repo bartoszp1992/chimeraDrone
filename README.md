@@ -23,7 +23,7 @@ Youtube Video **(with old nano VTX camera)**:
 
 
 ## 3D printing
-![chimera render](images/renderPerspective.png)
+![chimera render](images/renderLeft.png)
 
 All on 0.4 brass nozzle, make sure you have at least 5 pieces- CF filaments will wear off quickly. Trim Z-offset after every CF print
 
@@ -62,6 +62,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 >very robust duct. It make your drone heavier thatn 225grams, but can handle drops from 20 meters into grass
 
 ## BOM
+![chimera render](images/renderBack.png)
 
 ### 3D printed
 - 1 x duct-light
@@ -125,6 +126,10 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [x] 12x M2 H3 D3.6mm brass insert
 >you can recover it from broken parts, but make sure you have spares
 - [x] 4x M2 1,6mm nut to lock stack screws
+
+![chimera render](images/renderBack.png)
+![chimera render](images/renderUp.png)
+![chimera render](images/renderPerspective.png)
 
 # todo list
 - [ ] make case
