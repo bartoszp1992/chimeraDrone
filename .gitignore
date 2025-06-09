@@ -1,2 +1,3 @@
 *.FCBak
-controller/chimera controller sdcard/LOGS
+controller/chimera controller sdcard/LOGS/*
+!controller/chimera controller sdcard/LOGS/readme.txt
