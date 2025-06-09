@@ -1,0 +1,54 @@
+
+# Betaflight / STM32F405 (S405) 4.3.1 Jul 13 2022 / 03:32:11 (8d4f005) MSP API: 1.44
+# config: manufacturer_id: BEFH, board_name: BETAFPVF405, version: edcd244b, date: 
+# start the command batch
+batch start
+# feature
+feature -RX_PARALLEL_PWM
+
+# led
+led 0 12,12::C:1
+led 1 13,12::C:1
+led 2 14,12::C:1
+led 3 15,12::C:1
+led 4 12,13::C:1
+led 5 13,13::C:1
+led 6 14,13::C:1
+led 7 15,13::C:1
+led 8 12,14::C:1
+led 9 13,14::C:1
+led 10 14,14::C:1
+led 11 15,14::C:1
+led 12 12,15::C:1
+led 13 13,15::C:1
+led 14 14,15::C:1
+led 15 15,15::C:1
+
+# aux
+aux 0 0 0 1300 2100 0 0
+
+# master
+set acc_calibration = 40,57,-4074,1
+set ibata_scale = 240
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+rateprofile 4
+
+rateprofile 5
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+# 
