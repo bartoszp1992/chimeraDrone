@@ -138,7 +138,8 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 # todo list
 - [ ] make case
 - [x] make assembly file
-- [ ] fix assembly errors
+- [x] fix assembly errors
+>freeCAD bug- fixed by workaround
 - [ ] record night fly
 - [ ] record full power flight
 - [ ] make assembly manual
