@@ -81,7 +81,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 
 ### electronic
 - [x] **FC**
-: BETAFPV F405 4S 20A Toothpick Brushless Flight Controller V5 BLHeli_S (ICM42688)
+: BETAFPV F405 4S 20A Toothpick Brushless Flight Controller V5 BLHeli_S (ICM42688) **or** GEPRC TAKER G4 35A AIO
 >you can use any other 20A+, compatible with 3/4S and 26mm pitch
 - [x] **propellers**
 : GEMFAN 2218 3-blade Propellers (1.5mm shaft)
@@ -108,12 +108,16 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : MicroUSB angled cable for FC config
 - [x] **Charger**
 : iMax B6 V2 with some 12V supplier
+- [x] **5A car fuse and cable socket**
+: charging fuse
 - [x] **some drone lamp**
 : if you want make night flies
 - [x] **2 x additional XT30 connectors set**
 : to connect battery to charger and FC
 - [x] **red and black 18AWG silicon wire cables**
 : to make connection with FC
+- [x] **25-30A car fuse and cable socket**
+: not necessary, but recommended
 
 
 
@@ -133,10 +137,17 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 
 # todo list
 - [ ] make case
-- [ ] make assembly file
+- [x] make assembly file
+- [ ] fix assembly errors
 - [ ] record night fly
 - [ ] record full power flight
 - [ ] make assembly manual
+- [ ] make protective pipe for cables
+- [x] change FC pitch to 25.5x25.5mm
+- [x] add fuses to BOM
+- [ ] include Rx firmware
+- [ ] include Tx firmware
+- [ ] include FC firmwares
 
 
 *BD1 stands for "Bart's Design 1"*
