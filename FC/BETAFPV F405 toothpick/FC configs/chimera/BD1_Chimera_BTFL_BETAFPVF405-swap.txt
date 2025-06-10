@@ -13,7 +13,7 @@ defaults nosave
 
 board_name BETAFPVF405
 manufacturer_id BEFH
-mcu_id 002300283133510c34383739
+mcu_id 0025001e3133510c34383739
 signature 
 
 # name: BD1 "Chimera"
@@ -56,7 +56,8 @@ set acc_trim_pitch = 5
 set acc_trim_roll = 4
 set acc_calibration = 29,17,41,1
 set dshot_idle_value = 300
-set bat_capacity = 550
+set failsafe_procedure = AUTO-LAND
+set bat_capacity = 500
 set vbat_max_cell_voltage = 435
 set ibata_scale = 240
 set gps_ublox_use_galileo = ON
