@@ -148,7 +148,8 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [x] add fuses to BOM
 - [ ] include Rx firmware
 - [ ] include Tx firmware
-- [ ] include FC firmwares
+- [x] include betafpv F405 firmware
+- [ ] include geprc taker firmware
 
 
 *BD1 stands for "Bart's Design 1"*
