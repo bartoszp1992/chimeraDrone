@@ -136,7 +136,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 ![chimera render](images/renderPerspective.png)
 
 # todo list
-- [ ] make case
+- [x] make case
 - [x] make assembly file
 - [x] fix assembly errors
 >freeCAD bug- fixed by workaround
@@ -149,7 +149,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] include Rx firmware
 - [ ] include Tx firmware
 - [x] include betafpv F405 firmware
-- [ ] include geprc taker firmware
+- [x] include geprc taker firmware
 
 
 *BD1 stands for "Bart's Design 1"*
