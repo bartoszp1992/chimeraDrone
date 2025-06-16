@@ -149,9 +149,10 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] include Tx firmware
 - [x] include betafpv F405 firmware
 - [x] include geprc taker firmware
-- [ ] fix GPS speed log on controller lag
+- [x] fix GPS speed log on controller lag(ELRS script in controller- telemetry ratio)
 - [ ] fix stability on fast yaw
 - [ ] find throttle value for auto-land
+- [x] set altitude and speed alarm
 
 
 *BD1 stands for "Bart's Design 1"*
