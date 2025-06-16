@@ -222,7 +222,7 @@ expoData:
  -
    mode: 3
    scale: 0
-   trimSource: 0
+   trimSource: 1
    srcRaw: Rud
    chn: 0
    swtch: "NONE"
@@ -327,7 +327,7 @@ flightModeData:
             value: 2
             mode: 0
          1:
-            value: 14
+            value: 16
             mode: 0
          2:
             value: 2
