@@ -100,9 +100,9 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : LAVA 3/4S 550mAh 75C
 - [x] **GNSS**
 : Foxeer M10Q-120 compass
-- [ ] **Controller**
+- [x] **Controller**
 : Radiomaster Pocket Crush White ELRS LBT, or any other with ELRS and edgeTX
-- [ ] **Googles**
+- [x] **Googles**
 : BETAFPV VR03 or any other analog googles
 - [x] **Cable**
 : MicroUSB angled cable for FC config
@@ -143,13 +143,15 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] record night fly
 - [ ] record full power flight
 - [ ] make assembly manual
-- [ ] make protective pipe for cables
 - [x] change FC pitch to 25.5x25.5mm
 - [x] add fuses to BOM
 - [ ] include Rx firmware
 - [ ] include Tx firmware
 - [x] include betafpv F405 firmware
 - [x] include geprc taker firmware
+- [ ] fix GPS speed log on controller lag
+- [ ] fix stability on fast yaw
+- [ ] find throttle value for auto-land
 
 
 *BD1 stands for "Bart's Design 1"*
