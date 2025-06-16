@@ -315,11 +315,38 @@ points:
       val: -1
    165:
       val: 1
+logicalSw: 
+   0:
+      func: FUNC_VPOS
+      def: "tele(13),90"
+      andsw: "NONE"
+      delay: 0
+      duration: 0
+   1:
+      func: FUNC_VPOS
+      def: "tele(11),684"
+      andsw: "NONE"
+      delay: 0
+      duration: 0
+   63:
+      func: FUNC_VPOS
+      def: "Thr,-20"
+      andsw: "NONE"
+      delay: 0
+      duration: 0
 customFn: 
    0:
       swtch: "SA2"
       func: LOGS
       def: "5"
+   1:
+      swtch: "L1"
+      func: PLAY_SOUND
+      def: "Alrm,2"
+   2:
+      swtch: "L2"
+      func: PLAY_SOUND
+      def: "Ring,1x"
 flightModeData: 
    0:
       trim: 
