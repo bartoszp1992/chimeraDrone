@@ -328,6 +328,12 @@ logicalSw:
       andsw: "NONE"
       delay: 0
       duration: 0
+   2:
+      func: FUNC_VNEG
+      def: "tele(18),30"
+      andsw: "SA2"
+      delay: 0
+      duration: 0
    63:
       func: FUNC_VPOS
       def: "Thr,-20"
@@ -342,11 +348,15 @@ customFn:
    1:
       swtch: "L1"
       func: PLAY_SOUND
-      def: "Alrm,4"
+      def: "Robt,4"
    2:
       swtch: "L2"
       func: PLAY_SOUND
-      def: "Ring,4"
+      def: "Rata,4"
+   3:
+      swtch: "L3"
+      func: PLAY_SOUND
+      def: "Tada,2"
 flightModeData: 
    0:
       trim: 
@@ -870,7 +880,7 @@ screens:
                   0:
                      val: tele(0)
                   1:
-                     val: tele(12)
+                     val: tele(18)
             3:
                sources: 
                   0:
