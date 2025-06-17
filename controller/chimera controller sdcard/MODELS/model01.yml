@@ -325,7 +325,7 @@ logicalSw:
    1:
       func: FUNC_VPOS
       def: "tele(11),684"
-      andsw: "NONE"
+      andsw: "SA2"
       delay: 0
       duration: 0
    2:
@@ -364,13 +364,13 @@ flightModeData:
             value: 2
             mode: 0
          1:
-            value: 16
+            value: -40
             mode: 0
          2:
             value: 2
             mode: 0
          3:
-            value: 28
+            value: 16
             mode: 0
       name: ""
       swtch: "NONE"
