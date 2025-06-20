@@ -181,6 +181,24 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: ""
+ -
+   weight: 100
+   destCh: 10
+   srcRaw: TrimThr
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "L4"
+   flightModes: 000000000
+   curve: 
+      type: 3
+      value: 2
+   delayUp: 0
+   delayDown: 0
+   speedUp: 15
+   speedDown: 15
+   name: "LIMIT"
 limitData: 
    0:
       min: 0
@@ -255,9 +273,9 @@ expoData:
    chn: 2
    swtch: "NONE"
    flightModes: 000000000
-   weight: 55
+   weight: 100
    name: ""
-   offset: -45
+   offset: 0
    curve: 
       type: 1
       value: 0
@@ -280,6 +298,16 @@ curves:
       type: 0
       smooth: 1
       points: 5
+      name: "BDA"
+   1:
+      type: 0
+      smooth: 1
+      points: 0
+      name: "LIM"
+   2:
+      type: 0
+      smooth: 1
+      points: 0
       name: ""
    31:
       type: 1
@@ -307,6 +335,16 @@ points:
       val: 40
    9:
       val: 100
+   10:
+      val: -100
+   11:
+      val: -68
+   12:
+      val: -38
+   13:
+      val: -27
+   14:
+      val: -20
    160:
       val: -100
    163:
@@ -331,6 +369,12 @@ logicalSw:
    2:
       func: FUNC_VNEG
       def: "tele(18),30"
+      andsw: "SA2"
+      delay: 0
+      duration: 0
+   3:
+      func: FUNC_VPOS
+      def: "tele(11),500"
       andsw: "SA2"
       delay: 0
       duration: 0

@@ -1,6 +1,6 @@
 semver: 2.10.0
 header: 
-   name: "CHIMERA A1"
+   name: "CHIMERA A3"
 timers: 
    0:
       start: 0
@@ -202,12 +202,12 @@ limitData:
       name: ""
    2:
       min: 0
-      max: -300
+      max: 0
       ppmCenter: 0
       offset: 0
       symetrical: 0
       revert: 0
-      curve: 0
+      curve: 32
       name: ""
    3:
       min: 0
@@ -222,17 +222,17 @@ expoData:
  -
    mode: 3
    scale: 0
-   trimSource: 0
+   trimSource: 1
    srcRaw: Rud
    chn: 0
    swtch: "NONE"
    flightModes: 000000000
-   weight: 100
+   weight: 70
    name: ""
    offset: 0
    curve: 
       type: 1
-      value: 0
+      value: 75
  -
    mode: 3
    scale: 0
@@ -276,25 +276,113 @@ expoData:
       type: 1
       value: 0
 curves: 
+   0:
+      type: 0
+      smooth: 1
+      points: 5
+      name: "BDA"
+   1:
+      type: 0
+      smooth: 1
+      points: 0
+      name: "LIM"
+   2:
+      type: 0
+      smooth: 1
+      points: 0
+      name: ""
    31:
       type: 1
       smooth: 0
       points: -1
       name: "CNT"
 points: 
-   155:
+   0:
       val: -100
-   158:
+   1:
+      val: -40
+   2:
+      val: -25
+   3:
+      val: -15
+   4:
+      val: -5
+   5:
+      val: 5
+   6:
+      val: 15
+   7:
+      val: 25
+   8:
+      val: 40
+   9:
       val: 100
-   159:
-      val: -1
+   10:
+      val: -100
+   11:
+      val: -68
+   12:
+      val: -38
+   13:
+      val: -27
+   14:
+      val: -20
    160:
+      val: -100
+   163:
+      val: 100
+   164:
+      val: -1
+   165:
       val: 1
+logicalSw: 
+   0:
+      func: FUNC_VPOS
+      def: "tele(13),90"
+      andsw: "SA2"
+      delay: 0
+      duration: 0
+   1:
+      func: FUNC_VPOS
+      def: "tele(11),684"
+      andsw: "SA2"
+      delay: 0
+      duration: 0
+   2:
+      func: FUNC_VNEG
+      def: "tele(18),30"
+      andsw: "SA2"
+      delay: 0
+      duration: 0
+   3:
+      func: FUNC_VPOS
+      def: "tele(11),500"
+      andsw: "SA2"
+      delay: 0
+      duration: 0
+   63:
+      func: FUNC_VPOS
+      def: "Thr,-20"
+      andsw: "SA2"
+      delay: 0
+      duration: 0
 customFn: 
    0:
       swtch: "SA2"
       func: LOGS
       def: "5"
+   1:
+      swtch: "L1"
+      func: PLAY_SOUND
+      def: "Robt,4"
+   2:
+      swtch: "L2"
+      func: PLAY_SOUND
+      def: "Rata,4"
+   3:
+      swtch: "L3"
+      func: PLAY_SOUND
+      def: "Tada,2"
 flightModeData: 
    0:
       trim: 
@@ -302,13 +390,13 @@ flightModeData:
             value: 2
             mode: 0
          1:
-            value: 14
+            value: -40
             mode: 0
          2:
             value: 2
             mode: 0
          3:
-            value: 28
+            value: 16
             mode: 0
       name: ""
       swtch: "NONE"
@@ -818,7 +906,7 @@ screens:
                   0:
                      val: tele(0)
                   1:
-                     val: tele(12)
+                     val: tele(18)
             3:
                sources: 
                   0:

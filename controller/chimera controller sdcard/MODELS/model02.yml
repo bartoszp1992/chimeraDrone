@@ -280,6 +280,16 @@ curves:
       type: 0
       smooth: 1
       points: 5
+      name: "BDA"
+   1:
+      type: 0
+      smooth: 1
+      points: 0
+      name: "LIM"
+   2:
+      type: 0
+      smooth: 1
+      points: 0
       name: ""
    31:
       type: 1
@@ -307,6 +317,16 @@ points:
       val: 40
    9:
       val: 100
+   10:
+      val: -100
+   11:
+      val: -68
+   12:
+      val: -38
+   13:
+      val: -27
+   14:
+      val: -20
    160:
       val: -100
    163:
@@ -331,6 +351,12 @@ logicalSw:
    2:
       func: FUNC_VNEG
       def: "tele(18),30"
+      andsw: "SA2"
+      delay: 0
+      duration: 0
+   3:
+      func: FUNC_VPOS
+      def: "tele(11),500"
       andsw: "SA2"
       delay: 0
       duration: 0
