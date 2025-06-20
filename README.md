@@ -1,6 +1,6 @@
 # BD1 "Chimera" repo
 
-![chimera photo](images/chimera1.jpg)
+![chimera photo](images/chimera2.png)
 
 **Chimera is 2,2" freestyle cinewhoop type drone, for 3S/4S batteries, with fully 3D printed construction**
 
@@ -80,56 +80,56 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - 4 x grip nuts
 
 ### electronic
-- [x] **FC**
+- [ ] **FC**
 : BETAFPV F405 4S 20A Toothpick Brushless Flight Controller V5 BLHeli_S (ICM42688) **or** GEPRC TAKER G4 35A AIO
 >you can use any other 20A+, compatible with 3/4S and 26mm pitch
-- [x] **propellers**
+- [ ] **propellers**
 : GEMFAN 2218 3-blade Propellers (1.5mm shaft)
-- [x] **motors**
+- [ ] **motors**
 : BETAFPV Lava series 1104 | 7200KV Brushless Motors
-- [x] **receiver**
+- [ ] **receiver**
 : SpeedyBee Nano 2.4G ExpressLRS ELRS Receiver
 >or any other ELRS receiver which can fit into modules mounts in body
-- [x] **camera**
+- [ ] **camera**
 : Foxxeer Cat 3 Micro(19x19mm) or other analog camera
-- [x] **VTX**
+- [ ] **VTX**
 : Foxeer Reaper Nano V2 VTx 5.8G 72CH 350mW Tramp
-- [x] **Video antenna**
+- [ ] **Video antenna**
 : Walksnail Avatar HD Mini 1s Lite
-- [x] **battery**
+- [ ] **battery**
 : LAVA 3/4S 550mAh 75C
-- [x] **GNSS**
+- [ ] **GNSS**
 : Foxeer M10Q-120 compass
-- [x] **Controller**
+- [ ] **Controller**
 : Radiomaster Pocket Crush White ELRS LBT, or any other with ELRS and edgeTX
-- [x] **Googles**
+- [ ] **Googles**
 : BETAFPV VR03 or any other analog googles
-- [x] **Cable**
+- [ ] **Cable**
 : MicroUSB angled cable for FC config
-- [x] **Charger**
+- [ ] **Charger**
 : iMax B6 V2 with some 12V supplier
-- [x] **5A car fuse and cable socket**
+- [ ] **5A car fuse and cable socket**
 : charging fuse
-- [x] **some drone lamp**
+- [ ] **some drone lamp**
 : if you want make night flies
-- [x] **2 x additional XT30 connectors set**
+- [ ] **2 x additional XT30 connectors set**
 : to connect battery to charger and FC
-- [x] **red and black 18AWG silicon wire cables**
+- [ ] **red and black 18AWG silicon wire cables**
 : to make connection with FC
-- [x] **25-30A car fuse and cable socket**
+- [ ] **25-30A car fuse and cable socket**
 : not necessary, but recommended
 
 
 
 ### mechanical
 
-- [x] 1x 10x130mm battery velcro strap
-- [x] 8x 20mm M2 screws with barrel head for stack mount, and wing mount
+- [ ] 1x 10x130mm battery velcro strap
+- [ ] 8x 20mm M2 screws with barrel head for stack mount, and wing mount
 >make sure you have spares- these screws can bend after hard landing :joy:
-- [x] 4x 10mm M2 screws with barrel head for body mount
-- [x] 12x M2 H3 D3.6mm brass insert
+- [ ] 4x 10mm M2 screws with barrel head for body mount
+- [ ] 12x M2 H3 D3.6mm brass insert
 >you can recover it from broken parts, but make sure you have spares
-- [x] 4x M2 1,6mm nut to lock stack screws
+- [ ] 4x M2 1,6mm nut to lock stack screws
 
 ![chimera render](images/renderBack.png)
 ![chimera render](images/renderUp.png)
