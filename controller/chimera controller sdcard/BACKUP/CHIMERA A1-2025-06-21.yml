@@ -1,6 +1,6 @@
 semver: 2.10.0
 header: 
-   name: "CHIMERA A3"
+   name: "CHIMERA A1"
 timers: 
    0:
       start: 0
@@ -69,7 +69,7 @@ mixData:
    mixWarn: 0
    mltpx: ADD
    offset: 0
-   swtch: "NONE"
+   swtch: "!L4"
    flightModes: 000000000
    delayUp: 0
    delayDown: 0
@@ -181,6 +181,24 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: ""
+ -
+   weight: 100
+   destCh: 10
+   srcRaw: TrimThr
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "L4"
+   flightModes: 000000000
+   curve: 
+      type: 3
+      value: 2
+   delayUp: 0
+   delayDown: 0
+   speedUp: 5
+   speedDown: 5
+   name: "LIMIT"
 limitData: 
    0:
       min: 0
@@ -255,9 +273,9 @@ expoData:
    chn: 2
    swtch: "NONE"
    flightModes: 000000000
-   weight: 100
+   weight: 60
    name: ""
-   offset: 0
+   offset: -40
    curve: 
       type: 1
       value: 0
@@ -285,7 +303,7 @@ curves:
       type: 0
       smooth: 1
       points: 0
-      name: "LIM"
+      name: "A1"
    2:
       type: 0
       smooth: 1
@@ -320,13 +338,13 @@ points:
    10:
       val: -100
    11:
-      val: -68
+      val: -95
    12:
-      val: -38
+      val: -90
    13:
-      val: -27
+      val: -85
    14:
-      val: -20
+      val: -80
    160:
       val: -100
    163:
@@ -356,14 +374,14 @@ logicalSw:
       duration: 0
    3:
       func: FUNC_VPOS
-      def: "tele(11),500"
+      def: "tele(11),400"
       andsw: "SA2"
       delay: 0
       duration: 0
    63:
       func: FUNC_VPOS
       def: "Thr,-20"
-      andsw: "SA2"
+      andsw: "NONE"
       delay: 0
       duration: 0
 customFn: 
