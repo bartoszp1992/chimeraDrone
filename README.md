@@ -91,7 +91,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : SpeedyBee Nano 2.4G ExpressLRS ELRS Receiver
 >or any other ELRS receiver which can fit into modules mounts in body
 - [ ] **camera**
-: Foxxeer Cat 3 Micro(19x19mm) or other analog camera
+: Foxeer Cat 3 Micro(19x19mm) or other analog camera
 - [ ] **VTX**
 : Foxeer Reaper Nano V2 VTx 5.8G 72CH 350mW Tramp
 - [ ] **Video antenna**
@@ -131,9 +131,15 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 >you can recover it from broken parts, but make sure you have spares
 - [ ] 4x M2 1,6mm nut to lock stack screws
 
-![chimera render](images/renderBack.png)
 ![chimera render](images/renderUp.png)
 ![chimera render](images/renderPerspective.png)
+
+## schematic
+![schematic](images/schematic.png)
+
+## technical drawing
+![techDraw](images/techDraw.png)
+
 
 # todo list
 - [x] make case
