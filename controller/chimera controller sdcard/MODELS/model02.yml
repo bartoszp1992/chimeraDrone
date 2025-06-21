@@ -285,7 +285,7 @@ curves:
       type: 0
       smooth: 1
       points: 0
-      name: "LIM"
+      name: ""
    2:
       type: 0
       smooth: 1
@@ -317,16 +317,8 @@ points:
       val: 40
    9:
       val: 100
-   10:
-      val: -100
-   11:
-      val: -68
-   12:
-      val: -38
    13:
-      val: -27
-   14:
-      val: -20
+      val: 1
    160:
       val: -100
    163:
