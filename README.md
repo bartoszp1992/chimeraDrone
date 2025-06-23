@@ -5,7 +5,7 @@
 **Chimera is 2,2" freestyle cinewhoop type drone, for 3S/4S batteries, with fully 3D printed construction**
 
 - vmax
-: >80km/h on full power
+: >80km/h on full power*
 - Ready-to-flight mass(with lamp, battery and wings)
 : <220grams
 - Carry weight
