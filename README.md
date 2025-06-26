@@ -2,7 +2,7 @@
 
 ![chimera photo](images/chimera2.png)
 
-**Chimera is 2,2" freestyle cinewhoop type drone, for 3S/4S batteries, with fully 3D printed construction**
+**Chimera is 2,2" freestyle cinewhoop type drone, for 3S batteries, with fully 3D printed construction**
 
 - vmax
 : >80km/h on full power*
@@ -80,7 +80,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 ### electronic
 - [ ] **FC**
 : BETAFPV F405 4S 20A Toothpick Brushless Flight Controller V5 BLHeli_S (ICM42688) **or** GEPRC TAKER G4 35A AIO
->you can use any other 20A+, compatible with 3/4S and 26mm pitch
+>you can use any other 20A+, compatible with 3S and 25,5mm pitch
 - [ ] **propellers**
 : GEMFAN 2218 3-blade Propellers (1.5mm shaft)
 - [ ] **motors**
@@ -95,7 +95,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] **Video antenna**
 : Walksnail Avatar HD Mini 1s Lite
 - [ ] **battery**
-: LAVA 3/4S 550mAh 75C
+: LAVA 3S 550mAh 75C
 - [ ] **GNSS**
 : Foxeer M10Q-120 compass
 - [ ] **Controller**
