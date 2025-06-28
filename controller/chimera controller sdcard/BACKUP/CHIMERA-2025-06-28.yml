@@ -1,6 +1,6 @@
 semver: 2.10.0
 header: 
-   name: "CHIMERA A3"
+   name: "CHIMERA"
 timers: 
    0:
       start: 0
@@ -76,6 +76,60 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: ""
+ -
+   weight: 100
+   destCh: 2
+   srcRaw: I2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "L4"
+   flightModes: 000000000
+   curve: 
+      type: 3
+      value: 1
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIMIT1"
+ -
+   weight: 100
+   destCh: 2
+   srcRaw: I2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "L5"
+   flightModes: 000000000
+   curve: 
+      type: 3
+      value: 2
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIMIT2"
+ -
+   weight: 100
+   destCh: 2
+   srcRaw: I2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "L6"
+   flightModes: 000000000
+   curve: 
+      type: 3
+      value: 3
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIMIT3"
  -
    weight: 100
    destCh: 3
@@ -279,18 +333,18 @@ curves:
    0:
       type: 0
       smooth: 1
-      points: 5
-      name: "BDA"
+      points: 0
+      name: "LM1"
    1:
       type: 0
       smooth: 1
       points: 0
-      name: ""
+      name: "LM2"
    2:
       type: 0
       smooth: 1
       points: 0
-      name: ""
+      name: "LM3"
    31:
       type: 1
       smooth: 0
@@ -300,32 +354,40 @@ points:
    0:
       val: -100
    1:
-      val: -40
+      val: -70
    2:
-      val: -25
+      val: -40
    3:
-      val: -15
+      val: -10
    4:
-      val: -5
+      val: 20
    5:
-      val: 5
-   6:
-      val: 15
-   7:
-      val: 25
-   8:
-      val: 40
-   9:
-      val: 100
-   13:
-      val: 1
-   160:
       val: -100
-   163:
+   6:
+      val: -85
+   7:
+      val: -70
+   8:
+      val: -55
+   9:
+      val: -40
+   10:
+      val: -100
+   11:
+      val: -95
+   12:
+      val: -90
+   13:
+      val: -85
+   14:
+      val: -80
+   155:
+      val: -100
+   158:
       val: 100
-   164:
+   159:
       val: -1
-   165:
+   160:
       val: 1
 logicalSw: 
    0:
@@ -336,7 +398,7 @@ logicalSw:
       duration: 0
    1:
       func: FUNC_VPOS
-      def: "tele(11),684"
+      def: "tele(11),650"
       andsw: "SA2"
       delay: 0
       duration: 0
@@ -348,14 +410,26 @@ logicalSw:
       duration: 0
    3:
       func: FUNC_VPOS
+      def: "tele(11),400"
+      andsw: "NONE"
+      delay: 0
+      duration: 0
+   4:
+      func: FUNC_VPOS
       def: "tele(11),500"
-      andsw: "SA2"
+      andsw: "NONE"
+      delay: 0
+      duration: 0
+   5:
+      func: FUNC_VPOS
+      def: "tele(11),600"
+      andsw: "NONE"
       delay: 0
       duration: 0
    63:
       func: FUNC_VPOS
-      def: "Thr,-20"
-      andsw: "SA2"
+      def: "SC,-20"
+      andsw: "NONE"
       delay: 0
       duration: 0
 customFn: 

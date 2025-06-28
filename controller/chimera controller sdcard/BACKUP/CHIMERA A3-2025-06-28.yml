@@ -1,6 +1,6 @@
 semver: 2.10.0
 header: 
-   name: "CHIMERA A1"
+   name: "CHIMERA A3"
 timers: 
    0:
       start: 0
@@ -69,7 +69,7 @@ mixData:
    mixWarn: 0
    mltpx: ADD
    offset: 0
-   swtch: "!L4"
+   swtch: "NONE"
    flightModes: 000000000
    delayUp: 0
    delayDown: 0
@@ -181,24 +181,6 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: ""
- -
-   weight: 100
-   destCh: 10
-   srcRaw: TrimThr
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   offset: 0
-   swtch: "L4"
-   flightModes: 000000000
-   curve: 
-      type: 3
-      value: 2
-   delayUp: 0
-   delayDown: 0
-   speedUp: 5
-   speedDown: 5
-   name: "LIMIT"
 limitData: 
    0:
       min: 0
@@ -273,9 +255,9 @@ expoData:
    chn: 2
    swtch: "NONE"
    flightModes: 000000000
-   weight: 60
+   weight: 100
    name: ""
-   offset: -40
+   offset: 0
    curve: 
       type: 1
       value: 0
@@ -297,13 +279,13 @@ curves:
    0:
       type: 0
       smooth: 1
-      points: 5
-      name: "BDA"
+      points: 0
+      name: ""
    1:
       type: 0
       smooth: 1
       points: 0
-      name: "A1"
+      name: ""
    2:
       type: 0
       smooth: 1
@@ -315,43 +297,15 @@ curves:
       points: -1
       name: "CNT"
 points: 
-   0:
-      val: -100
-   1:
-      val: -40
-   2:
-      val: -25
-   3:
-      val: -15
-   4:
-      val: -5
-   5:
-      val: 5
-   6:
-      val: 15
-   7:
-      val: 25
    8:
-      val: 40
-   9:
-      val: 100
-   10:
+      val: 1
+   155:
       val: -100
-   11:
-      val: -95
-   12:
-      val: -90
-   13:
-      val: -85
-   14:
-      val: -80
-   160:
-      val: -100
-   163:
+   158:
       val: 100
-   164:
+   159:
       val: -1
-   165:
+   160:
       val: 1
 logicalSw: 
    0:
@@ -374,14 +328,14 @@ logicalSw:
       duration: 0
    3:
       func: FUNC_VPOS
-      def: "tele(11),400"
+      def: "tele(11),600"
       andsw: "SA2"
       delay: 0
       duration: 0
    63:
       func: FUNC_VPOS
       def: "Thr,-20"
-      andsw: "NONE"
+      andsw: "SA2"
       delay: 0
       duration: 0
 customFn: 
@@ -404,9 +358,6 @@ customFn:
 flightModeData: 
    0:
       trim: 
-         0:
-            value: 2
-            mode: 0
          1:
             value: -40
             mode: 0

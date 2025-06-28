@@ -1,6 +1,6 @@
 semver: 2.10.0
 header: 
-   name: "BETA SWIFT"
+   name: "CHIMERA"
 timers: 
    0:
       start: 0
@@ -78,6 +78,60 @@ mixData:
    name: ""
  -
    weight: 100
+   destCh: 2
+   srcRaw: I2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "L4"
+   flightModes: 000000000
+   curve: 
+      type: 3
+      value: 1
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIMIT1"
+ -
+   weight: 100
+   destCh: 2
+   srcRaw: I2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "L5"
+   flightModes: 000000000
+   curve: 
+      type: 3
+      value: 2
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIMIT2"
+ -
+   weight: 100
+   destCh: 2
+   srcRaw: I2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "L6"
+   flightModes: 000000000
+   curve: 
+      type: 3
+      value: 3
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIMIT3"
+ -
+   weight: 100
    destCh: 3
    srcRaw: I0
    carryTrim: 0
@@ -109,7 +163,7 @@ mixData:
  -
    weight: 100
    destCh: 5
-   srcRaw: SC
+   srcRaw: SB
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -124,7 +178,7 @@ mixData:
  -
    weight: 100
    destCh: 6
-   srcRaw: SB
+   srcRaw: SC
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -200,6 +254,15 @@ limitData:
       revert: 0
       curve: 32
       name: ""
+   2:
+      min: 0
+      max: 0
+      ppmCenter: 0
+      offset: 0
+      symetrical: 0
+      revert: 0
+      curve: 32
+      name: ""
    3:
       min: 0
       max: 0
@@ -213,17 +276,17 @@ expoData:
  -
    mode: 3
    scale: 0
-   trimSource: 0
+   trimSource: 1
    srcRaw: Rud
    chn: 0
    swtch: "NONE"
    flightModes: 000000000
-   weight: 100
+   weight: 70
    name: ""
    offset: 0
    curve: 
       type: 1
-      value: 0
+      value: 75
  -
    mode: 3
    scale: 0
@@ -267,12 +330,57 @@ expoData:
       type: 1
       value: 0
 curves: 
+   0:
+      type: 0
+      smooth: 1
+      points: 0
+      name: "LM1"
+   1:
+      type: 0
+      smooth: 1
+      points: 0
+      name: "LM2"
+   2:
+      type: 0
+      smooth: 1
+      points: 0
+      name: "LM3"
    31:
       type: 1
       smooth: 0
       points: -1
       name: "CNT"
 points: 
+   0:
+      val: -100
+   1:
+      val: -70
+   2:
+      val: -40
+   3:
+      val: -10
+   4:
+      val: 20
+   5:
+      val: -100
+   6:
+      val: -85
+   7:
+      val: -70
+   8:
+      val: -55
+   9:
+      val: -40
+   10:
+      val: -100
+   11:
+      val: -95
+   12:
+      val: -90
+   13:
+      val: -85
+   14:
+      val: -80
    155:
       val: -100
    158:
@@ -281,14 +389,80 @@ points:
       val: -1
    160:
       val: 1
+logicalSw: 
+   0:
+      func: FUNC_VPOS
+      def: "tele(13),90"
+      andsw: "SA2"
+      delay: 0
+      duration: 0
+   1:
+      func: FUNC_VPOS
+      def: "tele(11),650"
+      andsw: "SA2"
+      delay: 0
+      duration: 0
+   2:
+      func: FUNC_VNEG
+      def: "tele(18),30"
+      andsw: "SA2"
+      delay: 0
+      duration: 0
+   3:
+      func: FUNC_VPOS
+      def: "tele(11),400"
+      andsw: "NONE"
+      delay: 0
+      duration: 0
+   4:
+      func: FUNC_VPOS
+      def: "tele(11),500"
+      andsw: "NONE"
+      delay: 0
+      duration: 0
+   5:
+      func: FUNC_VPOS
+      def: "tele(11),600"
+      andsw: "NONE"
+      delay: 0
+      duration: 0
+   63:
+      func: FUNC_VPOS
+      def: "SC,-20"
+      andsw: "NONE"
+      delay: 0
+      duration: 0
+customFn: 
+   0:
+      swtch: "SA2"
+      func: LOGS
+      def: "5"
+   1:
+      swtch: "L1"
+      func: PLAY_SOUND
+      def: "Robt,4"
+   2:
+      swtch: "L2"
+      func: PLAY_SOUND
+      def: "Rata,4"
+   3:
+      swtch: "L3"
+      func: PLAY_SOUND
+      def: "Tada,2"
 flightModeData: 
    0:
       trim: 
          0:
-            value: 20
+            value: 2
+            mode: 0
+         1:
+            value: -40
+            mode: 0
+         2:
+            value: 2
             mode: 0
          3:
-            value: -2
+            value: 16
             mode: 0
       name: ""
       swtch: "NONE"
@@ -535,33 +709,31 @@ telemetrySensors:
             offset: 0
    10:
       id1: 
-         id: 30
+         id: 2
       id2: 
          instance: 0
-      label: "Ptch"
+      label: "GPS"
       subId: 0
       type: TYPE_CUSTOM
-      unit: 21
-      prec: 2
+      unit: 40
+      prec: 0
       autoOffset: 0
       filter: 0
       logs: 1
       persistent: 0
       onlyPositive: 0
       cfg: 
-         custom: 
-            ratio: 0
-            offset: 0
+         param: 0
    11:
       id1: 
-         id: 30
+         id: 2
       id2: 
-         instance: 1
-      label: "Roll"
+         instance: 2
+      label: "GSpd"
       subId: 0
       type: TYPE_CUSTOM
-      unit: 21
-      prec: 2
+      unit: 7
+      prec: 1
       autoOffset: 0
       filter: 0
       logs: 1
@@ -573,13 +745,13 @@ telemetrySensors:
             offset: 0
    12:
       id1: 
-         id: 30
+         id: 2
       id2: 
-         instance: 2
-      label: "Yaw"
+         instance: 3
+      label: "Hdg"
       subId: 0
       type: TYPE_CUSTOM
-      unit: 21
+      unit: 20
       prec: 2
       autoOffset: 0
       filter: 0
@@ -592,13 +764,13 @@ telemetrySensors:
             offset: 0
    13:
       id1: 
-         id: 33
+         id: 2
       id2: 
-         instance: 0
-      label: "FM"
+         instance: 4
+      label: "Alt"
       subId: 0
       type: TYPE_CUSTOM
-      unit: 42
+      unit: 9
       prec: 0
       autoOffset: 0
       filter: 0
@@ -606,17 +778,19 @@ telemetrySensors:
       persistent: 0
       onlyPositive: 0
       cfg: 
-         param: 0
+         custom: 
+            ratio: 0
+            offset: 0
    14:
       id1: 
-         id: 9
+         id: 2
       id2: 
-         instance: 0
-      label: "Alt"
+         instance: 5
+      label: "Sats"
       subId: 0
       type: TYPE_CUSTOM
-      unit: 9
-      prec: 1
+      unit: 0
+      prec: 0
       autoOffset: 0
       filter: 0
       logs: 1
@@ -702,6 +876,80 @@ telemetrySensors:
          custom: 
             ratio: 0
             offset: 0
+   19:
+      id1: 
+         id: 30
+      id2: 
+         instance: 0
+      label: "Ptch"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 21
+      prec: 2
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   20:
+      id1: 
+         id: 30
+      id2: 
+         instance: 1
+      label: "Roll"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 21
+      prec: 2
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   21:
+      id1: 
+         id: 30
+      id2: 
+         instance: 2
+      label: "Yaw"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 21
+      prec: 2
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   22:
+      id1: 
+         id: 33
+      id2: 
+         instance: 0
+      label: "FM"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 42
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         param: 0
 screens: 
    0:
       type: VALUES
@@ -710,19 +958,47 @@ screens:
             0:
                sources: 
                   0:
-                     val: TX_TIME
+                     val: tele(10)
+                  1:
+                     val: tele(11)
             1:
                sources: 
+                  0:
+                     val: tele(14)
                   1:
                      val: tele(15)
             2:
                sources: 
                   0:
                      val: tele(0)
+                  1:
+                     val: tele(18)
             3:
                sources: 
                   0:
+                     val: tele(22)
+                  1:
                      val: tele(13)
+   1:
+      type: VALUES
+      u: 
+         lines: 
+            0:
+               sources: 
+                  0:
+                     val: TX_TIME
+                  1:
+                     val: tele(2)
+            1:
+               sources: 
+                  0:
+                     val: tele(+11)
+                  1:
+                     val: tele(8)
+            2:
+               sources: 
+                  0:
+                     val: tele(-11)
 view: 0
 modelRegistrationID: "*\x15*\x15!\x03%\x07"
 usbJoystickExtMode: 0
