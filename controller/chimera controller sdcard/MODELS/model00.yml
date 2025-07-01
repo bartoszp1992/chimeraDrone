@@ -91,8 +91,8 @@ mixData:
       value: 1
    delayUp: 0
    delayDown: 0
-   speedUp: 0
-   speedDown: 0
+   speedUp: 8
+   speedDown: 8
    name: "LIMIT1"
  -
    weight: 100
@@ -109,8 +109,8 @@ mixData:
       value: 2
    delayUp: 0
    delayDown: 0
-   speedUp: 0
-   speedDown: 0
+   speedUp: 8
+   speedDown: 8
    name: "LIMIT2"
  -
    weight: 100
@@ -127,8 +127,8 @@ mixData:
       value: 3
    delayUp: 0
    delayDown: 0
-   speedUp: 0
-   speedDown: 0
+   speedUp: 8
+   speedDown: 8
    name: "LIMIT3"
  -
    weight: 100
@@ -190,6 +190,21 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: ""
+ -
+   weight: 0
+   destCh: 6
+   srcRaw: SC
+   carryTrim: 1
+   mixWarn: 0
+   mltpx: REPL
+   offset: -100
+   swtch: "L6"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIMIT3"
  -
    weight: 100
    destCh: 7
@@ -354,33 +369,33 @@ points:
    0:
       val: -100
    1:
-      val: -70
+      val: -50
    2:
-      val: -40
+      val: -13
    3:
-      val: -10
+      val: 11
    4:
       val: 20
    5:
       val: -100
    6:
-      val: -85
+      val: -65
    7:
-      val: -70
+      val: -42
    8:
-      val: -55
+      val: -30
    9:
-      val: -40
+      val: -22
    10:
       val: -100
    11:
-      val: -95
+      val: -71
    12:
-      val: -90
+      val: -55
    13:
-      val: -85
+      val: -50
    14:
-      val: -80
+      val: -46
    155:
       val: -100
    158:
@@ -410,25 +425,25 @@ logicalSw:
       duration: 0
    3:
       func: FUNC_VPOS
-      def: "tele(11),400"
+      def: "tele(11),550"
       andsw: "NONE"
       delay: 0
       duration: 0
    4:
       func: FUNC_VPOS
-      def: "tele(11),500"
+      def: "tele(11),600"
       andsw: "NONE"
       delay: 0
       duration: 0
    5:
       func: FUNC_VPOS
-      def: "tele(11),600"
+      def: "tele(11),650"
       andsw: "NONE"
       delay: 0
       duration: 0
    63:
       func: FUNC_VPOS
-      def: "SC,-20"
+      def: "I1,40"
       andsw: "NONE"
       delay: 0
       duration: 0
@@ -436,7 +451,7 @@ customFn:
    0:
       swtch: "SA2"
       func: LOGS
-      def: "5"
+      def: "2"
    1:
       swtch: "L1"
       func: PLAY_SOUND
