@@ -144,8 +144,8 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [x] make assembly file
 - [x] fix assembly errors
 >freeCAD bug- fixed by workaround
-- [ ] record night fly
-- [ ] record full power flight
+- [x] record night fly
+- [x] record full power flight
 - [ ] make assembly manual
 - [x] change FC pitch to 25.5x25.5mm
 - [x] add fuses to BOM
