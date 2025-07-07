@@ -5,7 +5,7 @@
 **Chimera is 2,2" freestyle cinewhoop type drone, for 3S batteries, with fully 3D printed construction**
 
 - vmax
-: >80km/h on full power*
+: ~70-80km/h on full power*
 - Ready-to-flight mass(with lamp, battery and wings)
 : <220grams
 - Carry weight
@@ -36,7 +36,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 
 ### parts
 - **duct-light**
-: PA6, 3 wall loops, no supports, 20-30% honeycomb infill, rotate 180deg in X axis(upside down)
+: PA6, 3 wall loops, tree supports, 10-30% honeycomb infill, rotate 180deg in X axis(upside down)
 - **frame**
 : PC-CF, 3 wall loops, no supports, 100% grid infill, rotate 35deg in Z axis
 - **body**
@@ -55,9 +55,6 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : PETG, 100%
 - **cable lock**
 : PETG, 100%, X90 deg
-- **duct**
-: PETG-CF, 3 wall loops, 100% infill
->very robust duct. It make your drone heavier thatn 225grams, but can handle drops from 20 meters into grass
 
 ## BOM
 ![chimera render](images/renderBack.png)
@@ -140,7 +137,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 
 
 # todo list
-- [x] make case
+- ~~[ ] make case~~
 - [x] make assembly file
 - [x] fix assembly errors
 >freeCAD bug- fixed by workaround
