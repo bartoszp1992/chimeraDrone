@@ -52,11 +52,11 @@ vtxtable powervalues 100 350
 vtxtable powerlabels EU MAX
 
 # master
-set acc_trim_pitch = 5
+set acc_trim_pitch = 6
 set acc_trim_roll = 4
 set acc_calibration = 29,17,41,1
 set fpv_mix_degrees = 20
-set dshot_idle_value = 300
+set dshot_idle_value = 700
 set failsafe_delay = 10
 set failsafe_off_delay = 25
 set failsafe_throttle = 1250
@@ -90,8 +90,8 @@ set osd_displayport_device = AUTO
 set osd_canvas_width = 30
 set osd_canvas_height = 16
 set vtx_band = 2
-set vtx_channel = 5
-set vtx_freq = 5809
+set vtx_channel = 4
+set vtx_freq = 5790
 set vcd_video_system = PAL
 set craft_name = BD1 "Chimera"
 set pilot_name = Bartosz
