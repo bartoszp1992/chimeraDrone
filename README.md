@@ -36,7 +36,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 
 ### parts
 - **duct-light**
-: PA6, 3 wall loops, tree supports, 10-30% honeycomb infill, rotate 180deg in X axis(upside down)
+: PA6/PETG/PLA, 3 wall loops, tree supports, 10-30% honeycomb infill, rotate 180deg in X axis(upside down)
 - **frame**
 : PC-CF, 3 wall loops, no supports, 100% grid infill, rotate 35deg in Z axis
 - **body**
