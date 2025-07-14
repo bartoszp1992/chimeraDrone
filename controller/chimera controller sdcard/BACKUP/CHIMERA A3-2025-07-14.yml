@@ -1,6 +1,6 @@
 semver: 2.10.0
 header: 
-   name: "CHIMERA"
+   name: "CHIMERA A3"
 timers: 
    0:
       start: 0
@@ -78,60 +78,6 @@ mixData:
    name: ""
  -
    weight: 100
-   destCh: 2
-   srcRaw: I2
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   offset: 0
-   swtch: "L4"
-   flightModes: 000000000
-   curve: 
-      type: 3
-      value: 1
-   delayUp: 0
-   delayDown: 0
-   speedUp: 8
-   speedDown: 8
-   name: "LIMIT1"
- -
-   weight: 100
-   destCh: 2
-   srcRaw: I2
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   offset: 0
-   swtch: "L5"
-   flightModes: 000000000
-   curve: 
-      type: 3
-      value: 2
-   delayUp: 0
-   delayDown: 0
-   speedUp: 8
-   speedDown: 8
-   name: "LIMIT2"
- -
-   weight: 100
-   destCh: 2
-   srcRaw: I2
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   offset: 0
-   swtch: "L6"
-   flightModes: 000000000
-   curve: 
-      type: 3
-      value: 3
-   delayUp: 0
-   delayDown: 0
-   speedUp: 8
-   speedDown: 8
-   name: "LIMIT3"
- -
-   weight: 100
    destCh: 3
    srcRaw: I0
    carryTrim: 0
@@ -190,21 +136,6 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: ""
- -
-   weight: 0
-   destCh: 6
-   srcRaw: SC
-   carryTrim: 1
-   mixWarn: 0
-   mltpx: REPL
-   offset: -100
-   swtch: "L6"
-   flightModes: 000000000
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "LIMIT3"
  -
    weight: 100
    destCh: 7
@@ -301,7 +232,7 @@ expoData:
    offset: 0
    curve: 
       type: 1
-      value: 75
+      value: 0
  -
    mode: 3
    scale: 0
@@ -349,53 +280,25 @@ curves:
       type: 0
       smooth: 1
       points: 0
-      name: "LM1"
+      name: ""
    1:
       type: 0
       smooth: 1
       points: 0
-      name: "LM2"
+      name: ""
    2:
       type: 0
       smooth: 1
       points: 0
-      name: "LM3"
+      name: ""
    31:
       type: 1
       smooth: 0
       points: -1
       name: "CNT"
 points: 
-   0:
-      val: -100
-   1:
-      val: -50
-   2:
-      val: -13
-   3:
-      val: 11
-   4:
-      val: 20
-   5:
-      val: -100
-   6:
-      val: -65
-   7:
-      val: -42
    8:
-      val: -30
-   9:
-      val: -22
-   10:
-      val: -100
-   11:
-      val: -71
-   12:
-      val: -55
-   13:
-      val: -50
-   14:
-      val: -46
+      val: 1
    155:
       val: -100
    158:
@@ -413,7 +316,7 @@ logicalSw:
       duration: 0
    1:
       func: FUNC_VPOS
-      def: "tele(11),650"
+      def: "tele(11),684"
       andsw: "SA2"
       delay: 0
       duration: 0
@@ -425,26 +328,14 @@ logicalSw:
       duration: 0
    3:
       func: FUNC_VPOS
-      def: "tele(11),550"
-      andsw: "NONE"
-      delay: 0
-      duration: 0
-   4:
-      func: FUNC_VPOS
-      def: "tele(11),600"
-      andsw: "NONE"
-      delay: 0
-      duration: 0
-   5:
-      func: FUNC_VPOS
-      def: "tele(11),650"
-      andsw: "NONE"
+      def: "tele(11),1000"
+      andsw: "SA2"
       delay: 0
       duration: 0
    63:
       func: FUNC_VPOS
-      def: "I1,40"
-      andsw: "NONE"
+      def: "Thr,-20"
+      andsw: "SA2"
       delay: 0
       duration: 0
 customFn: 
@@ -467,9 +358,6 @@ customFn:
 flightModeData: 
    0:
       trim: 
-         0:
-            value: 2
-            mode: 0
          1:
             value: -40
             mode: 0
