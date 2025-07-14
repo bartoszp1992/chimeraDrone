@@ -1,6 +1,6 @@
 semver: 2.10.0
 header: 
-   name: "CHIMERA A3"
+   name: "CHIMERA"
 timers: 
    0:
       start: 0
@@ -47,9 +47,54 @@ mixData:
    speedDown: 0
    name: ""
  -
+   weight: 0
+   destCh: 0
+   srcRaw: I3
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: -100
+   swtch: "L4"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIM"
+ -
    weight: 100
    destCh: 1
    srcRaw: I1
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   offset: 0
+   swtch: "NONE"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   weight: 0
+   destCh: 1
+   srcRaw: I1
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: -100
+   swtch: "L4"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIM"
+ -
+   weight: 100
+   destCh: 2
+   srcRaw: I2
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -67,15 +112,54 @@ mixData:
    srcRaw: I2
    carryTrim: 0
    mixWarn: 0
-   mltpx: ADD
+   mltpx: REPL
    offset: 0
-   swtch: "NONE"
+   swtch: "L4"
    flightModes: 000000000
+   curve: 
+      type: 3
+      value: 1
    delayUp: 0
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: ""
+   name: "LIMIT1"
+ -
+   weight: 100
+   destCh: 2
+   srcRaw: I2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "L5"
+   flightModes: 000000000
+   curve: 
+      type: 3
+      value: 2
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIMIT2"
+ -
+   weight: 100
+   destCh: 2
+   srcRaw: I2
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: 0
+   swtch: "L6"
+   flightModes: 000000000
+   curve: 
+      type: 3
+      value: 3
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIMIT3"
  -
    weight: 100
    destCh: 3
@@ -136,6 +220,21 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: ""
+ -
+   weight: 0
+   destCh: 6
+   srcRaw: SC
+   carryTrim: 1
+   mixWarn: 0
+   mltpx: REPL
+   offset: -100
+   swtch: "L4"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIMIT3"
  -
    weight: 100
    destCh: 7
@@ -232,7 +331,7 @@ expoData:
    offset: 0
    curve: 
       type: 1
-      value: 75
+      value: 0
  -
    mode: 3
    scale: 0
@@ -280,25 +379,53 @@ curves:
       type: 0
       smooth: 1
       points: 0
-      name: ""
+      name: "LM1"
    1:
       type: 0
       smooth: 1
       points: 0
-      name: ""
+      name: "LM2"
    2:
       type: 0
       smooth: 1
       points: 0
-      name: ""
+      name: "LM3"
    31:
       type: 1
       smooth: 0
       points: -1
       name: "CNT"
 points: 
+   0:
+      val: -100
+   1:
+      val: -50
+   2:
+      val: -13
+   3:
+      val: 11
+   4:
+      val: 20
+   5:
+      val: -100
+   6:
+      val: -65
+   7:
+      val: -42
    8:
-      val: 1
+      val: -30
+   9:
+      val: -22
+   10:
+      val: -100
+   11:
+      val: -71
+   12:
+      val: -55
+   13:
+      val: -50
+   14:
+      val: -46
    155:
       val: -100
    158:
@@ -316,7 +443,7 @@ logicalSw:
       duration: 0
    1:
       func: FUNC_VPOS
-      def: "tele(11),684"
+      def: "tele(11),680"
       andsw: "SA2"
       delay: 0
       duration: 0
@@ -328,21 +455,33 @@ logicalSw:
       duration: 0
    3:
       func: FUNC_VPOS
+      def: "tele(11),500"
+      andsw: "NONE"
+      delay: 0
+      duration: 0
+   4:
+      func: FUNC_VPOS
+      def: "tele(11),550"
+      andsw: "NONE"
+      delay: 0
+      duration: 0
+   5:
+      func: FUNC_VPOS
       def: "tele(11),600"
-      andsw: "SA2"
+      andsw: "NONE"
       delay: 0
       duration: 0
    63:
       func: FUNC_VPOS
-      def: "Thr,-20"
-      andsw: "SA2"
+      def: "I1,40"
+      andsw: "NONE"
       delay: 0
       duration: 0
 customFn: 
    0:
       swtch: "SA2"
       func: LOGS
-      def: "5"
+      def: "2"
    1:
       swtch: "L1"
       func: PLAY_SOUND
@@ -358,6 +497,9 @@ customFn:
 flightModeData: 
    0:
       trim: 
+         0:
+            value: 2
+            mode: 0
          1:
             value: -40
             mode: 0

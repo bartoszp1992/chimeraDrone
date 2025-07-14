@@ -232,7 +232,7 @@ expoData:
    offset: 0
    curve: 
       type: 1
-      value: 75
+      value: 0
  -
    mode: 3
    scale: 0
@@ -328,7 +328,7 @@ logicalSw:
       duration: 0
    3:
       func: FUNC_VPOS
-      def: "tele(11),600"
+      def: "tele(11),1000"
       andsw: "SA2"
       delay: 0
       duration: 0
@@ -342,7 +342,7 @@ customFn:
    0:
       swtch: "SA2"
       func: LOGS
-      def: "5"
+      def: "2"
    1:
       swtch: "L1"
       func: PLAY_SOUND

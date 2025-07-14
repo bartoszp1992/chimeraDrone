@@ -47,6 +47,21 @@ mixData:
    speedDown: 0
    name: ""
  -
+   weight: 0
+   destCh: 0
+   srcRaw: I3
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: -100
+   swtch: "L4"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIM"
+ -
    weight: 100
    destCh: 1
    srcRaw: I1
@@ -61,6 +76,21 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: ""
+ -
+   weight: 0
+   destCh: 1
+   srcRaw: I1
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: REPL
+   offset: -100
+   swtch: "L4"
+   flightModes: 000000000
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "LIM"
  -
    weight: 100
    destCh: 2
@@ -91,8 +121,8 @@ mixData:
       value: 1
    delayUp: 0
    delayDown: 0
-   speedUp: 8
-   speedDown: 8
+   speedUp: 0
+   speedDown: 0
    name: "LIMIT1"
  -
    weight: 100
@@ -109,8 +139,8 @@ mixData:
       value: 2
    delayUp: 0
    delayDown: 0
-   speedUp: 8
-   speedDown: 8
+   speedUp: 0
+   speedDown: 0
    name: "LIMIT2"
  -
    weight: 100
@@ -127,8 +157,8 @@ mixData:
       value: 3
    delayUp: 0
    delayDown: 0
-   speedUp: 8
-   speedDown: 8
+   speedUp: 0
+   speedDown: 0
    name: "LIMIT3"
  -
    weight: 100
@@ -198,7 +228,7 @@ mixData:
    mixWarn: 0
    mltpx: REPL
    offset: -100
-   swtch: "L6"
+   swtch: "L4"
    flightModes: 000000000
    delayUp: 0
    delayDown: 0
@@ -301,7 +331,7 @@ expoData:
    offset: 0
    curve: 
       type: 1
-      value: 75
+      value: 0
  -
    mode: 3
    scale: 0
@@ -413,7 +443,7 @@ logicalSw:
       duration: 0
    1:
       func: FUNC_VPOS
-      def: "tele(11),650"
+      def: "tele(11),680"
       andsw: "SA2"
       delay: 0
       duration: 0
@@ -425,19 +455,19 @@ logicalSw:
       duration: 0
    3:
       func: FUNC_VPOS
-      def: "tele(11),550"
+      def: "tele(11),500"
       andsw: "NONE"
       delay: 0
       duration: 0
    4:
       func: FUNC_VPOS
-      def: "tele(11),600"
+      def: "tele(11),550"
       andsw: "NONE"
       delay: 0
       duration: 0
    5:
       func: FUNC_VPOS
-      def: "tele(11),650"
+      def: "tele(11),600"
       andsw: "NONE"
       delay: 0
       duration: 0
