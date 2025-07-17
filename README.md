@@ -97,8 +97,8 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : Foxeer M10Q-120 compass
 - [ ] **Controller**
 : Radiomaster Pocket Crush White ELRS LBT, or any other with ELRS and edgeTX
-- [ ] **Googles**
-: BETAFPV VR03 or any other analog googles
+- [ ] **Goggles**
+: BETAFPV VR03 or any other analog goggles
 - [ ] **Cable**
 : MicroUSB angled cable for FC config
 - [ ] **Charger**
