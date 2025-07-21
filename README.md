@@ -94,7 +94,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] **battery**
 : LAVA 3S 550mAh 75C
 - [ ] **GNSS**
-: Foxeer M10Q-120 compass
+: Foxeer M10Q-180 compass
 - [ ] **Controller**
 : Radiomaster Pocket Crush White ELRS LBT, or any other with ELRS and edgeTX
 - [ ] **Goggles**
