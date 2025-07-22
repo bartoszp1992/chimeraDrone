@@ -1,6 +1,6 @@
 semver: 2.10.0
 header: 
-   name: "CHIMERA A3"
+   name: "CHIMERA"
 timers: 
    0:
       start: 0
