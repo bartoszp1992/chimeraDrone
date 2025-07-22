@@ -53,7 +53,7 @@ mixData:
    carryTrim: 0
    mixWarn: 0
    mltpx: REPL
-   offset: -100
+   offset: 0
    swtch: "L4"
    flightModes: 000000000
    delayUp: 0
@@ -83,7 +83,7 @@ mixData:
    carryTrim: 0
    mixWarn: 0
    mltpx: REPL
-   offset: -100
+   offset: 0
    swtch: "L4"
    flightModes: 000000000
    delayUp: 0
