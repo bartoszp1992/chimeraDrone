@@ -75,6 +75,7 @@ set osd_ah_sbar_pos = 2318
 set osd_ah_pos = 2190
 set osd_current_pos = 2497
 set osd_craft_name_pos = 2081
+set osd_pilot_name_pos = 2113
 set osd_gps_speed_pos = 2455
 set osd_gps_lon_pos = 2097
 set osd_gps_lat_pos = 2129
@@ -92,11 +93,11 @@ set osd_canvas_width = 30
 set osd_canvas_height = 16
 set vtx_band = 5
 set vtx_channel = 1
-set vtx_power = 2
+set vtx_power = 1
 set vtx_freq = 5658
 set vcd_video_system = PAL
 set craft_name = BD1 "Chimera"
-set pilot_name = Bartosz
+set pilot_name = Bartosz SQ5SAZ
 
 profile 0
 
