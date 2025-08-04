@@ -97,7 +97,7 @@ set vtx_power = 1
 set vtx_freq = 5658
 set vcd_video_system = PAL
 set craft_name = BD1 "Chimera"
-set pilot_name = Bartosz SQ5SAZ
+set pilot_name = Bart SQ5SAZ
 
 profile 0
 
