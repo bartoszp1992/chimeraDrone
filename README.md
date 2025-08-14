@@ -4,16 +4,12 @@
 
 **Chimera is 2,2" freestyle cinewhoop type drone, for 3S batteries, with fully 3D printed construction**
 
-- vmax
-: ~70-80km/h on full power*
 - Ready-to-flight mass(with lamp, battery and wings)
 : <200grams
 - Carry weight
 : Can fly with light action camera
 - flight time
 : 1,5 - 5min
-- estimated cost
-: 500-550 
 
 *\*Can be reduced in edgeTX system using logical switch based on the speed read from GNSS, and the mix function. The project includes a configuration that limits the speed.*
 
