@@ -147,7 +147,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [x] include betafpv F405 firmware
 - [x] include geprc taker firmware
 - [x] fix GPS speed log on controller lag(ELRS script in controller- telemetry ratio)
-- [ ] fix stability on fast yaw
+- [x] fix stability on fast yaw
 - [x] find throttle value for auto-land
 - [x] set altitude and speed alarm
 
