@@ -7,9 +7,9 @@
 - vmax
 : ~70-80km/h on full power*
 - Ready-to-flight mass(with lamp, battery and wings)
-: <220grams
+: <200grams
 - Carry weight
-: Can fly with GoPro camera
+: Can fly with light action camera
 - flight time
 : 1,5 - 5min
 - estimated cost
