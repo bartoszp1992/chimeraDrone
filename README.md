@@ -11,7 +11,7 @@
 - flight time
 : 1,5 - 5min
 
-*\*Can be reduced in edgeTX system using logical switch based on the speed read from GNSS, and the mix function. The project includes a configuration that limits the speed.*
+*\*Speed can be reduced in edgeTX system using logical switch based on the speed read from GNSS, and the mix function. The project includes a configuration that limits the speed when SB is UP*
 
 [**Youtube Video**](https://www.youtube.com/watch?v=lm06ZXMheoQ)
 
