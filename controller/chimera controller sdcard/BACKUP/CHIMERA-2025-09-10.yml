@@ -1,6 +1,6 @@
 semver: 2.10.0
 header: 
-   name: "CHIMERA A1"
+   name: "CHIMERA"
 timers: 
    0:
       start: 0
@@ -54,7 +54,7 @@ mixData:
    mixWarn: 0
    mltpx: REPL
    offset: 0
-   swtch: "L4"
+   swtch: "L5"
    flightModes: 000000000
    delayUp: 0
    delayDown: 0
@@ -84,7 +84,7 @@ mixData:
    mixWarn: 0
    mltpx: REPL
    offset: 0
-   swtch: "L4"
+   swtch: "L5"
    flightModes: 000000000
    delayUp: 0
    delayDown: 0
@@ -142,24 +142,6 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: "LIMIT2"
- -
-   weight: 100
-   destCh: 2
-   srcRaw: I2
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   offset: 0
-   swtch: "L6"
-   flightModes: 000000000
-   curve: 
-      type: 3
-      value: 3
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "LIMIT3"
  -
    weight: 100
    destCh: 3
@@ -228,7 +210,7 @@ mixData:
    mixWarn: 0
    mltpx: REPL
    offset: -100
-   swtch: "L4"
+   swtch: "L5"
    flightModes: 000000000
    delayUp: 0
    delayDown: 0
@@ -326,7 +308,7 @@ expoData:
    chn: 0
    swtch: "NONE"
    flightModes: 000000000
-   weight: 70
+   weight: 100
    name: ""
    offset: 0
    curve: 
@@ -442,33 +424,27 @@ logicalSw:
       delay: 0
       duration: 0
    1:
-      func: FUNC_VPOS
-      def: "tele(11),680"
-      andsw: "SA2"
-      delay: 0
-      duration: 0
-   2:
       func: FUNC_VNEG
       def: "tele(18),30"
       andsw: "SA2"
       delay: 0
       duration: 0
+   2:
+      func: FUNC_VPOS
+      def: "tele(11),480"
+      andsw: "SB0"
+      delay: 0
+      duration: 0
    3:
       func: FUNC_VPOS
-      def: "tele(11),500"
-      andsw: "NONE"
+      def: "tele(11),550"
+      andsw: "SB0"
       delay: 0
       duration: 0
    4:
       func: FUNC_VPOS
-      def: "tele(11),550"
-      andsw: "NONE"
-      delay: 0
-      duration: 0
-   5:
-      func: FUNC_VPOS
-      def: "tele(11),600"
-      andsw: "NONE"
+      def: "tele(11),620"
+      andsw: "SB0"
       delay: 0
       duration: 0
    63:
@@ -487,51 +463,13 @@ customFn:
       func: PLAY_SOUND
       def: "Robt,4"
    2:
-      swtch: "L2"
+      swtch: "L3"
       func: PLAY_SOUND
       def: "Rata,4"
    3:
-      swtch: "L3"
+      swtch: "L2"
       func: PLAY_SOUND
       def: "Tada,2"
-flightModeData: 
-   0:
-      trim: 
-         0:
-            value: 2
-            mode: 0
-         1:
-            value: -40
-            mode: 0
-         2:
-            value: 2
-            mode: 0
-         3:
-            value: 16
-            mode: 0
-      name: ""
-      swtch: "NONE"
-      fadeIn: 0
-      fadeOut: 0
-      gvars: 
-         0:
-            val: 0
-         1:
-            val: 0
-         2:
-            val: 0
-         3:
-            val: 0
-         4:
-            val: 0
-         5:
-            val: 0
-         6:
-            val: 0
-         7:
-            val: 0
-         8:
-            val: 0
 thrTraceSrc: Thr
 switchWarningState: AuBuCuDu
 rssiSource: none
