@@ -31,7 +31,7 @@ serial 3 1 115200 57600 0 115200
 serial 5 8192 115200 57600 0 115200
 
 # aux
-aux 0 0 0 1925 2100 0 0
+aux 0 0 1 1400 2100 0 0
 aux 1 1 2 925 1075 1 0
 aux 2 1 4 925 1075 1 0
 aux 3 2 2 1400 1600 0 0
@@ -51,7 +51,7 @@ vtxtable powerlabels 25 100 200 350
 
 # master
 set acc_trim_pitch = 6
-set acc_trim_roll = 4
+set acc_trim_roll = 6
 set acc_calibration = 29,17,41,1
 set fpv_mix_degrees = 20
 set dshot_idle_value = 750
