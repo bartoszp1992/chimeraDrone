@@ -36,6 +36,7 @@ aux 1 1 2 925 1075 1 0
 aux 2 1 4 925 1075 1 0
 aux 3 2 2 1400 1600 0 0
 aux 4 35 3 1900 2100 0 0
+aux 5 39 0 1500 2100 0 0
 
 # vtxtable
 vtxtable bands 5

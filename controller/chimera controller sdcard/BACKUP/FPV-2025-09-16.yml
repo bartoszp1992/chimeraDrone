@@ -476,19 +476,19 @@ logicalSw:
    2:
       func: FUNC_VPOS
       def: "tele(11),480"
-      andsw: "SA2"
+      andsw: "SB1"
       delay: 0
       duration: 0
    3:
       func: FUNC_VPOS
       def: "tele(11),550"
-      andsw: "SA2"
+      andsw: "SB1"
       delay: 0
       duration: 0
    4:
       func: FUNC_VPOS
       def: "tele(11),620"
-      andsw: "SA2"
+      andsw: "SB1"
       delay: 0
       duration: 0
    63:
@@ -547,7 +547,7 @@ flightModeData:
          8:
             val: 0
 thrTraceSrc: Thr
-switchWarningState: AdBuCuDu
+switchWarningState: BuCuDu
 rssiSource: none
 rfAlarms: 
    warning: 45
@@ -579,7 +579,7 @@ inputNames:
 potsWarnEnabled: 1
 potsWarnPosition: 
    0:
-      val: 55
+      val: 62
 telemetrySensors: 
    0:
       id1: 
