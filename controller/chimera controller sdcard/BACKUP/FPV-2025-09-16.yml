@@ -358,7 +358,7 @@ expoData:
    offset: 0
    curve: 
       type: 1
-      value: 0
+      value: 45
  -
    mode: 3
    scale: 0
@@ -372,7 +372,7 @@ expoData:
    offset: 0
    curve: 
       type: 1
-      value: 0
+      value: 45
  -
    mode: 3
    scale: 0
@@ -386,7 +386,7 @@ expoData:
    offset: 0
    curve: 
       type: 1
-      value: 0
+      value: 40
  -
    mode: 3
    scale: 0
@@ -400,7 +400,7 @@ expoData:
    offset: 0
    curve: 
       type: 1
-      value: 0
+      value: 45
  -
    mode: 3
    scale: 0
