@@ -522,20 +522,6 @@ expoData:
    chn: 9
    flightModes: 000000000
    name: ""
- -
-   mode: 3
-   scale: 0
-   trimSource: 0
-   srcRaw: "MIN"
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   curve: 
-      type: 1
-      value: 0
-   chn: 10
-   flightModes: 000000000
-   name: ""
 curves: 
    0:
       type: 0
