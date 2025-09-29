@@ -299,7 +299,7 @@ mixData:
    flightModes: 000000000
    weight: 100
    offset: 0
-   swtch: "SW22"
+   swtch: "SW52"
    curve: 
       type: 1
       value: 55
@@ -319,7 +319,7 @@ mixData:
    flightModes: 000000000
    weight: 100
    offset: 0
-   swtch: "SW32"
+   swtch: "SW42"
    curve: 
       type: 1
       value: 70
@@ -449,7 +449,7 @@ mixData:
    name: ""
  -
    destCh: 9
-   srcRaw: "I4"
+   srcRaw: "SD"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -926,7 +926,7 @@ customFn:
    0:
       swtch: "!SA2"
       func: LOGS
-      def: "15,1"
+      def: "25,1"
    1:
       swtch: "L1"
       func: PLAY_SOUND
@@ -1500,7 +1500,7 @@ modelRegistrationID: "*\x15*\x15!\x03%\x07"
 functionSwitchConfig: 2730
 functionSwitchGroup: 27285
 functionSwitchStartConfig: 340
-functionSwitchLogicalState: 36
+functionSwitchLogicalState: 33
 usbJoystickExtMode: 0
 usbJoystickIfMode: JOYSTICK
 usbJoystickCircularCut: 0
