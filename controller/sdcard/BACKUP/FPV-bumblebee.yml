@@ -939,6 +939,35 @@ customFn:
       swtch: "L2"
       func: PLAY_SOUND
       def: "Tada,1,2"
+flightModeData: 
+   0:
+      trim: 
+         2:
+            value: 2
+            mode: 0
+      name: ""
+      swtch: "NONE"
+      fadeIn: 0
+      fadeOut: 0
+      gvars: 
+         0:
+            val: 0
+         1:
+            val: 0
+         2:
+            val: 0
+         3:
+            val: 0
+         4:
+            val: 0
+         5:
+            val: 0
+         6:
+            val: 0
+         7:
+            val: 0
+         8:
+            val: 0
 thrTraceSrc: Thr
 switchWarning: 
    SA:
