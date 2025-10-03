@@ -55,12 +55,12 @@ vtxtable powerlabels 25 100 200 350
 # master
 set acc_calibration = 0,-8,16,1
 set fpv_mix_degrees = 20
-set failsafe_delay = 10
+set failsafe_delay = 1
+set failsafe_landing_time = 70
 set failsafe_throttle = 1250
 set failsafe_procedure = AUTO-LAND
 set bat_capacity = 500
 set vbat_max_cell_voltage = 435
-set ibata_scale = 240
 set small_angle = 180
 set gps_ublox_use_galileo = ON
 set pos_hold_without_mag = ON
