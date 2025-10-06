@@ -53,8 +53,14 @@ vtxtable powervalues 25 100 200 400
 vtxtable powerlabels 25 100 200 350
 
 # master
+set acc_trim_pitch = -2
 set acc_calibration = 0,-8,16,1
+set align_mag = CUSTOM
+set mag_align_pitch = 1800
+set mag_align_yaw = 2700
+set mag_calibration = 406,-428,-160
 set fpv_mix_degrees = 20
+set motor_pwm_protocol = DSHOT300
 set failsafe_delay = 1
 set failsafe_landing_time = 70
 set failsafe_throttle = 1250
@@ -62,6 +68,7 @@ set failsafe_procedure = AUTO-LAND
 set bat_capacity = 500
 set vbat_max_cell_voltage = 435
 set small_angle = 180
+set mag_declination = 70
 set gps_ublox_use_galileo = ON
 set pos_hold_without_mag = ON
 set osd_warn_bitmask = 270333
