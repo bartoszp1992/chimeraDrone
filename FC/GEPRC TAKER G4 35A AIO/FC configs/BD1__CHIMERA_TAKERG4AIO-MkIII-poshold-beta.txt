@@ -53,17 +53,17 @@ vtxtable powervalues 25 100 200 400
 vtxtable powerlabels 25 100 200 350
 
 # master
-set acc_trim_pitch = -2
+set acc_trim_pitch = -3
 set acc_calibration = 0,-8,16,1
 set align_mag = CUSTOM
 set mag_align_pitch = 1800
-set mag_align_yaw = 2700
-set mag_calibration = 308,-437,-106
+set mag_align_yaw = 2400
+set mag_calibration = 532,-180,-252
 set fpv_mix_degrees = 20
 set motor_pwm_protocol = DSHOT300
 set failsafe_delay = 1
 set failsafe_landing_time = 70
-set failsafe_throttle = 1250
+set failsafe_throttle = 1340
 set failsafe_procedure = AUTO-LAND
 set bat_capacity = 500
 set vbat_max_cell_voltage = 435
@@ -104,7 +104,7 @@ set osd_sys_goggle_voltage_pos = 129
 set osd_stat_bitmask = 397246
 set vtx_band = 5
 set vtx_channel = 1
-set vtx_power = 1
+set vtx_power = 3
 set vtx_freq = 5658
 set vcd_video_system = PAL
 set craft_name = BD1 "Chimera"
@@ -136,6 +136,6 @@ rateprofile 2
 rateprofile 3
 
 # restore original rateprofile selection
-rateprofile 0
+rateprofile 1
 
 # save configuration
