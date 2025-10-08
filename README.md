@@ -36,7 +36,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - **duct-R**
 : PA12, 3 wall loops, tree supports(add exception for strap channel), 10-30% honeycomb infill, rotate 180deg in X axis(upside down). after print heat and bend down the wing trims by 90 degrees
 - **frame**
-: PC-CF, 3 wall loops, no supports, 100% grid infill, rotate 35deg in Z axis
+: PC-CF, 2 wall loops, no supports, 100% grid infill, rotate 35deg in Z axis
 - **body**
 : PETG-CF, 3 wall loops, tree strong supports, 100% grid infill
 >remove supports under side vent pockets, camera axis holes, right tail vent pocket, VTX ant cable hole
