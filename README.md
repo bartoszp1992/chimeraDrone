@@ -74,7 +74,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 
 ### electronic
 - [ ] **FC**
-: BETAFPV F405 4S 20A Toothpick Brushless Flight Controller V5 BLHeli_S (ICM42688) **or** GEPRC TAKER G4 35A AIO
+: GEPRC TAKER G4 35A AIO
 >you can use any other 20A+, compatible with 3S and 25,5mm pitch
 - [ ] **propellers**
 : GEMFAN 2218 3-blade Propellers (1.5mm shaft)
