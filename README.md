@@ -31,8 +31,6 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 >one battery for one 2-3 minutes flight. Make sure you have more than 1
 
 ### parts
-- **duct-light**
-: PA12/PETG/PLA, 3 wall loops, tree supports(add exception for strap channel), 10-30% honeycomb infill, rotate 180deg in X axis(upside down)
 - **duct-R**
 : PA12, 3 wall loops, tree supports(add exception for strap channel), 10-30% honeycomb infill, rotate 180deg in X axis(upside down). after print heat and bend down the wing trims by 90 degrees
 - **frame**
@@ -58,7 +56,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 ![chimera render](images/renderBack.png)
 
 ### 3D printed
-- 1 x duct-light
+- 1 x duct-R
 - 1 x body
 - 1 x FDM frame
 - 1 x left wing
@@ -88,19 +86,19 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] **VTX**
 : Foxeer Reaper Nano V2 VTx 5.8G 72CH 350mW Tramp
 - [ ] **Video antenna**
-: Walksnail Avatar HD Mini 1s Lite
+: Speedy Bee 5.8 GHz Antenna V2 UFL
 - [ ] **battery**
 : LAVA 3S 550mAh 75C
 - [ ] **GNSS**
 : Foxeer M10Q-180 compass
 - [ ] **Controller**
-: Radiomaster Pocket Crush White ELRS LBT, or any other with ELRS and edgeTX
+: Jumper Bumblebee, or any other with ELRS and edgeTX
 - [ ] **Goggles**
 : BETAFPV VR03 or any other analog goggles
-- [ ] **Cable**
-: MicroUSB angled cable for FC config
+- [ ] **VRX antenna**
+: Any RHCP antenna
 - [ ] **Charger**
-: iMax B6 V2 with some 12V supplier
+: iMax B6 V2 with some 12V supplier / ToolkitRC Q4AC
 - [ ] **5A car fuse and cable socket**
 : charging fuse
 - [ ] **some drone lamp**
@@ -127,9 +125,6 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 ![chimera render](images/renderUp.png)
 ![chimera render](images/renderPerspective.png)
 
-## schematic
-![schematic](images/schematic.png)
-
 ## technical drawing
 ![techDraw](images/techDraw.png)
 
@@ -144,8 +139,8 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] make assembly manual
 - [x] change FC pitch to 25.5x25.5mm
 - [x] add fuses to BOM
-- [ ] include Rx firmware
-- [ ] include Tx firmware
+- ~~[ ] include Rx firmware~~
+- ~~[ ] include Tx firmware~~
 - [x] include betafpv F405 firmware
 - [x] include geprc taker firmware
 - [x] fix GPS speed log on controller lag(ELRS script in controller- telemetry ratio)
