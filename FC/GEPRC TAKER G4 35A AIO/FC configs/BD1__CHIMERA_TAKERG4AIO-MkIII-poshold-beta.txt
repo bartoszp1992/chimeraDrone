@@ -104,7 +104,7 @@ set osd_sys_goggle_voltage_pos = 129
 set osd_stat_bitmask = 397246
 set vtx_band = 5
 set vtx_channel = 1
-set vtx_power = 3
+set vtx_power = 1
 set vtx_freq = 5658
 set vcd_video_system = PAL
 set craft_name = BD1 "Chimera"
@@ -121,6 +121,25 @@ set feedforward_max_rate_limit = 50
 profile 1
 
 profile 2
+
+# profile 2
+set p_pitch = 51
+set i_pitch = 92
+set d_pitch = 30
+set f_pitch = 150
+set p_roll = 47
+set i_roll = 84
+set d_roll = 27
+set f_roll = 138
+set p_yaw = 47
+set i_yaw = 84
+set f_yaw = 138
+set d_max_roll = 36
+set d_max_pitch = 41
+set simplified_d_gain = 90
+set simplified_pi_gain = 105
+set simplified_feedforward_gain = 115
+set simplified_pitch_pi_gain = 105
 
 profile 3
 
