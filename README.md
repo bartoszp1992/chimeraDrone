@@ -36,7 +36,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - **frame**
 : PC-CF, 2 wall loops, no supports, 100% grid infill, rotate 35deg in Z axis
 - **body**
-: PETG-CF, 3 wall loops, tree strong supports, 100% grid infill
+: PETG-CF, 3 wall loops, tree strong supports, 100% grid infill or PA12, 2 wall loops, tree supports, 15% honeycomb infill
 >remove supports under side vent pockets, camera axis holes, right tail vent pocket, VTX ant cable hole
 - **wings**
 : PLA GLOW, 3 wall loops, 80%, no supports, rotate 90deg in Y axis, to make sure base is parallel to table
