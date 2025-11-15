@@ -49,7 +49,7 @@ vtxtable band 3 BOSCAM_E E CUSTOM  5705 5685 5665 5645 5885 5905 5925 5945
 vtxtable band 4 FATSHARK F CUSTOM  5740 5760 5780 5800 5820 5840 5860 5880
 vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
 vtxtable powerlevels 4
-vtxtable powervalues 1 2 3 4
+vtxtable powervalues 25 100 200 400
 vtxtable powerlabels 25 100 200 350
 
 # master
