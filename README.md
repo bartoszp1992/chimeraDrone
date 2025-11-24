@@ -101,7 +101,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : iMax B6 V2 with some 12V supplier / ToolkitRC Q4AC
 - [ ] **5A car fuse and cable socket**
 : charging fuse
-- [ ] **some drone lamp**
+- [ ] **2x RGB LED**
 : if you want make night flies
 - [ ] **2 x additional XT30 connectors set**
 : to connect battery to charger and FC

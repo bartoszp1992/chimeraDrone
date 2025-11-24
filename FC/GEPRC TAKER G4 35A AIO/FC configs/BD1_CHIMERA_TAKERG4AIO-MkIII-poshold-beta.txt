@@ -29,6 +29,18 @@ serial UART1 8192 115200 57600 0 115200
 serial UART4 64 115200 57600 0 115200
 serial LPUART1 2 115200 57600 0 115200
 
+# led
+led 0 7,0::C:1
+led 1 8,0::AB:6
+
+# color
+color 14 359,0,255
+
+# mode_color
+mode_color 6 0 12
+mode_color 6 1 6
+mode_color 7 0 10
+
 # aux
 aux 0 0 1 1400 2100 0 0
 aux 1 1 2 925 1075 1 0
@@ -37,8 +49,8 @@ aux 3 2 2 1400 1600 0 0
 aux 4 3 6 900 1125 0 0
 aux 5 27 5 1875 2100 0 0
 aux 6 11 8 1900 2100 1 0
-aux 7 35 3 1900 2100 0 0
-aux 8 39 0 1600 2100 0 0
+aux 7 15 0 1800 2100 0 0
+aux 8 35 3 1900 2100 0 0
 
 # vtxtable
 vtxtable bands 5
@@ -106,9 +118,9 @@ set osd_stick_overlay_right_pos = 149
 set osd_sys_goggle_voltage_pos = 129
 set osd_stat_bitmask = 397246
 set vtx_band = 5
-set vtx_channel = 3
+set vtx_channel = 1
 set vtx_power = 1
-set vtx_freq = 5732
+set vtx_freq = 5658
 set vcd_video_system = PAL
 set craft_name = BD1 "Chimera"
 set pilot_name = Bart SQ5SAZ
