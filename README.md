@@ -82,7 +82,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : SpeedyBee Nano 2.4G ExpressLRS ELRS Receiver
 >or any other ELRS receiver which can fit into modules mounts in body
 - [ ] **camera**
-: Foxeer Cat 3 Micro(19x19mm) or other analog camera(set for NTSC)
+: Foxeer Cat 3 Micro(19x19mm) or other analog camera(set for PAL)
 - [ ] **VTX**
 : Foxeer Reaper Nano V2 VTx 5.8G 72CH 350mW Tramp
 - [ ] **Video antenna**
