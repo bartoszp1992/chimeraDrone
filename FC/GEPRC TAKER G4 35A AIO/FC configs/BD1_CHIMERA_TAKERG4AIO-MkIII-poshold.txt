@@ -2,8 +2,8 @@ defaults nosave
 
 
 # version
-# Betaflight / STM32G47X (G473) 2025.12.0-beta Sep 30 2025 / 07:10:26 (3938b7e3e) MSP API: 1.47
-# config rev: 44d61f3
+# Betaflight / STM32G47X (G473) 2025.12.1 Dec 29 2025 / 19:23:00 (85d201376) MSP API: 1.47
+# config rev: 46f5576
 
 # start the command batch
 batch start
@@ -42,15 +42,15 @@ mode_color 6 1 6
 mode_color 7 0 10
 
 # aux
-aux 0 0 1 1400 2100 0 0
-aux 1 1 2 925 1075 1 0
-aux 2 1 4 925 1075 1 0
-aux 3 2 2 1400 1600 0 0
-aux 4 3 6 900 1125 0 0
-aux 5 27 5 1875 2100 0 0
-aux 6 11 8 1900 2100 1 0
-aux 7 15 0 1800 2100 0 0
-aux 8 35 3 1900 2100 0 0
+aux 0 0 2 1350 2100 0 0
+aux 1 1 6 900 1125 1 0
+aux 2 1 0 900 1125 1 0
+aux 3 2 6 1400 1625 0 0
+aux 4 3 8 900 1125 0 0
+aux 5 27 4 1875 2100 0 0
+aux 6 11 10 1875 2100 1 0
+aux 7 15 1 1800 2100 0 0
+aux 8 35 5 1875 2100 0 0
 
 # vtxtable
 vtxtable bands 5
@@ -66,11 +66,12 @@ vtxtable powerlabels 25 100 200 350
 
 # master
 set acc_trim_pitch = -3
+set acc_trim_roll = -1
 set acc_calibration = 0,-8,16,1
 set align_mag = CUSTOM
 set mag_align_pitch = 1800
-set mag_align_yaw = 2400
-set mag_calibration = 532,-180,-252
+set mag_align_yaw = 2450
+set mag_calibration = 388,-159,-319
 set fpv_mix_degrees = 20
 set motor_pwm_protocol = DSHOT300
 set failsafe_delay = 1
@@ -124,6 +125,7 @@ set vtx_freq = 5658
 set vcd_video_system = PAL
 set craft_name = BD1 "Chimera"
 set pilot_name = Bart SQ5SAZ
+set ap_hover_throttle = 1340
 
 profile 0
 
@@ -164,6 +166,9 @@ profile 2
 rateprofile 0
 
 rateprofile 1
+
+# rateprofile 1
+set thr_hover = 30
 
 rateprofile 2
 

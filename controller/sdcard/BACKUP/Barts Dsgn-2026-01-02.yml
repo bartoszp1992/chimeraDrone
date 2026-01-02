@@ -1,6 +1,6 @@
 semver: 2.11.3
 header: 
-   name: "FPV"
+   name: "Barts Dsgn"
 timers: 
    0:
       start: 0
@@ -60,7 +60,7 @@ mixData:
    flightModes: 000000000
    weight: 100
    offset: 0
-   swtch: "SW22"
+   swtch: "SW52"
    curve: 
       type: 1
       value: 55
@@ -80,7 +80,7 @@ mixData:
    flightModes: 000000000
    weight: 100
    offset: 0
-   swtch: "SW32"
+   swtch: "SW42"
    curve: 
       type: 1
       value: 70
@@ -91,15 +91,15 @@ mixData:
    name: "EXP"
  -
    destCh: 0
-   srcRaw: "I4"
+   srcRaw: "I11"
    carryTrim: 0
    mixWarn: 0
    mltpx: MUL
    delayPrec: 0
    speedPrec: 0
    flightModes: 000000000
-   weight: 100
-   offset: 0
+   weight: -50
+   offset: 50
    swtch: "NONE"
    delayUp: 0
    delayDown: 0
@@ -151,7 +151,7 @@ mixData:
    flightModes: 000000000
    weight: 100
    offset: 0
-   swtch: "SW22"
+   swtch: "SW52"
    curve: 
       type: 1
       value: 55
@@ -171,7 +171,7 @@ mixData:
    flightModes: 000000000
    weight: 100
    offset: 0
-   swtch: "SW32"
+   swtch: "SW42"
    curve: 
       type: 1
       value: 70
@@ -182,15 +182,15 @@ mixData:
    name: "EXP"
  -
    destCh: 1
-   srcRaw: "I4"
+   srcRaw: "I11"
    carryTrim: 0
    mixWarn: 0
    mltpx: MUL
    delayPrec: 0
    speedPrec: 0
    flightModes: 000000000
-   weight: 100
-   offset: 0
+   weight: -50
+   offset: 50
    swtch: "NONE"
    delayUp: 0
    delayDown: 0
@@ -272,6 +272,40 @@ mixData:
    speedDown: 0
    name: "LIM2"
  -
+   destCh: 2
+   srcRaw: "I7"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: MUL
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: -50
+   offset: 50
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "MUL"
+ -
+   destCh: 2
+   srcRaw: "I7"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: -50
+   offset: -50
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "OFFSET"
+ -
    destCh: 3
    srcRaw: "I0"
    carryTrim: 0
@@ -330,15 +364,15 @@ mixData:
    name: "EXP"
  -
    destCh: 3
-   srcRaw: "I4"
+   srcRaw: "I11"
    carryTrim: 0
    mixWarn: 0
    mltpx: MUL
    delayPrec: 0
    speedPrec: 0
    flightModes: 000000000
-   weight: 100
-   offset: 0
+   weight: -50
+   offset: 50
    swtch: "NONE"
    delayUp: 0
    delayDown: 0
@@ -347,7 +381,7 @@ mixData:
    name: "MUL"
  -
    destCh: 4
-   srcRaw: "I5"
+   srcRaw: "I4"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -364,6 +398,23 @@ mixData:
    name: ""
  -
    destCh: 5
+   srcRaw: "I5"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: ""
+ -
+   destCh: 6
    srcRaw: "I6"
    carryTrim: 0
    mixWarn: 0
@@ -380,7 +431,7 @@ mixData:
    speedDown: 0
    name: ""
  -
-   destCh: 6
+   destCh: 7
    srcRaw: "I7"
    carryTrim: 0
    mixWarn: 0
@@ -397,7 +448,7 @@ mixData:
    speedDown: 0
    name: ""
  -
-   destCh: 6
+   destCh: 7
    srcRaw: "I7"
    carryTrim: 1
    mixWarn: 0
@@ -414,7 +465,7 @@ mixData:
    speedDown: 0
    name: "LIM"
  -
-   destCh: 7
+   destCh: 8
    srcRaw: "I8"
    carryTrim: 0
    mixWarn: 0
@@ -431,25 +482,8 @@ mixData:
    speedDown: 0
    name: ""
  -
-   destCh: 8
-   srcRaw: "I9"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: ADD
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: ""
- -
    destCh: 9
-   srcRaw: "SD"
+   srcRaw: "I9"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -535,23 +569,6 @@ mixData:
  -
    destCh: 14
    srcRaw: "I14"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: ADD
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: ""
- -
-   destCh: 15
-   srcRaw: "I15"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -664,9 +681,9 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "P2"
-   weight: -50
-   offset: 50
+   srcRaw: "SC"
+   weight: 100
+   offset: 0
    swtch: "NONE"
    curve: 
       type: 1
@@ -706,12 +723,12 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SB"
-   weight: -100
+   srcRaw: "P1"
+   weight: 100
    offset: 0
    swtch: "NONE"
    curve: 
-      type: 1
+      type: 2
       value: 0
    chn: 7
    flightModes: 000000000
@@ -720,7 +737,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SF"
+   srcRaw: "SD"
    weight: 100
    offset: 0
    swtch: "NONE"
@@ -734,7 +751,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SC"
+   srcRaw: "SF"
    weight: 100
    offset: 0
    swtch: "NONE"
@@ -748,8 +765,8 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SW1"
-   weight: 100
+   srcRaw: "SB"
+   weight: -100
    offset: 0
    swtch: "NONE"
    curve: 
@@ -762,7 +779,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SW2"
+   srcRaw: "P2"
    weight: 100
    offset: 0
    swtch: "NONE"
@@ -776,7 +793,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SW3"
+   srcRaw: "SW1"
    weight: 100
    offset: 0
    swtch: "NONE"
@@ -790,7 +807,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SW4"
+   srcRaw: "SW2"
    weight: 100
    offset: 0
    swtch: "NONE"
@@ -804,7 +821,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SW5"
+   srcRaw: "SW3"
    weight: 100
    offset: 0
    swtch: "NONE"
@@ -818,7 +835,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SW6"
+   srcRaw: "SW4"
    weight: 100
    offset: 0
    swtch: "NONE"
@@ -826,6 +843,34 @@ expoData:
       type: 1
       value: 0
    chn: 15
+   flightModes: 000000000
+   name: ""
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: "SW5"
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   curve: 
+      type: 1
+      value: 0
+   chn: 16
+   flightModes: 000000000
+   name: ""
+ -
+   mode: 3
+   scale: 0
+   trimSource: 0
+   srcRaw: "SW6"
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   curve: 
+      type: 1
+      value: 0
+   chn: 17
    flightModes: 000000000
    name: ""
 curves: 
@@ -914,14 +959,6 @@ logicalSw:
       lsState: 0
       delay: 0
       duration: 0
-   63:
-      func: FUNC_VPOS
-      def: "I1,40"
-      andsw: "NONE"
-      lsPersist: 0
-      lsState: 0
-      delay: 0
-      duration: 0
 customFn: 
    0:
       swtch: "!SA2"
@@ -939,35 +976,6 @@ customFn:
       swtch: "L2"
       func: PLAY_SOUND
       def: "Tada,1,2"
-flightModeData: 
-   0:
-      trim: 
-         2:
-            value: 2
-            mode: 0
-      name: ""
-      swtch: "NONE"
-      fadeIn: 0
-      fadeOut: 0
-      gvars: 
-         0:
-            val: 0
-         1:
-            val: 0
-         2:
-            val: 0
-         3:
-            val: 0
-         4:
-            val: 0
-         5:
-            val: 0
-         6:
-            val: 0
-         7:
-            val: 0
-         8:
-            val: 0
 thrTraceSrc: Thr
 switchWarning: 
    SA:
@@ -1012,33 +1020,37 @@ inputNames:
    3:
       val: "Ail"
    4:
-      val: "pot"
+      val: "Lmn"
    5:
-      val: "sa"
+      val: "Lbi"
    6:
-      val: "sb"
+      val: "L3p"
    7:
-      val: "sc"
+      val: "Lpt"
    8:
-      val: "sd"
+      val: "Rmn"
    9:
-      val: "se"
+      val: "Rbi"
    10:
-      val: "s1"
+      val: "R3p"
    11:
-      val: "s2"
+      val: "Rpt"
    12:
-      val: "s3"
+      val: "s1"
    13:
-      val: "s4"
+      val: "s2"
    14:
-      val: "s5"
+      val: "s3"
    15:
+      val: "s4"
+   16:
+      val: "s5"
+   17:
       val: "s6"
-potsWarnEnabled: 2
+potsWarnEnabled: 3
 potsWarnPosition: 
    0:
-      val: 62
+      val: -64
    1:
       val: -64
 telemetrySensors: 
