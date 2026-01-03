@@ -1017,8 +1017,8 @@ moduleData:
 trainerData: 
    mode: MASTER_TRAINER_JACK
    channelsStart: 0
-   channelsCount: 0
-   frameLength: 0
+   channelsCount: 8
+   frameLength: 32
    delay: 0
    pulsePol: 0
 inputNames: 

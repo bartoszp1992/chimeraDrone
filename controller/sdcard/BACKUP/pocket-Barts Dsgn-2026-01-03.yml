@@ -51,46 +51,6 @@ mixData:
    name: ""
  -
    destCh: 0
-   srcRaw: "I3"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   curve: 
-      type: 1
-      value: 55
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "EXP"
- -
-   destCh: 0
-   srcRaw: "I3"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   curve: 
-      type: 1
-      value: 70
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "EXP"
- -
-   destCh: 0
    srcRaw: "I11"
    carryTrim: 0
    mixWarn: 0
@@ -140,46 +100,6 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: ""
- -
-   destCh: 1
-   srcRaw: "I1"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   curve: 
-      type: 1
-      value: 55
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "EXP"
- -
-   destCh: 1
-   srcRaw: "I1"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   curve: 
-      type: 1
-      value: 70
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "EXP"
  -
    destCh: 1
    srcRaw: "I11"
@@ -288,46 +208,6 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: ""
- -
-   destCh: 3
-   srcRaw: "I0"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   curve: 
-      type: 1
-      value: 55
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "EXP"
- -
-   destCh: 3
-   srcRaw: "I0"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   curve: 
-      type: 1
-      value: 70
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "EXP"
  -
    destCh: 3
    srcRaw: "I11"
@@ -942,7 +822,7 @@ moduleData:
             crsfArmingTrigger: "NONE"
             spare3: 0
 trainerData: 
-   mode: SLAVE
+   mode: MASTER_TRAINER_JACK
    channelsStart: 0
    channelsCount: 8
    frameLength: 32
