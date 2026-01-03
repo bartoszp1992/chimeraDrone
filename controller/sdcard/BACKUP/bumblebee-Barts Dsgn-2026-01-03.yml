@@ -976,6 +976,10 @@ customFn:
       swtch: "L2"
       func: PLAY_SOUND
       def: "Tada,1,2"
+   4:
+      swtch: "SB1"
+      func: TRAINER
+      def: "chans,1"
 thrTraceSrc: Thr
 switchWarning: 
    SA:
@@ -1010,6 +1014,13 @@ moduleData:
             crsfArmingMode: 0
             crsfArmingTrigger: "NONE"
             spare3: 0
+trainerData: 
+   mode: MASTER_TRAINER_JACK
+   channelsStart: 0
+   channelsCount: 0
+   frameLength: 0
+   delay: 0
+   pulsePol: 0
 inputNames: 
    0:
       val: "Rud"
