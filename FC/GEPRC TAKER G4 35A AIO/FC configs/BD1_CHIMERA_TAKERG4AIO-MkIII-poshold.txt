@@ -74,15 +74,20 @@ set mag_align_yaw = 2450
 set mag_calibration = 388,-159,-319
 set fpv_mix_degrees = 20
 set motor_pwm_protocol = DSHOT300
-set failsafe_delay = 1
+set failsafe_delay = 20
 set failsafe_landing_time = 70
-set failsafe_throttle = 1340
-set failsafe_procedure = AUTO-LAND
+set failsafe_throttle = 1300
+set failsafe_switch_mode = STAGE2
+set failsafe_procedure = GPS-RESCUE
 set bat_capacity = 500
 set vbat_max_cell_voltage = 435
 set small_angle = 180
 set mag_declination = 70
 set gps_ublox_use_galileo = ON
+set gps_rescue_alt_mode = FIXED_ALT
+set gps_rescue_return_alt = 40
+set gps_rescue_max_angle = 40
+set gps_rescue_descent_dist = 15
 set pos_hold_without_mag = ON
 set osd_warn_bitmask = 270333
 set osd_cap_alarm = 400
@@ -120,12 +125,12 @@ set osd_sys_goggle_voltage_pos = 129
 set osd_stat_bitmask = 397246
 set vtx_band = 5
 set vtx_channel = 1
-set vtx_power = 1
+set vtx_power = 4
 set vtx_freq = 5658
 set vcd_video_system = PAL
 set craft_name = BD1 "Chimera"
 set pilot_name = Bart SQ5SAZ
-set ap_hover_throttle = 1340
+set ap_hover_throttle = 1300
 
 profile 0
 
@@ -167,14 +172,11 @@ rateprofile 0
 
 rateprofile 1
 
-# rateprofile 1
-set thr_hover = 30
-
 rateprofile 2
 
 rateprofile 3
 
 # restore original rateprofile selection
-rateprofile 1
+rateprofile 0
 
 # save configuration
