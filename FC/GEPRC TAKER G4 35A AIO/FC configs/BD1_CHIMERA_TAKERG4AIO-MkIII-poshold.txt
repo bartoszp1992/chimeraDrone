@@ -123,6 +123,7 @@ set osd_stick_overlay_left_pos = 129
 set osd_stick_overlay_right_pos = 149
 set osd_sys_goggle_voltage_pos = 129
 set osd_stat_bitmask = 397246
+set osd_displayport_device = AUTO
 set vtx_band = 5
 set vtx_channel = 1
 set vtx_power = 1
