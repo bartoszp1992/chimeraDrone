@@ -811,9 +811,13 @@ customFn:
       func: PLAY_SOUND
       def: "Tada,1,2"
    4:
-      swtch: "SC2"
+      swtch: "SC1"
       func: TRAINER
       def: "chans,1"
+   5:
+      swtch: "SC0"
+      func: VARIO
+      def: "1"
 flightModeData: 
    0:
       trim: 
@@ -858,6 +862,13 @@ switchWarning:
       pos: up
    SE:
       pos: up
+varioData: 
+   source: 23
+   centerSilent: 1
+   centerMax: 0
+   centerMin: 0
+   min: 0
+   max: 0
 rssiSource: none
 rfAlarms: 
    warning: 45
@@ -879,7 +890,7 @@ moduleData:
             crsfArmingTrigger: "NONE"
             spare3: 0
 trainerData: 
-   mode: SLAVE
+   mode: MASTER_TRAINER_JACK
    channelsStart: 0
    channelsCount: 8
    frameLength: 32
@@ -927,196 +938,6 @@ potsWarnPosition:
 telemetrySensors: 
    0:
       id1: 
-         id: 20
-      id2: 
-         instance: 0
-      label: "1RSS"
-      subId: 0
-      type: TYPE_CUSTOM
-      unit: 17
-      prec: 0
-      autoOffset: 0
-      filter: 0
-      logs: 1
-      persistent: 0
-      onlyPositive: 0
-      cfg: 
-         custom: 
-            ratio: 0
-            offset: 0
-   1:
-      id1: 
-         id: 20
-      id2: 
-         instance: 1
-      label: "2RSS"
-      subId: 0
-      type: TYPE_CUSTOM
-      unit: 17
-      prec: 0
-      autoOffset: 0
-      filter: 0
-      logs: 1
-      persistent: 0
-      onlyPositive: 0
-      cfg: 
-         custom: 
-            ratio: 0
-            offset: 0
-   2:
-      id1: 
-         id: 20
-      id2: 
-         instance: 2
-      label: "RQly"
-      subId: 0
-      type: TYPE_CUSTOM
-      unit: 13
-      prec: 0
-      autoOffset: 0
-      filter: 0
-      logs: 1
-      persistent: 0
-      onlyPositive: 0
-      cfg: 
-         custom: 
-            ratio: 0
-            offset: 0
-   3:
-      id1: 
-         id: 20
-      id2: 
-         instance: 3
-      label: "RSNR"
-      subId: 0
-      type: TYPE_CUSTOM
-      unit: 17
-      prec: 0
-      autoOffset: 0
-      filter: 0
-      logs: 1
-      persistent: 0
-      onlyPositive: 0
-      cfg: 
-         custom: 
-            ratio: 0
-            offset: 0
-   4:
-      id1: 
-         id: 20
-      id2: 
-         instance: 4
-      label: "ANT"
-      subId: 0
-      type: TYPE_CUSTOM
-      unit: 0
-      prec: 0
-      autoOffset: 0
-      filter: 0
-      logs: 1
-      persistent: 0
-      onlyPositive: 0
-      cfg: 
-         custom: 
-            ratio: 0
-            offset: 0
-   5:
-      id1: 
-         id: 20
-      id2: 
-         instance: 5
-      label: "RFMD"
-      subId: 0
-      type: TYPE_CUSTOM
-      unit: 0
-      prec: 0
-      autoOffset: 0
-      filter: 0
-      logs: 1
-      persistent: 0
-      onlyPositive: 0
-      cfg: 
-         custom: 
-            ratio: 0
-            offset: 0
-   6:
-      id1: 
-         id: 20
-      id2: 
-         instance: 6
-      label: "TPWR"
-      subId: 0
-      type: TYPE_CUSTOM
-      unit: 16
-      prec: 0
-      autoOffset: 0
-      filter: 0
-      logs: 1
-      persistent: 0
-      onlyPositive: 0
-      cfg: 
-         custom: 
-            ratio: 0
-            offset: 0
-   7:
-      id1: 
-         id: 20
-      id2: 
-         instance: 7
-      label: "TRSS"
-      subId: 0
-      type: TYPE_CUSTOM
-      unit: 17
-      prec: 0
-      autoOffset: 0
-      filter: 0
-      logs: 1
-      persistent: 0
-      onlyPositive: 0
-      cfg: 
-         custom: 
-            ratio: 0
-            offset: 0
-   8:
-      id1: 
-         id: 20
-      id2: 
-         instance: 8
-      label: "TQly"
-      subId: 0
-      type: TYPE_CUSTOM
-      unit: 13
-      prec: 0
-      autoOffset: 0
-      filter: 0
-      logs: 1
-      persistent: 0
-      onlyPositive: 0
-      cfg: 
-         custom: 
-            ratio: 0
-            offset: 0
-   9:
-      id1: 
-         id: 20
-      id2: 
-         instance: 9
-      label: "TSNR"
-      subId: 0
-      type: TYPE_CUSTOM
-      unit: 17
-      prec: 0
-      autoOffset: 0
-      filter: 0
-      logs: 1
-      persistent: 0
-      onlyPositive: 0
-      cfg: 
-         custom: 
-            ratio: 0
-            offset: 0
-   10:
-      id1: 
          id: 2
       id2: 
          instance: 0
@@ -1132,7 +953,7 @@ telemetrySensors:
       onlyPositive: 0
       cfg: 
          param: 0
-   11:
+   1:
       id1: 
          id: 2
       id2: 
@@ -1151,7 +972,7 @@ telemetrySensors:
          custom: 
             ratio: 0
             offset: 0
-   12:
+   2:
       id1: 
          id: 2
       id2: 
@@ -1170,7 +991,7 @@ telemetrySensors:
          custom: 
             ratio: 0
             offset: 0
-   13:
+   3:
       id1: 
          id: 2
       id2: 
@@ -1189,7 +1010,7 @@ telemetrySensors:
          custom: 
             ratio: 0
             offset: 0
-   14:
+   4:
       id1: 
          id: 2
       id2: 
@@ -1198,6 +1019,196 @@ telemetrySensors:
       subId: 0
       type: TYPE_CUSTOM
       unit: 0
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   5:
+      id1: 
+         id: 20
+      id2: 
+         instance: 0
+      label: "1RSS"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 17
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   6:
+      id1: 
+         id: 20
+      id2: 
+         instance: 1
+      label: "2RSS"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 17
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   7:
+      id1: 
+         id: 20
+      id2: 
+         instance: 2
+      label: "RQly"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 13
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   8:
+      id1: 
+         id: 20
+      id2: 
+         instance: 3
+      label: "RSNR"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 17
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   9:
+      id1: 
+         id: 20
+      id2: 
+         instance: 4
+      label: "ANT"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 0
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   10:
+      id1: 
+         id: 20
+      id2: 
+         instance: 5
+      label: "RFMD"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 0
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   11:
+      id1: 
+         id: 20
+      id2: 
+         instance: 6
+      label: "TPWR"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 16
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   12:
+      id1: 
+         id: 20
+      id2: 
+         instance: 7
+      label: "TRSS"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 17
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   13:
+      id1: 
+         id: 20
+      id2: 
+         instance: 8
+      label: "TQly"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 13
+      prec: 0
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   14:
+      id1: 
+         id: 20
+      id2: 
+         instance: 9
+      label: "TSNR"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 17
       prec: 0
       autoOffset: 0
       filter: 0
@@ -1358,6 +1369,44 @@ telemetrySensors:
       onlyPositive: 0
       cfg: 
          param: 0
+   23:
+      id1: 
+         id: 7
+      id2: 
+         instance: 0
+      label: "VSpd"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 5
+      prec: 1
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
+   24:
+      id1: 
+         id: 9
+      id2: 
+         instance: 0
+      label: "Alt"
+      subId: 0
+      type: TYPE_CUSTOM
+      unit: 9
+      prec: 1
+      autoOffset: 0
+      filter: 0
+      logs: 1
+      persistent: 0
+      onlyPositive: 0
+      cfg: 
+         custom: 
+            ratio: 0
+            offset: 0
 screens: 
    0:
       type: VALUES
@@ -1366,47 +1415,27 @@ screens:
             0:
                sources: 
                   0:
-                     val: tele(10)
+                     val: tele(2)
                   1:
-                     val: tele(11)
+                     val: tele(0)
             1:
                sources: 
                   0:
-                     val: tele(14)
+                     val: tele(24)
                   1:
-                     val: tele(15)
+                     val: tele(1)
             2:
                sources: 
                   0:
-                     val: tele(0)
-                  1:
                      val: tele(18)
+                  1:
+                     val: tele(15)
             3:
                sources: 
                   0:
-                     val: tele(22)
+                     val: tele(7)
                   1:
-                     val: tele(13)
-   1:
-      type: VALUES
-      u: 
-         lines: 
-            0:
-               sources: 
-                  0:
-                     val: TX_TIME
-                  1:
-                     val: tele(2)
-            1:
-               sources: 
-                  0:
-                     val: tele(+11)
-                  1:
-                     val: tele(8)
-            2:
-               sources: 
-                  0:
-                     val: tele(-11)
+                     val: tele(4)
 view: 0
 modelRegistrationID: "*\x15*\x15!\x03%\x07"
 usbJoystickExtMode: 0
