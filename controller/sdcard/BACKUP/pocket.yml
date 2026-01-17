@@ -739,7 +739,7 @@ points:
 logicalSw: 
    0:
       func: FUNC_VPOS
-      def: "tele(13),90"
+      def: "tele(3),90"
       andsw: "!SB0"
       lsPersist: 0
       lsState: 0
@@ -755,7 +755,7 @@ logicalSw:
       duration: 0
    2:
       func: FUNC_VPOS
-      def: "tele(11),480"
+      def: "tele(1),480"
       andsw: "SB1"
       lsPersist: 0
       lsState: 0
@@ -763,7 +763,7 @@ logicalSw:
       duration: 0
    3:
       func: FUNC_VPOS
-      def: "tele(11),550"
+      def: "tele(1),550"
       andsw: "SB1"
       lsPersist: 0
       lsState: 0
@@ -771,7 +771,7 @@ logicalSw:
       duration: 0
    4:
       func: FUNC_VPOS
-      def: "tele(11),620"
+      def: "tele(1),620"
       andsw: "SB1"
       lsPersist: 0
       lsState: 0
