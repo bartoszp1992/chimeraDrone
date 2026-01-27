@@ -125,6 +125,11 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 ![chimera render](images/renderUp.png)
 ![chimera render](images/renderPerspective.png)
 
+## firmware
+If you are building remotely:
+> choose analog OSD Protocol and type **OSD_HD** in custom defines, to build firmware with both- digital and analog OSD 
+> In other options add **Magnetometers**, **Position Hold** and **Altitude Hold**
+
 ## technical drawing
 ![techDraw](images/techDraw.png)
 
