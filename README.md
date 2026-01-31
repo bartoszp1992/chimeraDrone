@@ -90,7 +90,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] **battery**
 : LAVA 3S 550mAh 75C
 - [ ] **GNSS**
-: Foxeer M10Q-180 compass
+: Foxeer M10Q-180 compass- mount on **right** fame spoke, faced antenna up and socket left(to body)
 - [ ] **Controller**
 : Jumper Bumblebee, or any other with ELRS and edgeTX
 - [ ] **Goggles**
@@ -109,6 +109,8 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : to make connection with FC
 - [ ] **25-30A car fuse and cable socket**
 : not necessary, but recommended
+- [ ] **13x8x5 (diameter * hole * height) ferrite ring**
+: turn 3x GNSS cable
 
 
 
@@ -121,6 +123,8 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] 12x M2 H3 D3.6mm brass insert
 >you can recover it from broken parts, but make sure you have spares
 - [ ] 4x M2 1,6mm nut to lock stack screws
+- [ ] 4x M2 20mm PA screws to mount digital VTX
+- [ ] 4x M2 0,8mm nut to screw in digital VTX
 
 ![chimera render](images/renderUp.png)
 ![chimera render](images/renderPerspective.png)
