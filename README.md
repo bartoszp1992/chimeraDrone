@@ -1,6 +1,6 @@
 # BD1 "Chimera" repo
 
-![chimera photo](images/chimera2.png)
+![chimera photo](images/chimera6.jpg)
 
 **Chimera is 2,2" freestyle cinewhoop type drone, for 3S batteries, with fully 3D printed construction**
 
@@ -17,7 +17,7 @@
 
 
 ## 3D printing
-![chimera render](images/renderLeft.png)
+
 
 All on 0.4 brass nozzle, make sure you have at least 5 pieces- CF filaments will wear off quickly. Trim Z-offset after every CF print
 
@@ -53,7 +53,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : PETG, 100%, X90 deg
 
 ## BOM
-![chimera render](images/renderBack.png)
+![chimera render](images/chimera12.png)
 
 ### 3D printed
 - 1 x duct-R
@@ -112,6 +112,8 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] **13x8x5 (diameter * hole * height) ferrite ring**
 : turn 3x GNSS cable
 
+![Ferrite core](images/chimera5.jpg)
+
 
 
 ### mechanical
@@ -126,21 +128,17 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] 4x M2 20mm PA screws to mount digital VTX
 - [ ] 4x M2 0,8mm nut to screw in digital VTX
 
-![chimera render](images/renderUp.png)
-![chimera render](images/renderPerspective.png)
+![chimera render](images/chimera11.png)
 
 ## firmware
 If you are building remotely:
 > choose analog OSD Protocol and type **OSD_HD** in custom defines, to build firmware with both- digital and analog OSD 
 > In other options add **Magnetometers**, **Position Hold** and **Altitude Hold**
 
-## technical drawing
-![techDraw](images/techDraw.png)
 
 
 # todo list
 - ~~[ ] make case~~
-- [x] make assembly file
 - [x] fix assembly errors
 >freeCAD bug- fixed by workaround
 - [x] record night fly
