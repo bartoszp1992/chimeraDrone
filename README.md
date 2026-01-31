@@ -110,7 +110,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] **25-30A car fuse and cable socket**
 : not necessary, but recommended
 - [ ] **13x8x5 (diameter * hole * height) ferrite ring**
-: turn 3x GNSS cable
+: turn 2-3x around GNSS cable near module
 
 ![Ferrite core](images/chimera5.jpg)
 
