@@ -112,11 +112,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] **L7805 linear stabilizer + 2x100nF MLCC capacitor**
 : supply GNSS module from stabilizer instead of 5V from BEC
 - [ ] **aluminium foil**
-: for shielding GNSS cable, GNSS module and VTX
-- [ ] **13x8x5 (diameter * hole * height) ferrite ring**
-: turn 2-3x around GNSS cable near module
-
-![Ferrite core](images/chimera5.jpg)
+: for shielding GNSS cable
 
 
 
@@ -133,6 +129,10 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] 4x M2 0,8mm nut to screw in digital VTX
 
 ![chimera render](images/chimera11.png)
+
+## electronics
+project contains configuration for HD version with BZ- pin used as VTX power switch. Implementation below:
+![VTX power switch](images/switch.png)
 
 ## firmware
 If you are building remotely:
