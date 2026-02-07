@@ -113,6 +113,8 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : supply GNSS module from stabilizer instead of 5V from BEC
 - [ ] **aluminium foil and polyimide tape**
 : for shielding GNSS cable and VTX
+- [ ] **14x9x5 (diameter * hole * height) ferrite ring**
+: turn 3-4x GNSS cable
 
 
 
