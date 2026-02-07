@@ -112,9 +112,9 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] **L7805 linear stabilizer + 2x100nF MLCC capacitor**
 : supply GNSS module from stabilizer instead of 5V from BEC
 - [ ] **aluminium foil and polyimide tape**
-: for shielding GNSS cable and VTX
+: optional-for shielding GNSS cable and VTX
 - [ ] **14x9x5 (diameter * hole * height) ferrite ring**
-: turn 3-4x GNSS cable
+: turn 3-4x GNSS cable as close as possible to GNSS module, and behind the linear stabilizer
 
 
 
