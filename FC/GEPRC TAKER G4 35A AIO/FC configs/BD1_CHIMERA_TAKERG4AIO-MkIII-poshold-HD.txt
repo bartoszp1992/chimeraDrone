@@ -1,6 +1,5 @@
 defaults nosave
 
-# diff all
 
 # version
 # Betaflight / STM32G47X (G473) 2025.12.1 Jan  9 2026 / 00:31:12 (85d201376) MSP API: 1.47
@@ -32,7 +31,7 @@ feature OSD
 # serial
 serial UART1 131073 115200 57600 0 115200
 serial UART4 64 115200 57600 0 115200
-serial LPUART1 2 115200 57600 0 115200
+serial LPUART1 2 115200 115200 0 115200
 
 # led
 led 0 7,0::C:1
