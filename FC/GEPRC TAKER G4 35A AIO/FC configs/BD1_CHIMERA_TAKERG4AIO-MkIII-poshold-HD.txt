@@ -34,8 +34,10 @@ serial UART4 64 115200 57600 0 115200
 serial LPUART1 2 115200 115200 0 115200
 
 # led
-led 0 7,0::C:1
-led 1 8,0::AB:6
+led 0 8,0::C:1
+led 1 7,0::C:1
+led 2 8,1::AB:0
+led 3 7,1::AB:0
 
 # color
 color 14 359,0,255
