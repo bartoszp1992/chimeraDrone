@@ -115,6 +115,8 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : optional-for shielding GNSS cable and VTX
 - [ ] **14x9x5 (diameter * hole * height) ferrite ring**
 : turn 3-4x GNSS cable as close as possible to GNSS module, and behind the linear stabilizer
+    
+![ferrite](images/ferrite.jpg)
 
 
 
