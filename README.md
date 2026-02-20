@@ -31,7 +31,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 >one battery for one 2-3 minutes flight. Make sure you have more than 1
 
 ### parts
-- **duct-R**
+- **ducts-RL**
 : PA12, 3 wall loops, tree supports(add exception for strap channel), 10-30% honeycomb infill, rotate 180deg in X axis(upside down). after print heat and bend down the wing trims by 90 degrees
 - **frame**
 : PC-CF, 2 wall loops, no supports, 100% grid infill, rotate 35deg in Z axis
@@ -56,7 +56,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 ![chimera render](images/chimera12.png)
 
 ### 3D printed
-- 1 x duct-R
+- 1 x ducts-RL
 - 1 x body
 - 1 x FDM frame
 - 1 x left wing
