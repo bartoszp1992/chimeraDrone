@@ -56,8 +56,7 @@ aux 4 3 8 900 1125 0 0
 aux 5 27 0 1875 2100 0 0
 aux 6 11 10 1875 2100 1 0
 aux 7 15 1 1800 2100 0 0
-aux 8 35 0 1875 2100 1 0
-aux 9 39 5 1875 2100 1 0
+aux 8 39 5 1875 2100 1 0
 
 # vtxtable
 vtxtable bands 5
@@ -76,6 +75,7 @@ set acc_calibration = -40,113,-4,1
 set align_mag = CUSTOM
 set mag_align_pitch = 1800
 set mag_align_yaw = 450
+set mag_hardware = NONE
 set mag_calibration = -897,149,98
 set fpv_mix_degrees = 20
 set motor_pwm_protocol = DSHOT300
