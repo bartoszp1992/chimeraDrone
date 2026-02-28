@@ -71,7 +71,7 @@ vtxtable powervalues 25 100 200 400
 vtxtable powerlabels 25 100 200 350
 
 # master
-set acc_calibration = -40,113,-4,1
+set acc_calibration = -42,-6,1,1
 set align_mag = CUSTOM
 set mag_align_pitch = 1800
 set mag_align_yaw = 450
@@ -144,16 +144,6 @@ set ap_hover_throttle = 1300
 profile 0
 
 # profile 0
-set anti_gravity_gain = 0
-set throttle_boost = 3
-set feedforward_boost = 3
-set feedforward_max_rate_limit = 50
-
-profile 1
-
-profile 2
-
-# profile 2
 set p_pitch = 51
 set i_pitch = 92
 set d_pitch = 30
@@ -172,10 +162,30 @@ set simplified_pi_gain = 105
 set simplified_feedforward_gain = 115
 set simplified_pitch_pi_gain = 105
 
+profile 1
+
+# profile 1
+set p_pitch = 23
+set i_pitch = 42
+set d_pitch = 17
+set f_pitch = 62
+set p_roll = 22
+set i_roll = 40
+set d_roll = 15
+set f_roll = 60
+set p_yaw = 22
+set i_yaw = 40
+set f_yaw = 60
+set d_max_roll = 20
+set d_max_pitch = 23
+set simplified_master_multiplier = 50
+
+profile 2
+
 profile 3
 
 # restore original profile selection
-profile 2
+profile 1
 
 rateprofile 0
 
