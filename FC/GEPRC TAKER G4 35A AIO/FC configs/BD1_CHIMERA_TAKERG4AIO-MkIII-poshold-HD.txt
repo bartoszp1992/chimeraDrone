@@ -185,7 +185,7 @@ profile 2
 profile 3
 
 # restore original profile selection
-profile 1
+profile 0
 
 rateprofile 0
 
