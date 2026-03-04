@@ -23,6 +23,7 @@ resource BEEPER 1 NONE
 resource PINIO 1 A15
 
 # feature
+feature -AIRMODE
 feature GPS
 feature TELEMETRY
 feature LED_STRIP
@@ -51,11 +52,11 @@ mode_color 7 0 10
 aux 0 0 2 1350 2100 0 0
 aux 1 1 6 900 1125 1 0
 aux 2 1 4 900 1125 1 0
-aux 3 2 6 1400 1625 0 0
-aux 4 3 8 900 1125 0 0
-aux 5 27 0 1875 2100 0 0
-aux 6 11 10 1875 2100 1 0
-aux 7 15 1 1800 2100 0 0
+aux 3 3 8 900 1125 0 0
+aux 4 27 0 1875 2100 0 0
+aux 5 11 10 1875 2100 1 0
+aux 6 15 1 1800 2100 0 0
+aux 7 28 6 1400 1625 0 0
 aux 8 39 5 1875 2100 1 0
 
 # vtxtable
