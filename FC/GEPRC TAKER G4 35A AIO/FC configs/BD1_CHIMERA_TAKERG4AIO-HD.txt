@@ -56,7 +56,7 @@ aux 3 3 8 900 1125 0 0
 aux 4 27 0 1875 2100 0 0
 aux 5 11 10 1875 2100 1 0
 aux 6 15 1 1800 2100 0 0
-aux 7 28 6 1400 1625 0 0
+aux 7 28 6 900 1625 0 0
 aux 8 39 5 1875 2100 1 0
 
 # vtxtable
@@ -83,7 +83,6 @@ set failsafe_delay = 20
 set failsafe_landing_time = 70
 set failsafe_throttle = 1300
 set failsafe_switch_mode = STAGE2
-set failsafe_procedure = GPS-RESCUE
 set align_board_roll = 180
 set align_board_yaw = -45
 set bat_capacity = 500
@@ -139,27 +138,6 @@ set pilot_name = Bart SQ5SAZ
 set ap_hover_throttle = 1300
 
 profile 0
-
-# profile 0
-set p_pitch = 51
-set i_pitch = 92
-set d_pitch = 21
-set f_pitch = 150
-set p_roll = 47
-set i_roll = 84
-set d_roll = 21
-set f_roll = 138
-set p_yaw = 47
-set i_yaw = 84
-set f_yaw = 138
-set d_max_roll = 25
-set d_max_pitch = 26
-set simplified_d_gain = 70
-set simplified_pi_gain = 105
-set simplified_d_max_gain = 70
-set simplified_feedforward_gain = 115
-set simplified_pitch_d_gain = 90
-set simplified_pitch_pi_gain = 105
 
 profile 1
 
