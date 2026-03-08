@@ -74,10 +74,8 @@ vtxtable powerlabels 25 100 200 350
 # master
 set acc_calibration = -42,-6,1,1
 set align_mag = CUSTOM
-set mag_align_pitch = 1800
 set mag_align_yaw = 450
-set mag_hardware = NONE
-set mag_calibration = -897,149,98
+set mag_calibration = 57,-54,321
 set fpv_mix_degrees = 20
 set motor_pwm_protocol = DSHOT300
 set motor_output_reordering = 2,3,0,1,4,5,6,7
@@ -132,10 +130,8 @@ set osd_stick_overlay_right_pos = 149
 set osd_sys_goggle_voltage_pos = 129
 set osd_stat_bitmask = 397246
 set osd_profile = 2
-set vtx_band = 5
-set vtx_channel = 1
+set vtx_channel = 2
 set vtx_power = 1
-set vtx_freq = 5658
 set pinio_config = 129,1,1,1
 set pinio_box = 39,255,255,255
 set craft_name = BD1 "Chimera"

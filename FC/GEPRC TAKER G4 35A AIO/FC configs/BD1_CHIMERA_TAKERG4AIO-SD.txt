@@ -70,9 +70,8 @@ vtxtable powerlabels 25 100 200 350
 set acc_trim_pitch = -3
 set acc_calibration = 0,-8,16,1
 set align_mag = CUSTOM
-set mag_align_pitch = 1800
 set mag_align_yaw = 450
-set mag_calibration = -897,149,98
+set mag_calibration = 133,-203,-230
 set fpv_mix_degrees = 20
 set motor_pwm_protocol = DSHOT300
 set motor_output_reordering = 2,3,0,1,4,5,6,7
@@ -140,38 +139,37 @@ set ap_hover_throttle = 1300
 profile 0
 
 # profile 0
-set anti_gravity_gain = 0
 set throttle_boost = 3
+set p_pitch = 51
+set i_pitch = 92
+set d_pitch = 21
+set f_pitch = 150
+set p_roll = 47
+set i_roll = 84
+set d_roll = 21
+set f_roll = 138
+set p_yaw = 47
+set i_yaw = 84
+set f_yaw = 138
+set d_max_roll = 25
+set d_max_pitch = 26
 set feedforward_boost = 3
 set feedforward_max_rate_limit = 50
+set simplified_d_gain = 70
+set simplified_pi_gain = 105
+set simplified_d_max_gain = 70
+set simplified_feedforward_gain = 115
+set simplified_pitch_d_gain = 90
+set simplified_pitch_pi_gain = 105
 
 profile 1
 
 profile 2
 
-# profile 2
-set p_pitch = 51
-set i_pitch = 92
-set d_pitch = 30
-set f_pitch = 150
-set p_roll = 47
-set i_roll = 84
-set d_roll = 27
-set f_roll = 138
-set p_yaw = 47
-set i_yaw = 84
-set f_yaw = 138
-set d_max_roll = 36
-set d_max_pitch = 41
-set simplified_d_gain = 90
-set simplified_pi_gain = 105
-set simplified_feedforward_gain = 115
-set simplified_pitch_pi_gain = 105
-
 profile 3
 
 # restore original profile selection
-profile 2
+profile 0
 
 rateprofile 0
 
