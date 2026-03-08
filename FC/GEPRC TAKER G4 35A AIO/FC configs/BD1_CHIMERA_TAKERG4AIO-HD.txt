@@ -147,20 +147,22 @@ profile 0
 # profile 0
 set p_pitch = 51
 set i_pitch = 92
-set d_pitch = 30
+set d_pitch = 21
 set f_pitch = 150
 set p_roll = 47
 set i_roll = 84
-set d_roll = 27
+set d_roll = 21
 set f_roll = 138
 set p_yaw = 47
 set i_yaw = 84
 set f_yaw = 138
-set d_max_roll = 36
-set d_max_pitch = 41
-set simplified_d_gain = 90
+set d_max_roll = 25
+set d_max_pitch = 26
+set simplified_d_gain = 70
 set simplified_pi_gain = 105
+set simplified_d_max_gain = 70
 set simplified_feedforward_gain = 115
+set simplified_pitch_d_gain = 90
 set simplified_pitch_pi_gain = 105
 
 profile 1
