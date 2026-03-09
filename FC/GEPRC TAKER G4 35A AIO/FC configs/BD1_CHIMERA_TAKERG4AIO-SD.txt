@@ -1,5 +1,6 @@
 defaults nosave
 
+# diff all
 
 # version
 # Betaflight / STM32G47X (G473) 2025.12.1 Jan  9 2026 / 00:31:12 (85d201376) MSP API: 1.47
@@ -136,6 +137,15 @@ set pilot_name = Bart SQ5SAZ
 set ap_hover_throttle = 1300
 
 profile 0
+
+# profile 0
+set d_pitch = 8
+set d_roll = 15
+set d_max_roll = 19
+set d_max_pitch = 10
+set simplified_d_gain = 50
+set simplified_d_max_gain = 80
+set simplified_pitch_d_gain = 50
 
 profile 1
 
