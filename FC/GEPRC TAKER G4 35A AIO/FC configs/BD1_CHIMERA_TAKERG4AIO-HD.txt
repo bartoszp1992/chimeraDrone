@@ -1,5 +1,6 @@
 defaults nosave
 
+# diff all
 
 # version
 # Betaflight / STM32G47X (G473) 2025.12.1 Jan  9 2026 / 00:31:12 (85d201376) MSP API: 1.47
@@ -75,7 +76,7 @@ vtxtable powerlabels 25 100 200 350
 set acc_calibration = -42,-6,1,1
 set align_mag = CUSTOM
 set mag_align_yaw = 450
-set mag_calibration = 48,-120,406
+set mag_calibration = 48,-80,-524
 set fpv_mix_degrees = 20
 set motor_pwm_protocol = DSHOT300
 set motor_output_reordering = 2,3,0,1,4,5,6,7
@@ -98,8 +99,8 @@ set pos_hold_without_mag = ON
 set osd_warn_bitmask = 270333
 set osd_cap_alarm = 400
 set osd_vbat_pos = 353
-set osd_link_quality_pos = 7243
-set osd_tim_2_pos = 7211
+set osd_link_quality_pos = 7247
+set osd_tim_2_pos = 7215
 set osd_flymode_pos = 6680
 set osd_g_force_pos = 2080
 set osd_throttle_pos = 2402
@@ -109,16 +110,16 @@ set osd_ah_pos = 6330
 set osd_current_pos = 6625
 set osd_mah_drawn_pos = 2433
 set osd_craft_name_pos = 6144
-set osd_pilot_name_pos = 7174
-set osd_gps_speed_pos = 7627
+set osd_pilot_name_pos = 7178
+set osd_gps_speed_pos = 7632
 set osd_gps_lon_pos = 65
 set osd_gps_lat_pos = 81
-set osd_gps_sats_pos = 7691
+set osd_gps_sats_pos = 7697
 set osd_home_dir_pos = 7459
-set osd_home_dist_pos = 7595
-set osd_flight_dist_pos = 3467
+set osd_home_dist_pos = 7600
+set osd_flight_dist_pos = 3472
 set osd_compass_bar_pos = 6166
-set osd_altitude_pos = 7659
+set osd_altitude_pos = 7662
 set osd_power_pos = 289
 set osd_warnings_pos = 14838
 set osd_avg_cell_voltage_pos = 6594
@@ -129,7 +130,10 @@ set osd_stick_overlay_left_pos = 129
 set osd_stick_overlay_right_pos = 149
 set osd_sys_goggle_voltage_pos = 129
 set osd_stat_bitmask = 397246
+set vtx_band = 5
+set vtx_channel = 1
 set vtx_power = 1
+set vtx_freq = 5658
 set pinio_config = 129,1,1,1
 set pinio_box = 39,255,255,255
 set craft_name = BD1 "Chimera"
@@ -148,22 +152,6 @@ set simplified_d_max_gain = 80
 set simplified_pitch_d_gain = 50
 
 profile 1
-
-# profile 1
-set p_pitch = 23
-set i_pitch = 42
-set d_pitch = 17
-set f_pitch = 62
-set p_roll = 22
-set i_roll = 40
-set d_roll = 15
-set f_roll = 60
-set p_yaw = 22
-set i_yaw = 40
-set f_yaw = 60
-set d_max_roll = 20
-set d_max_pitch = 23
-set simplified_master_multiplier = 50
 
 profile 2
 
