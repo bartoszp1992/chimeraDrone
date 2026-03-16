@@ -2,7 +2,7 @@
 
 ![chimera photo](images/chimera6.jpg)
 
-**Chimera is 2,2" freestyle cinewhoop type drone, for 3S batteries, with fully 3D printed construction**
+**Chimera is 2,2" / 3" freestyle cinewhoop type drone, for 3S batteries, with fully 3D printed construction**
 
 - Ready-to-flight mass(with lamp, battery and wings)
 : <200grams
@@ -31,7 +31,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 >one battery for one 2-3 minutes flight. Make sure you have more than 1
 
 ### parts
-- **ducts-RL**
+- **ducts**
 : PA12, 3 wall loops, tree supports(add exception for strap channel), 10-30% honeycomb infill, rotate 180deg in X axis(upside down). after print heat and bend down the wing trims by 90 degrees
 - **frame**
 : PC-CF, 2 wall loops, no supports, 100% grid infill, rotate 35deg in Z axis
@@ -56,12 +56,11 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 ![chimera render](images/chimera12.png)
 
 ### 3D printed
-- 1 x ducts-RL
+- 1 x ducts
 - 1 x body
-- 1 x FDM frame
+- 1 x frame
 - 1 x left wing
 - 1 x right wing
-- 4 x cable mount
 - 1 x roof or mount roof
 - 1 x GNSS mount
 - 1 x cable lock
@@ -69,15 +68,20 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - 4 x FC sleeves 2mm
 - 4 x FC sleeves 3mm
 - 4 x grip nuts
+- 1x light plate
 
 ### electronic
 - [ ] **FC**
 : GEPRC TAKER G4 35A AIO
->you can use any other 20A+, compatible with 3S and 25,5mm pitch
-- [ ] **propellers**
-: GEMFAN 2218 3-blade Propellers (1.5mm shaft)
-- [ ] **motors**
-: BETAFPV Lava series 1104 | 7200KV Brushless Motors
+>you can use any other 35A+, compatible with 3/4S and 25,5mm pitch
+- [ ] **propellers 2.2"**
+: GEMFAN 2218 3-blade / HQprop 2216 3-blade (1.5mm shaft)
+- [ ] **motors 2.2"**
+: BETAFPV Lava series 1104 7200KV
+- [ ] **propellers 3"**
+: GEMFAN D75-3 (1.5mm shaft)
+- [ ] **motors 3"**
+: EMAX ECO 1404 3700KV
 - [ ] **receiver**
 : SpeedyBee Nano 2.4G ExpressLRS ELRS Receiver
 >or any other ELRS receiver which can fit into modules mounts in body
@@ -87,8 +91,10 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : Foxeer Reaper Nano V2 VTx 5.8G 72CH 350mW Tramp
 - [ ] **Video antenna**
 : Speedy Bee 5.8 GHz Antenna V2 UFL
-- [ ] **battery**
+- [ ] **battery 2.2"**
 : LAVA 3S 550mAh 75C
+- [ ] **battery 3"**
+: TATTU R-LINE 4S 750mAh 95C
 - [ ] **GNSS**
 : Foxeer M10Q-180 compass- mount on **right** fame spoke, faced antenna up and socket left(to body)
 - [ ] **Controller**
