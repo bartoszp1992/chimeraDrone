@@ -579,7 +579,7 @@
 		(dnp no)
 		(uuid "2fc0be74-0074-41fb-80ca-bfe0c88749e8")
 		(property "Reference" "Q1"
-			(at 115.57 77.47 90)
+			(at 111.76 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -588,7 +588,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 115.57 74.93 90)
+			(at 111.76 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -650,7 +650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "STL6P3LLH6"
+		(property "Field8" "SQD40031EL-GE3"
 			(at 124.46 77.47 90)
 			(effects
 				(font
