@@ -2,8 +2,8 @@ defaults nosave
 
 
 # version
-# Betaflight / STM32G47X (G473) 2025.12.1 Jan  9 2026 / 00:31:12 (85d201376) MSP API: 1.47
-# config rev: 46f5576
+# Betaflight / STM32G47X (G473) 2025.12.2 Feb 17 2026 / 03:16:06 (79065c96b) MSP API: 1.47
+# config rev: e378347
 
 # start the command batch
 batch start
@@ -94,6 +94,7 @@ set gps_ublox_use_galileo = ON
 set gps_rescue_alt_mode = FIXED_ALT
 set gps_rescue_max_angle = 40
 set gps_rescue_descent_dist = 15
+set gps_rescue_allow_arming_without_fix = ON
 set pos_hold_without_mag = ON
 set osd_warn_bitmask = 270333
 set osd_cap_alarm = 400
@@ -142,13 +143,13 @@ set ap_hover_throttle = 1300
 profile 0
 
 # profile 0
-set d_pitch = 8
-set d_roll = 15
-set d_max_roll = 19
-set d_max_pitch = 10
-set simplified_d_gain = 50
+set d_pitch = 21
+set d_roll = 23
+set d_max_roll = 30
+set d_max_pitch = 27
+set simplified_d_gain = 80
 set simplified_d_max_gain = 80
-set simplified_pitch_d_gain = 50
+set simplified_pitch_d_gain = 80
 
 profile 1
 

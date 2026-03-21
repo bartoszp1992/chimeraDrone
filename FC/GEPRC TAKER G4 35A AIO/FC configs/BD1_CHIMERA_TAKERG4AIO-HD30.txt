@@ -1,10 +1,9 @@
 defaults nosave
 
-# diff all
 
 # version
-# Betaflight / STM32G47X (G473) 2025.12.1 Jan  9 2026 / 00:31:12 (85d201376) MSP API: 1.47
-# config rev: 46f5576
+# Betaflight / STM32G47X (G473) 2025.12.2 Feb 17 2026 / 03:16:06 (79065c96b) MSP API: 1.47
+# config rev: e378347
 
 # start the command batch
 batch start
@@ -14,7 +13,7 @@ defaults nosave
 
 board_name TAKERG4AIO
 manufacturer_id GEPR
-mcu_id 003300184834501720383438
+mcu_id 004e00525246501520333536
 signature 
 
 # name: BD1 "Aeria"
@@ -95,6 +94,7 @@ set gps_ublox_use_galileo = ON
 set gps_rescue_alt_mode = FIXED_ALT
 set gps_rescue_max_angle = 40
 set gps_rescue_descent_dist = 15
+set gps_rescue_allow_arming_without_fix = ON
 set pos_hold_without_mag = ON
 set osd_warn_bitmask = 270333
 set osd_cap_alarm = 400
