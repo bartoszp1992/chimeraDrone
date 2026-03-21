@@ -87,10 +87,10 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 >or any other ELRS receiver which can fit into modules mounts in body
 - [ ] **camera**
 : Foxeer Cat 3 Micro(19x19mm) or other analog camera(set for PAL)
-- [ ] **VTX**
-: Foxeer Reaper Nano V2 VTx 5.8G 72CH 350mW Tramp
-- [ ] **Video antenna**
-: Speedy Bee 5.8 GHz Antenna V2 UFL
+- [ ] **VTX analog**
+: TBS Unify Pro32 Nano 5G8
+- [ ] **VTX digital**
+: BETAFPV P1 Air unit
 - [ ] **battery 2.2"**
 : LAVA 3S 550mAh 75C
 - [ ] **battery 3"**
@@ -115,10 +115,6 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : to make connection with FC
 - [ ] **25-30A car fuse and cable socket**
 : not necessary, but recommended
-- [ ] **L7805 linear stabilizer + 2x100nF MLCC capacitor**
-: supply GNSS module from stabilizer instead of 5V from BEC
-- [ ] **aluminium foil and polyimide tape**
-: optional-for shielding GNSS cable and VTX
 - [ ] **14x9x5 (diameter * hole * height) ferrite ring**
 : turn 3-4x GNSS cable as close as possible to GNSS module, and behind the linear stabilizer
     
@@ -150,24 +146,6 @@ If you are building remotely:
 > In other options add **Magnetometers**, **Position Hold** and **Altitude Hold**
 
 
-
-# todo list
-- ~~[ ] make case~~
-- [x] fix assembly errors
->freeCAD bug- fixed by workaround
-- [x] record night fly
-- [x] record full power flight
-- [ ] make assembly manual
-- [x] change FC pitch to 25.5x25.5mm
-- [x] add fuses to BOM
-- ~~[ ] include Rx firmware~~
-- ~~[ ] include Tx firmware~~
-- [x] include betafpv F405 firmware
-- [x] include geprc taker firmware
-- [x] fix GPS speed log on controller lag(ELRS script in controller- telemetry ratio)
-- [x] fix stability on fast yaw
-- [x] find throttle value for auto-land
-- [x] set altitude and speed alarm
 
 
 *BD1 stands for "Bart's Design 1"*

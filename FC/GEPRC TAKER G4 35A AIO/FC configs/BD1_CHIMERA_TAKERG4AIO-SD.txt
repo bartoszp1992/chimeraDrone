@@ -1,10 +1,9 @@
 defaults nosave
 
-# diff all
 
 # version
-# Betaflight / STM32G47X (G473) 2025.12.1 Jan  9 2026 / 00:31:12 (85d201376) MSP API: 1.47
-# config rev: 46f5576
+# Betaflight / STM32G47X (G473) 2025.12.2 Feb 17 2026 / 03:16:06 (79065c96b) MSP API: 1.47
+# config rev: e378347
 
 # start the command batch
 batch start
@@ -27,7 +26,7 @@ feature LED_STRIP
 feature OSD
 
 # serial
-serial UART1 8192 115200 57600 0 115200
+serial UART1 2048 115200 57600 0 115200
 serial UART4 64 115200 57600 0 115200
 serial LPUART1 2 115200 57600 0 115200
 
@@ -59,14 +58,14 @@ aux 8 35 0 1875 2100 0 0
 # vtxtable
 vtxtable bands 5
 vtxtable channels 8
-vtxtable band 1 BOSCAM_A A CUSTOM  5865 5845 5825 5805 5785 5765 5745 5725
-vtxtable band 2 BOSCAM_B B CUSTOM  5733 5752 5771 5790 5809 5828 5847 5866
-vtxtable band 3 BOSCAM_E E CUSTOM  5705 5685 5665 5645 5885 5905 5925 5945
-vtxtable band 4 FATSHARK F CUSTOM  5740 5760 5780 5800 5820 5840 5860 5880
-vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
+vtxtable band 2 BOSCAM_B B FACTORY 5733 5752 5771 5790 5809 5828 5847 5866
+vtxtable band 3 BOSCAM_E E FACTORY 5705 5685 5665 5645 5885 5905 5925 5945
+vtxtable band 4 FATSHARK F FACTORY 5740 5760 5780 5800 5820 5840 5860 5880
+vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
 vtxtable powerlevels 4
-vtxtable powervalues 25 100 200 400
-vtxtable powerlabels 25 100 200 350
+vtxtable powervalues 14 20 26 36
+vtxtable powerlabels 25 100 400 MAX
 
 # master
 set acc_trim_pitch = -3
@@ -100,7 +99,7 @@ set osd_link_quality_pos = 6262
 set osd_tim_2_pos = 6230
 set osd_flymode_pos = 6607
 set osd_g_force_pos = 2113
-set osd_throttle_pos = 2200
+set osd_throttle_pos = 6296
 set osd_crosshairs_pos = 6413
 set osd_ah_sbar_pos = 6414
 set osd_ah_pos = 6286
@@ -129,8 +128,10 @@ set osd_sys_goggle_voltage_pos = 129
 set osd_stat_bitmask = 397246
 set osd_profile = 2
 set osd_displayport_device = AUTO
-set vtx_channel = 2
+set vtx_band = 5
+set vtx_channel = 4
 set vtx_power = 1
+set vtx_freq = 5769
 set vcd_video_system = PAL
 set craft_name = BD1 "Chimera"
 set pilot_name = Bart SQ5SAZ
