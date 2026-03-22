@@ -40,8 +40,6 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 >remove supports under side vent pockets, camera axis holes, right tail vent pocket, VTX ant cable hole
 - **wings**
 : PLA GLOW, 3 wall loops, 80%, no supports, rotate 90deg in Y axis, to make sure base is parallel to table
-- **cable mounts**
-: TPU A95, 100%, 3 wall loops, X90 deg, Y-45deg
 - **roof/mount roof**
 : TPU A95, 100%, 3 wall loops, Y90 deg, tree support
 >set top support interface spacing 0.2mm to get nice look
@@ -49,7 +47,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : TPU A95, 3 wal loops, X90 deg
 - **Grip nuts, sleeves**
 : PETG, 100%
-- **cable lock**
+- **top lock**
 : PETG, 100%, X90 deg
 
 ## BOM
