@@ -63,10 +63,12 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - 1 x GNSS mount
 - 1 x cable lock
 - 4 x camera sleeves
-- 4 x FC sleeves 2mm
-- 4 x FC sleeves 3mm
+- 4 x sleeve 2mm
+- 4 x sleeve 3mm
 - 4 x grip nuts
-- 1x light plate
+- 1 x light plate
+- 16 x 1.2mm sleeve for frame30
+- 16 x 0.6mm sleeve for frame22
 
 ### electronic
 - [ ] **FC**
@@ -131,6 +133,8 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] 4x M2 1,6mm nut to lock stack screws
 - [ ] 4x M2 20mm PA screws to mount digital VTX
 - [ ] 4x M2 0,8mm nut to screw in digital VTX
+- [ ] 16x M2 8mm screws for frame30
+- [ ] 16x M2 6mm screws for frame22
 
 ![chimera render](images/chimera11.png)
 
