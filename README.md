@@ -94,7 +94,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] **battery 2.2"**
 : LAVA 3S 550mAh 75C
 - [ ] **battery 3"**
-: TATTU R-LINE 4S 750mAh 95C
+: LAVA II 4S 680mAh 95C
 - [ ] **GNSS**
 : Foxeer M10Q-180 compass- mount on **right** fame spoke, faced antenna up and socket left(to body)
 - [ ] **Controller**
