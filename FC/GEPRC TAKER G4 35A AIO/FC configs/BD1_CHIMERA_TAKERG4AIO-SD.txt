@@ -13,7 +13,7 @@ defaults nosave
 
 board_name TAKERG4AIO
 manufacturer_id GEPR
-mcu_id 004e00525246501520333536
+mcu_id 003400414834501720383438
 signature 
 
 # name: BD1 "Chimera"
@@ -48,12 +48,16 @@ mode_color 7 0 10
 aux 0 0 2 1350 2100 0 0
 aux 1 1 6 900 1125 1 0
 aux 2 1 4 900 1125 1 0
-aux 3 3 8 900 1125 0 0
-aux 4 27 0 1875 2100 0 0
-aux 5 11 10 1875 2100 1 0
-aux 6 15 1 1800 2100 0 0
-aux 7 28 6 900 1625 0 0
-aux 8 35 0 1875 2100 0 0
+aux 3 3 8 900 1125 1 0
+aux 4 3 0 900 1125 1 0
+aux 5 27 0 1875 2100 1 0
+aux 6 27 8 1875 2100 1 0
+aux 7 11 10 1875 2100 1 0
+aux 8 11 0 900 1125 1 0
+aux 9 15 1 1800 2100 0 0
+aux 10 28 6 900 1625 0 0
+aux 11 35 0 1875 2100 1 0
+aux 12 35 8 900 1125 1 0
 
 # vtxtable
 vtxtable bands 5
@@ -68,8 +72,7 @@ vtxtable powervalues 14 20 26 36
 vtxtable powerlabels 25 100 400 MAX
 
 # master
-set acc_trim_pitch = -3
-set acc_calibration = 0,-8,16,1
+set acc_calibration = 4,11,8,1
 set align_mag = CUSTOM
 set mag_align_yaw = 450
 set mag_calibration = 133,-203,-230
