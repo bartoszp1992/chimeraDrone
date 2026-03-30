@@ -22,6 +22,7 @@ signature
 feature -AIRMODE
 feature GPS
 feature TELEMETRY
+feature 3D
 feature LED_STRIP
 feature OSD
 
@@ -45,19 +46,20 @@ mode_color 6 1 6
 mode_color 7 0 10
 
 # aux
-aux 0 0 2 1350 2100 0 0
-aux 1 1 6 900 1125 1 0
-aux 2 1 4 900 1125 1 0
-aux 3 3 8 900 1125 1 0
-aux 4 3 0 900 1125 1 0
-aux 5 27 0 1875 2100 1 0
-aux 6 27 8 1875 2100 1 0
-aux 7 11 10 1875 2100 1 0
-aux 8 11 0 900 1125 1 0
-aux 9 15 1 1800 2100 0 0
-aux 10 28 6 900 1625 0 0
-aux 11 35 0 1875 2100 1 0
-aux 12 35 8 900 1125 1 0
+aux 0 0 1 1200 2100 0 0
+aux 1 1 2 900 1200 1 0
+aux 2 3 4 900 1200 1 0
+aux 3 3 0 1800 2100 1 0
+aux 4 27 4 1800 2100 1 0
+aux 5 27 0 900 1200 1 0
+aux 6 11 4 900 1200 1 0
+aux 7 11 0 1800 2100 1 0
+aux 8 15 6 1800 2100 0 0
+aux 9 28 2 900 1800 0 0
+aux 10 29 3 900 1200 0 0
+aux 11 35 4 1800 2100 1 0
+aux 12 35 0 1800 2100 1 0
+aux 13 39 8 1800 2100 1 0
 
 # vtxtable
 vtxtable bands 5
@@ -83,11 +85,13 @@ set failsafe_delay = 20
 set failsafe_landing_time = 70
 set failsafe_throttle = 1300
 set failsafe_switch_mode = STAGE2
-set failsafe_procedure = GPS-RESCUE
 set align_board_roll = 180
 set align_board_yaw = -45
 set bat_capacity = 500
 set vbat_max_cell_voltage = 435
+set 3d_deadband_low = 1400
+set 3d_deadband_high = 1600
+set 3d_neutral = 1500
 set small_angle = 180
 set mag_declination = 70
 set gps_ublox_use_galileo = ON
@@ -133,9 +137,9 @@ set osd_stat_bitmask = 397246
 set osd_profile = 2
 set osd_displayport_device = AUTO
 set vtx_band = 5
-set vtx_channel = 4
-set vtx_power = 1
-set vtx_freq = 5769
+set vtx_channel = 8
+set vtx_power = 2
+set vtx_freq = 5917
 set vcd_video_system = PAL
 set craft_name = BD1 "Chimera"
 set pilot_name = Bart SQ5SAZ

@@ -98,7 +98,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] **GNSS**
 : Foxeer M10Q-180 compass- mount on **right** fame spoke, faced antenna up and socket left(to body)
 - [ ] **Controller**
-: Jumper Bumblebee, or any other with ELRS and edgeTX
+: RM Pocket, or any other with ELRS and edgeTX
 - [ ] **Goggles**
 : BETAFPV VR03 or any other analog goggles
 - [ ] **VRX antenna**
