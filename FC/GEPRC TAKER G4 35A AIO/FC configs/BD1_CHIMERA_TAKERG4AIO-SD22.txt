@@ -1,5 +1,6 @@
 defaults nosave
 
+# diff all
 
 # version
 # Betaflight / STM32G47X (G473) 2025.12.2 Feb 17 2026 / 03:16:06 (79065c96b) MSP API: 1.47
@@ -137,9 +138,9 @@ set osd_stat_bitmask = 397246
 set osd_profile = 2
 set osd_displayport_device = AUTO
 set vtx_band = 5
-set vtx_channel = 8
-set vtx_power = 2
-set vtx_freq = 5917
+set vtx_channel = 4
+set vtx_power = 1
+set vtx_freq = 5769
 set vcd_video_system = PAL
 set craft_name = BD1 "Chimera"
 set pilot_name = Bart SQ5SAZ
