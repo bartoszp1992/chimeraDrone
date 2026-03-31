@@ -26,7 +26,6 @@ resource PINIO 1 A15
 feature -AIRMODE
 feature GPS
 feature TELEMETRY
-feature 3D
 feature LED_STRIP
 feature OSD
 
@@ -89,6 +88,7 @@ set failsafe_delay = 20
 set failsafe_landing_time = 70
 set failsafe_throttle = 1300
 set failsafe_switch_mode = STAGE2
+set failsafe_procedure = GPS-RESCUE
 set align_board_roll = 180
 set align_board_yaw = -45
 set bat_capacity = 650
