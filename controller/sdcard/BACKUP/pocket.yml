@@ -774,7 +774,7 @@ logicalSw:
    6:
       func: FUNC_VPOS
       def: "SE,0"
-      andsw: "NONE"
+      andsw: "SA0"
       lsPersist: 0
       lsState: 0
       delay: 0
@@ -888,12 +888,6 @@ flightModeData:
    0:
       trim: 
          0:
-            value: 6
-            mode: 0
-         1:
-            value: 4
-            mode: 0
-         2:
             value: -2
             mode: 0
       name: ""
