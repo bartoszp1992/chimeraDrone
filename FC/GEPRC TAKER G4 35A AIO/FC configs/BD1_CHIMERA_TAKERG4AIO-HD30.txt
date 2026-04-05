@@ -1,5 +1,6 @@
 defaults nosave
 
+# diff all
 
 # version
 # Betaflight / STM32G47X (G473) 2025.12.2 Feb 17 2026 / 03:16:06 (79065c96b) MSP API: 1.47
@@ -96,6 +97,7 @@ set mag_calibration = -555,-54,-105
 set fpv_mix_degrees = 20
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT300
+set motor_poles = 12
 set motor_output_reordering = 2,3,0,1,4,5,6,7
 set failsafe_delay = 20
 set failsafe_landing_time = 70
