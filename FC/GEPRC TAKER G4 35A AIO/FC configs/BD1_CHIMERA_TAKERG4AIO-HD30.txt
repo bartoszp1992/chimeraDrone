@@ -13,14 +13,24 @@ defaults nosave
 
 board_name TAKERG4AIO
 manufacturer_id GEPR
-mcu_id 003e00545246500d20333536
+mcu_id 003300184834501720383438
 signature 
 
 # name: BD1 "Aeria"
 
 # resources
 resource BEEPER 1 NONE
+resource LED_STRIP 1 A10
+resource SERIAL_RX 1 NONE
 resource PINIO 1 A15
+
+# timer
+timer A10 AF10
+# pin A10: TIM2 CH4 (AF10)
+
+# dma
+dma pin A10 1
+# pin A10: DMA1 Channel 2 Request 59
 
 # feature
 feature -AIRMODE
@@ -77,11 +87,14 @@ vtxtable powervalues 25 100 200 400
 vtxtable powerlabels 25 100 200 350
 
 # master
+set dyn_notch_count = 1
+set dyn_notch_q = 500
 set acc_calibration = 6,-5,13,1
 set align_mag = CUSTOM
 set mag_align_yaw = 450
-set mag_calibration = -744,-107,-125
+set mag_calibration = -555,-54,-105
 set fpv_mix_degrees = 20
+set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT300
 set motor_output_reordering = 2,3,0,1,4,5,6,7
 set failsafe_delay = 20
@@ -91,7 +104,7 @@ set failsafe_switch_mode = STAGE2
 set failsafe_procedure = GPS-RESCUE
 set align_board_roll = 180
 set align_board_yaw = -45
-set bat_capacity = 650
+set bat_capacity = 600
 set vbat_max_cell_voltage = 435
 set 3d_deadband_low = 1400
 set 3d_deadband_high = 1600
@@ -106,12 +119,12 @@ set gps_rescue_allow_arming_without_fix = ON
 set pos_hold_without_mag = ON
 set osd_warn_bitmask = 270333
 set osd_cap_alarm = 400
-set osd_vbat_pos = 353
+set osd_vbat_pos = 2497
 set osd_link_quality_pos = 7245
 set osd_tim_2_pos = 7213
 set osd_flymode_pos = 6680
 set osd_g_force_pos = 2080
-set osd_throttle_pos = 2402
+set osd_throttle_pos = 3181
 set osd_crosshairs_pos = 6457
 set osd_ah_sbar_pos = 6458
 set osd_ah_pos = 6330
@@ -130,7 +143,7 @@ set osd_compass_bar_pos = 6166
 set osd_altitude_pos = 7661
 set osd_power_pos = 289
 set osd_warnings_pos = 14838
-set osd_avg_cell_voltage_pos = 6594
+set osd_avg_cell_voltage_pos = 6208
 set osd_battery_usage_pos = 6657
 set osd_disarmed_pos = 6614
 set osd_core_temp_pos = 2466

@@ -74,11 +74,14 @@ vtxtable powervalues 14 20 26 36
 vtxtable powerlabels 25 100 400 MAX
 
 # master
+set dyn_notch_count = 1
+set dyn_notch_q = 500
 set acc_calibration = 4,11,8,1
 set align_mag = CUSTOM
 set mag_align_yaw = 450
-set mag_calibration = 133,-203,-230
+set mag_calibration = -548,-693,35
 set fpv_mix_degrees = 20
+set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT300
 set motor_output_reordering = 2,3,0,1,4,5,6,7
 set failsafe_delay = 20
@@ -103,7 +106,7 @@ set gps_rescue_allow_arming_without_fix = ON
 set pos_hold_without_mag = ON
 set osd_warn_bitmask = 270333
 set osd_cap_alarm = 400
-set osd_vbat_pos = 353
+set osd_vbat_pos = 2433
 set osd_link_quality_pos = 6262
 set osd_tim_2_pos = 6230
 set osd_flymode_pos = 6607
@@ -127,7 +130,7 @@ set osd_compass_bar_pos = 6250
 set osd_altitude_pos = 6551
 set osd_power_pos = 289
 set osd_warnings_pos = 14761
-set osd_avg_cell_voltage_pos = 6529
+set osd_avg_cell_voltage_pos = 6241
 set osd_battery_usage_pos = 6593
 set osd_disarmed_pos = 6539
 set osd_core_temp_pos = 2401
