@@ -1,6 +1,5 @@
 defaults nosave
 
-# diff all
 
 # version
 # Betaflight / STM32G47X (G473) 2025.12.2 Feb 17 2026 / 03:16:06 (79065c96b) MSP API: 1.47
@@ -21,17 +20,18 @@ signature
 
 # resources
 resource BEEPER 1 NONE
-resource LED_STRIP 1 A10
-resource SERIAL_RX 1 NONE
+resource LED_STRIP 1 B04
+resource SERIAL_RX 2 NONE
+resource SPI_SDI 3 NONE
 resource PINIO 1 A15
 
 # timer
-timer A10 AF10
-# pin A10: TIM2 CH4 (AF10)
+timer B04 AF2
+# pin B04: TIM3 CH1 (AF2)
 
 # dma
-dma pin A10 1
-# pin A10: DMA1 Channel 2 Request 59
+dma pin B04 7
+# pin B04: DMA1 Channel 8 Request 61
 
 # feature
 feature -AIRMODE
