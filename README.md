@@ -32,23 +32,21 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 
 ### parts
 - **ducts**
-: PA12, 3 wall loops, tree supports(add exception for strap channel), 10-30% honeycomb infill, rotate 180deg in X axis(upside down). after print heat and bend down the wing trims by 90 degrees
+: PA12. after print heat and bend down the wing trims by 90 degrees
 - **frame**
-: PC-CF, 2 wall loops, no supports, 100% grid infill, rotate 35deg in Z axis
+: PC-CF/PETG-CF, 2 wall loops, no supports, 100% grid infill, rotate 15deg in Z axis
 - **body**
-: PETG-CF, 3 wall loops, tree strong supports, 100% grid infill or PA12, 2 wall loops, tree supports, 15% honeycomb infill
->remove supports under side vent pockets, camera axis holes, right tail vent pocket, VTX ant cable hole
+: PA12
 - **wings**
-: PLA GLOW, 3 wall loops, 80%, no supports, rotate 90deg in Y axis, to make sure base is parallel to table
-- **roof/mount roof**
-: TPU A95, 100%, 3 wall loops, Y90 deg, tree support
->set top support interface spacing 0.2mm to get nice look
+: any
+- **roof**
+: TPU A95
 - **GNSS mount**
-: TPU A95, 3 wal loops, X90 deg
+: TPU A95
 - **Grip nuts, sleeves**
-: PETG, 100%
+: PETG
 - **top lock**
-: PETG, 100%, X90 deg
+: PETG
 
 ## BOM
 ![chimera render](images/chimera12.png)
