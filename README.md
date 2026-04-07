@@ -84,7 +84,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : SpeedyBee Nano 2.4G ExpressLRS ELRS Receiver
 >or any other ELRS receiver which can fit into modules mounts in body
 - [ ] **camera**
-: Foxeer Cat 3 Micro(19x19mm) or other analog camera(set for PAL)
+: CADDX Ratel Pro
 - [ ] **VTX analog**
 : TBS Unify Pro32 Nano 5G8
 - [ ] **VTX digital**
@@ -105,7 +105,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : iMax B6 V2 with some 12V supplier / ToolkitRC Q4AC
 - [ ] **5A car fuse and cable socket**
 : charging fuse
-- [ ] **2x RGB LED**
+- [ ] **4x RGB LED**
 : if you want make night flies
 - [ ] **2 x additional XT30 connectors set**
 : to connect battery to charger and FC
