@@ -77,9 +77,9 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] **motors 2.2"**
 : BETAFPV Lava series 1104 7200KV
 - [ ] **propellers 3"**
-: GEMFAN D75-3 (1.5mm shaft)
+: HQPROP T3X1.8X3
 - [ ] **motors 3"**
-: EMAX ECO 1404 3700KV
+: flyfishRC FLASH 1404 4500KV
 - [ ] **receiver**
 : SpeedyBee Nano 2.4G ExpressLRS ELRS Receiver
 >or any other ELRS receiver which can fit into modules mounts in body
