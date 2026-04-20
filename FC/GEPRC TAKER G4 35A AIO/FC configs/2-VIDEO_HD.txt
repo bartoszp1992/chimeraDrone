@@ -1,0 +1,49 @@
+# led
+led 0 7,0::C:1
+led 1 8,0::C:1
+led 2 8,1::AB:0
+led 3 7,1::AB:0
+
+# serial
+serial UART1 131073 115200 57600 0 115200
+serial UART4 64 115200 57600 0 115200
+serial LPUART1 2 115200 115200 0 115200
+
+# OSD
+set osd_warn_bitmask = 270333
+set osd_cap_alarm = 400
+set osd_vbat_pos = 14785
+set osd_link_quality_pos = 3149
+set osd_tim_2_pos = 7213
+set osd_flymode_pos = 6680
+set osd_g_force_pos = 2080
+set osd_throttle_pos = 3181
+set osd_crosshairs_pos = 14649
+set osd_ah_sbar_pos = 6458
+set osd_ah_pos = 6330
+set osd_current_pos = 2529
+set osd_mah_drawn_pos = 14721
+set osd_craft_name_pos = 6144
+set osd_pilot_name_pos = 7176
+set osd_gps_speed_pos = 15821
+set osd_gps_lon_pos = 65
+set osd_gps_lat_pos = 81
+set osd_gps_sats_pos = 15885
+set osd_home_dir_pos = 15651
+set osd_home_dist_pos = 15789
+set osd_flight_dist_pos = 15757
+set osd_compass_bar_pos = 6166
+set osd_altitude_pos = 7661
+set osd_power_pos = 289
+set osd_warnings_pos = 14838
+set osd_avg_cell_voltage_pos = 14400
+set osd_battery_usage_pos = 2561
+set osd_disarmed_pos = 14806
+set osd_core_temp_pos = 2466
+set osd_stick_overlay_left_pos = 129
+set osd_stick_overlay_right_pos = 149
+set osd_sys_goggle_voltage_pos = 129
+set osd_stat_bitmask = 397246
+set osd_profile = 2
+set pinio_config = 129,1,1,1
+set pinio_box = 39,255,255,255

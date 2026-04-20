@@ -1,0 +1,4 @@
+set vtx_band = 5
+set vtx_channel = 4
+set vtx_power = 1
+set vtx_freq = 5769

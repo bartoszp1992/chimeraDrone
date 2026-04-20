@@ -1,0 +1,14 @@
+# resources
+resource BEEPER 1 NONE
+resource LED_STRIP 1 B04
+resource SERIAL_RX 2 NONE
+resource SPI_SDI 3 NONE
+resource PINIO 1 A15
+
+# timer
+timer B04 AF2
+# pin B04: TIM3 CH1 (AF2)
+
+# dma
+dma pin B04 7
+# pin B04: DMA1 Channel 8 Request 61

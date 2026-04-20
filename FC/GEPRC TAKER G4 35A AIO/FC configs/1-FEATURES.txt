@@ -1,0 +1,7 @@
+defaults nosave
+
+feature -AIRMODE
+feature GPS
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
