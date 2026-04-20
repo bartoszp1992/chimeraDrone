@@ -1,3 +1,5 @@
+serial UART1 2048 115200 57600 0 115200
+
 # vtxtable
 vtxtable bands 5
 vtxtable channels 8
