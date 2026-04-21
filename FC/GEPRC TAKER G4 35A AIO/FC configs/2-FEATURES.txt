@@ -1,5 +1,3 @@
-defaults nosave
-
 feature -AIRMODE
 feature GPS
 feature TELEMETRY

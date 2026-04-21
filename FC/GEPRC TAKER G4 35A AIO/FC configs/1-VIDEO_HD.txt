@@ -1,3 +1,5 @@
+defaults nosave
+
 # led
 led 0 7,0::C:1
 led 1 8,0::C:1

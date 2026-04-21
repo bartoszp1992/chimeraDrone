@@ -1,3 +1,18 @@
+aux 0 0 1 1200 2100 0 0
+aux 1 1 2 900 1200 1 0
+aux 2 3 4 900 1200 1 0
+aux 3 3 0 1800 2100 1 0
+aux 4 27 4 1800 2100 1 0
+aux 5 27 0 900 1200 1 0
+aux 6 11 4 900 1200 1 0
+aux 7 11 0 1800 2100 1 0
+aux 8 15 6 1800 2100 0 0
+aux 9 28 2 900 1800 0 0
+aux 10 29 3 900 1200 0 0
+aux 11 35 4 1800 2100 1 0
+aux 12 35 0 1800 2100 1 0
+aux 13 39 8 1800 2100 1 0
+
 set dyn_notch_count = 1
 set dyn_notch_q = 500
 set acc_calibration = 4,11,8,1
@@ -29,3 +44,17 @@ set gps_rescue_max_angle = 40
 set gps_rescue_descent_dist = 15
 set gps_rescue_allow_arming_without_fix = ON
 set pos_hold_without_mag = ON
+
+# led
+led 0 7,0::C:1
+led 1 8,0::C:1
+led 2 8,1::AB:0
+led 3 7,1::AB:0
+
+# color
+color 14 359,0,255
+
+# mode_color
+mode_color 6 0 12
+mode_color 6 1 6
+mode_color 7 0 10
