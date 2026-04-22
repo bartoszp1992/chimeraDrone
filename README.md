@@ -2,7 +2,7 @@
 
 ![chimera photo](images/chimera6.jpg)
 
-**Chimera is 2,2" / 3" freestyle cinewhoop type drone, for 3S batteries, with fully 3D printed construction**
+**Chimera is 2,2" / 3" freestyle cinewhoop type drone, for 3S/4S batteries, with fully 3D printed construction**
 
 - Ready-to-flight mass(with lamp, battery and wings)
 : <200grams
@@ -49,7 +49,6 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : PETG
 
 ## BOM
-![chimera render](images/chimera12.png)
 
 ### 3D printed
 - 1 x ducts
@@ -114,10 +113,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] **25-30A car fuse and cable socket**
 : not necessary, but recommended
 - [ ] **14x9x5 (diameter * hole * height) ferrite ring**
-: turn 3-4x GNSS cable as close as possible to GNSS module, and behind the linear stabilizer
-    
-![ferrite](images/ferrite.jpg)
-
+: turn 3-4x GNSS cable as close as possible to GNSS modulestabilizer
 
 
 ### mechanical
@@ -134,7 +130,6 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] 16x M2 8mm screws for frame30
 - [ ] 16x M2 6mm screws for frame22
 
-![chimera render](images/chimera11.png)
 
 ## electronics
 project contains configuration for HD version with BZ- pin used as VTX power switch. Implementation below:
