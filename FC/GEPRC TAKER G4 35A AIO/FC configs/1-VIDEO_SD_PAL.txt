@@ -1,5 +1,3 @@
-defaults nosave
-
 # serial
 serial UART1 131073 115200 57600 0 115200
 serial UART4 64 115200 57600 0 115200
