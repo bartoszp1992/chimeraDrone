@@ -50,6 +50,22 @@ led 0 7,0::C:1
 led 1 8,0::C:1
 led 2 8,1::AB:0
 led 3 7,1::AB:0
+led 4 12,2::CY:2
+led 5 11,3::CY:2
+led 6 10,4::CY:2
+led 7 9,5::CY:2
+led 8 9,8::CY:9
+led 9 10,9::CY:9
+led 10 11,10::CY:9
+led 11 12,11::CY:9
+led 12 6,8::CY:11
+led 13 5,9::CY:11
+led 14 4,10::CY:11
+led 15 3,11::CY:11
+led 16 6,5::CY:7
+led 17 5,4::CY:7
+led 18 4,3::CY:7
+led 19 3,2::CY:7
 
 # color
 color 14 359,0,255
@@ -58,3 +74,6 @@ color 14 359,0,255
 mode_color 6 0 12
 mode_color 6 1 6
 mode_color 7 0 10
+
+set ledstrip_rainbow_delta = 21
+set ledstrip_rainbow_freq = 324
