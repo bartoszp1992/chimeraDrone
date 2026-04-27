@@ -47,6 +47,8 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : PETG
 - **top lock**
 : PETG
+- **light plate**
+: TPU
 
 ## BOM
 
