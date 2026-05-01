@@ -148,6 +148,7 @@ This repository may include firmware binaries and configuration files for flight
 
 Betaflight firmware is licensed under the GNU General Public License v3.0 (GPL-3.0).
 Source code is available at: https://github.com/betaflight/betaflight
+
 Bluejay ESC firmware is an open-source project.
 Source code is available at: https://github.com/bird-sanctuary/bluejay
 
