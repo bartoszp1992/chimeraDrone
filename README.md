@@ -78,7 +78,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] **motors 2.2"**
 : BETAFPV Lava series 1104 7200KV
 - [ ] **propellers 3"**
-: HQPROP T3X1.8X3
+: HQPROP T3X1.8X3 / HQPROP T3X3
 - [ ] **motors 3"**
 : flyfishRC FLASH 1404 4500KV
 - [ ] **receiver**
