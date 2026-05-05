@@ -49,6 +49,10 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : PETG
 - **light plate**
 : TPU
+- **bumper**
+: PP
+- **motor screw distance**
+: PC
 
 ## BOM
 
@@ -60,7 +64,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - 1 x right wing
 - 1 x roof or mount roof
 - 1 x GNSS mount
-- 1 x cable lock
+- 1 x top lock
 - 4 x camera sleeves
 - 4 x sleeve 2mm
 - 4 x sleeve 3mm
@@ -130,6 +134,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] 4x M2 20mm PA screws to mount digital VTX
 - [ ] 4x M2 0,8mm nut to screw in digital VTX
 - [ ] 16x M2 8mm screws for frame30
+- [ ] 16x M2 10mm screws for frame30 with motor screw distances
 - [ ] 16x M2 6mm screws for frame22
 
 
