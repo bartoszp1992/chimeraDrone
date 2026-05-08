@@ -65,7 +65,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - 1 x roof or mount roof
 - 1 x GNSS mount
 - 1 x top lock
-- 4 x camera sleeves
+- 2 x camera sleeves
 - 4 x sleeve 2mm
 - 4 x sleeve 3mm
 - 4 x grip nuts
