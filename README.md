@@ -51,7 +51,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 : TPU
 - **bumper**
 : PP
-- **motor screw distance**
+- **motor screw shim**
 : PC
 
 ## BOM
@@ -134,7 +134,7 @@ I don't recommend using SS nozzle becouse it's too cold for my printer.
 - [ ] 4x M2 20mm PA screws to mount digital VTX
 - [ ] 4x M2 0,8mm nut to screw in digital VTX
 - [ ] 16x M2 8mm screws for frame30
-- [ ] 16x M2 10mm screws for frame30 with motor screw distances
+- [ ] 16x M2 10mm screws for frame30 with motor screw shims
 - [ ] 16x M2 6mm screws for frame22
 
 
