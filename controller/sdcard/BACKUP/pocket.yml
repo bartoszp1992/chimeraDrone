@@ -192,6 +192,40 @@ mixData:
    speedDown: 0
    name: "lim3"
  -
+   destCh: 2
+   srcRaw: "I7"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: MUL
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: -50
+   offset: 50
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "mltp"
+ -
+   destCh: 2
+   srcRaw: "I7"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: -50
+   offset: -50
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "offset"
+ -
    destCh: 3
    srcRaw: "I0"
    carryTrim: 0
@@ -535,8 +569,8 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "MIN"
-   weight: 100
+   srcRaw: "MAX"
+   weight: -100
    offset: 0
    swtch: "NONE"
    curve: 
@@ -773,7 +807,7 @@ logicalSw:
       duration: 0
    6:
       func: FUNC_VPOS
-      def: "SE,0"
+      def: "I4,0"
       andsw: "SA0"
       lsPersist: 0
       lsState: 0
@@ -863,7 +897,7 @@ customFn:
    0:
       swtch: "!SB0"
       func: LOGS
-      def: "10,1"
+      def: "10,0"
    1:
       swtch: "L1"
       func: PLAY_SOUND
@@ -887,8 +921,14 @@ customFn:
 flightModeData: 
    0:
       trim: 
-         0:
-            value: -2
+         1:
+            value: 2
+            mode: 0
+         2:
+            value: 8
+            mode: 0
+         3:
+            value: 2
             mode: 0
       name: ""
       swtch: "NONE"

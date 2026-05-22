@@ -51,46 +51,6 @@ mixData:
    name: ""
  -
    destCh: 0
-   srcRaw: "I3"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "SW52"
-   curve: 
-      type: 1
-      value: 55
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "EXP"
- -
-   destCh: 0
-   srcRaw: "I3"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "SW42"
-   curve: 
-      type: 1
-      value: 70
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "EXP"
- -
-   destCh: 0
    srcRaw: "I11"
    carryTrim: 0
    mixWarn: 0
@@ -98,14 +58,14 @@ mixData:
    delayPrec: 0
    speedPrec: 0
    flightModes: 000000000
-   weight: -50
+   weight: 50
    offset: 50
    swtch: "NONE"
    delayUp: 0
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "MUL"
+   name: "mul"
  -
    destCh: 0
    srcRaw: "I3"
@@ -122,7 +82,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "LIM"
+   name: "lim3"
  -
    destCh: 1
    srcRaw: "I1"
@@ -142,46 +102,6 @@ mixData:
    name: ""
  -
    destCh: 1
-   srcRaw: "I1"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "SW52"
-   curve: 
-      type: 1
-      value: 55
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "EXP"
- -
-   destCh: 1
-   srcRaw: "I1"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "SW42"
-   curve: 
-      type: 1
-      value: 70
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "EXP"
- -
-   destCh: 1
    srcRaw: "I11"
    carryTrim: 0
    mixWarn: 0
@@ -189,14 +109,14 @@ mixData:
    delayPrec: 0
    speedPrec: 0
    flightModes: 000000000
-   weight: -50
+   weight: 50
    offset: 50
    swtch: "NONE"
    delayUp: 0
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "MUL"
+   name: "mul"
  -
    destCh: 1
    srcRaw: "I1"
@@ -213,7 +133,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "LIM"
+   name: "lim3"
  -
    destCh: 2
    srcRaw: "I2"
@@ -250,7 +170,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "LIM1"
+   name: "lim2"
  -
    destCh: 2
    srcRaw: "I2"
@@ -270,7 +190,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "LIM2"
+   name: "lim3"
  -
    destCh: 2
    srcRaw: "I7"
@@ -287,7 +207,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "MUL"
+   name: "mltp"
  -
    destCh: 2
    srcRaw: "I7"
@@ -304,7 +224,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "OFFSET"
+   name: "offset"
  -
    destCh: 3
    srcRaw: "I0"
@@ -322,46 +242,6 @@ mixData:
    speedUp: 0
    speedDown: 0
    name: ""
- -
-   destCh: 3
-   srcRaw: "I0"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "SW52"
-   curve: 
-      type: 1
-      value: 55
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "EXP"
- -
-   destCh: 3
-   srcRaw: "I0"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "SW42"
-   curve: 
-      type: 1
-      value: 70
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "EXP"
  -
    destCh: 3
    srcRaw: "I11"
@@ -371,33 +251,16 @@ mixData:
    delayPrec: 0
    speedPrec: 0
    flightModes: 000000000
-   weight: -50
+   weight: 50
    offset: 50
    swtch: "NONE"
    delayUp: 0
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "MUL"
+   name: "mul"
  -
    destCh: 4
-   srcRaw: "I4"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: ADD
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: ""
- -
-   destCh: 5
    srcRaw: "I5"
    carryTrim: 0
    mixWarn: 0
@@ -414,7 +277,7 @@ mixData:
    speedDown: 0
    name: ""
  -
-   destCh: 6
+   destCh: 5
    srcRaw: "I6"
    carryTrim: 0
    mixWarn: 0
@@ -431,8 +294,8 @@ mixData:
    speedDown: 0
    name: ""
  -
-   destCh: 7
-   srcRaw: "I7"
+   destCh: 6
+   srcRaw: "I10"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -448,9 +311,9 @@ mixData:
    speedDown: 0
    name: ""
  -
-   destCh: 7
-   srcRaw: "I7"
-   carryTrim: 1
+   destCh: 6
+   srcRaw: "I10"
+   carryTrim: 0
    mixWarn: 0
    mltpx: REPL
    delayPrec: 0
@@ -463,26 +326,9 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: "LIM"
+   name: "lim3"
  -
-   destCh: 8
-   srcRaw: "I8"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: ADD
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: ""
- -
-   destCh: 9
+   destCh: 7
    srcRaw: "I9"
    carryTrim: 0
    mixWarn: 0
@@ -499,8 +345,8 @@ mixData:
    speedDown: 0
    name: ""
  -
-   destCh: 10
-   srcRaw: "I10"
+   destCh: 8
+   srcRaw: "I4"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -516,24 +362,7 @@ mixData:
    speedDown: 0
    name: ""
  -
-   destCh: 10
-   srcRaw: "I10"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: REPL
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 0
-   offset: -100
-   swtch: "L5"
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: "ANGL"
- -
-   destCh: 11
+   destCh: 9
    srcRaw: "I11"
    carryTrim: 0
    mixWarn: 0
@@ -550,8 +379,42 @@ mixData:
    speedDown: 0
    name: ""
  -
+   destCh: 10
+   srcRaw: "ls(18)"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "lights"
+ -
+   destCh: 11
+   srcRaw: "ls(17)"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 100
+   offset: 0
+   swtch: "NONE"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "3D"
+ -
    destCh: 12
-   srcRaw: "I12"
+   srcRaw: "ls(16)"
    carryTrim: 0
    mixWarn: 0
    mltpx: ADD
@@ -565,41 +428,7 @@ mixData:
    delayDown: 0
    speedUp: 0
    speedDown: 0
-   name: ""
- -
-   destCh: 13
-   srcRaw: "I13"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: ADD
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: ""
- -
-   destCh: 14
-   srcRaw: "I14"
-   carryTrim: 0
-   mixWarn: 0
-   mltpx: ADD
-   delayPrec: 0
-   speedPrec: 0
-   flightModes: 000000000
-   weight: 100
-   offset: 0
-   swtch: "NONE"
-   delayUp: 0
-   delayDown: 0
-   speedUp: 0
-   speedDown: 0
-   name: ""
+   name: "VTX"
 limitData: 
    0:
       min: 0
@@ -745,7 +574,7 @@ expoData:
    offset: 0
    swtch: "NONE"
    curve: 
-      type: 2
+      type: 1
       value: 0
    chn: 7
    flightModes: 000000000
@@ -797,7 +626,7 @@ expoData:
    scale: 0
    trimSource: 0
    srcRaw: "P2"
-   weight: 100
+   weight: -100
    offset: 0
    swtch: "NONE"
    curve: 
@@ -810,7 +639,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SW1"
+   srcRaw: "MIN"
    weight: 100
    offset: 0
    swtch: "NONE"
@@ -824,7 +653,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SW2"
+   srcRaw: "MIN"
    weight: 100
    offset: 0
    swtch: "NONE"
@@ -838,7 +667,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SW3"
+   srcRaw: "MIN"
    weight: 100
    offset: 0
    swtch: "NONE"
@@ -852,7 +681,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SW4"
+   srcRaw: "MIN"
    weight: 100
    offset: 0
    swtch: "NONE"
@@ -866,7 +695,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SW5"
+   srcRaw: "MIN"
    weight: 100
    offset: 0
    swtch: "NONE"
@@ -880,7 +709,7 @@ expoData:
    mode: 3
    scale: 0
    trimSource: 0
-   srcRaw: "SW6"
+   srcRaw: "MIN"
    weight: 100
    offset: 0
    swtch: "NONE"
@@ -955,7 +784,7 @@ logicalSw:
    2:
       func: FUNC_VPOS
       def: "tele(1),480"
-      andsw: "SA1"
+      andsw: "SB1"
       lsPersist: 0
       lsState: 0
       delay: 0
@@ -963,7 +792,7 @@ logicalSw:
    3:
       func: FUNC_VPOS
       def: "tele(1),550"
-      andsw: "SA1"
+      andsw: "SB1"
       lsPersist: 0
       lsState: 0
       delay: 0
@@ -971,7 +800,87 @@ logicalSw:
    4:
       func: FUNC_VPOS
       def: "tele(1),620"
-      andsw: "SA1"
+      andsw: "SB1"
+      lsPersist: 0
+      lsState: 0
+      delay: 0
+      duration: 0
+   6:
+      func: FUNC_VPOS
+      def: "I4,0"
+      andsw: "SE0"
+      lsPersist: 0
+      lsState: 0
+      delay: 0
+      duration: 0
+   7:
+      func: FUNC_VNEG
+      def: "Ail,-80"
+      andsw: "L7"
+      lsPersist: 0
+      lsState: 0
+      delay: 0
+      duration: 0
+   8:
+      func: FUNC_VPOS
+      def: "Ail,80"
+      andsw: "L7"
+      lsPersist: 0
+      lsState: 0
+      delay: 0
+      duration: 0
+   9:
+      func: FUNC_VPOS
+      def: "Ele,80"
+      andsw: "L7"
+      lsPersist: 0
+      lsState: 0
+      delay: 0
+      duration: 0
+   10:
+      func: FUNC_VNEG
+      def: "Ele,-80"
+      andsw: "L7"
+      lsPersist: 0
+      lsState: 0
+      delay: 0
+      duration: 0
+   11:
+      func: FUNC_VNEG
+      def: "Rud,-80"
+      andsw: "L7"
+      lsPersist: 0
+      lsState: 0
+      delay: 0
+      duration: 0
+   12:
+      func: FUNC_VPOS
+      def: "Rud,80"
+      andsw: "L7"
+      lsPersist: 0
+      lsState: 0
+      delay: 0
+      duration: 0
+   15:
+      func: FUNC_STICKY
+      def: "L8,L9"
+      andsw: "NONE"
+      lsPersist: 0
+      lsState: 0
+      delay: 0
+      duration: 0
+   16:
+      func: FUNC_STICKY
+      def: "L10,L11"
+      andsw: "NONE"
+      lsPersist: 0
+      lsState: 0
+      delay: 0
+      duration: 0
+   17:
+      func: FUNC_STICKY
+      def: "L12,L13"
+      andsw: "NONE"
       lsPersist: 0
       lsState: 0
       delay: 0
@@ -980,7 +889,7 @@ customFn:
    0:
       swtch: "!SA2"
       func: LOGS
-      def: "25,0"
+      def: "10,0"
    1:
       swtch: "L1"
       func: PLAY_SOUND
@@ -996,7 +905,7 @@ customFn:
    4:
       swtch: "SB1"
       func: TRAINER
-      def: "chans,1"
+      def: "sticks,1"
    5:
       swtch: "SB2"
       func: VARIO
@@ -1005,16 +914,10 @@ flightModeData:
    0:
       trim: 
          0:
-            value: -2
-            mode: 0
-         1:
-            value: 2
+            value: 4
             mode: 0
          2:
-            value: 6
-            mode: 0
-         3:
-            value: -2
+            value: 32
             mode: 0
       name: ""
       swtch: "NONE"
@@ -1081,7 +984,7 @@ moduleData:
             crsfArmingTrigger: "NONE"
             spare3: 0
 trainerData: 
-   mode: SLAVE
+   mode: MASTER_SBUS_EXT
    channelsStart: 0
    channelsCount: 8
    frameLength: 32
@@ -1635,7 +1538,7 @@ view: 0
 modelRegistrationID: "*\x15*\x15!\x03%\x07"
 functionSwitchConfig: 2730
 functionSwitchGroup: 27285
-functionSwitchStartConfig: 340
+functionSwitchStartConfig: 2730
 functionSwitchLogicalState: 33
 usbJoystickExtMode: 0
 usbJoystickIfMode: JOYSTICK
