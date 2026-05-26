@@ -784,7 +784,7 @@ logicalSw:
    2:
       func: FUNC_VPOS
       def: "tele(1),480"
-      andsw: "SB1"
+      andsw: "SA1"
       lsPersist: 0
       lsState: 0
       delay: 0
@@ -792,7 +792,7 @@ logicalSw:
    3:
       func: FUNC_VPOS
       def: "tele(1),550"
-      andsw: "SB1"
+      andsw: "SA1"
       lsPersist: 0
       lsState: 0
       delay: 0
@@ -800,7 +800,7 @@ logicalSw:
    4:
       func: FUNC_VPOS
       def: "tele(1),620"
-      andsw: "SB1"
+      andsw: "SA1"
       lsPersist: 0
       lsState: 0
       delay: 0
@@ -910,38 +910,6 @@ customFn:
       swtch: "SB2"
       func: VARIO
       def: "1"
-flightModeData: 
-   0:
-      trim: 
-         0:
-            value: 4
-            mode: 0
-         2:
-            value: 32
-            mode: 0
-      name: ""
-      swtch: "NONE"
-      fadeIn: 0
-      fadeOut: 0
-      gvars: 
-         0:
-            val: 0
-         1:
-            val: 0
-         2:
-            val: 0
-         3:
-            val: 0
-         4:
-            val: 0
-         5:
-            val: 0
-         6:
-            val: 0
-         7:
-            val: 0
-         8:
-            val: 0
 thrTraceSrc: Thr
 switchWarning: 
    SA:

@@ -1,12 +1,14 @@
 profile 0
 
-# profile 0
-set d_pitch = 21
-set d_roll = 23
-set angle_p_gain = 55
-set angle_limit = 75
-set d_max_roll = 30
-set d_max_pitch = 27
-set simplified_d_gain = 80
-set simplified_d_max_gain = 80
-set simplified_pitch_d_gain = 80
+set i_pitch = 100
+set i_roll = 95
+set i_yaw = 95
+set dyn_idle_min_rpm = 20
+set simplified_i_gain = 120
+
+
+set gyro_lpf1_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set rpm_filter_weights = 100,50,80
+set rpm_filter_q = 775
+
