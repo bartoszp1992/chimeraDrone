@@ -77,3 +77,4 @@ mode_color 7 0 10
 
 set ledstrip_rainbow_delta = 21
 set ledstrip_rainbow_freq = 324
+save

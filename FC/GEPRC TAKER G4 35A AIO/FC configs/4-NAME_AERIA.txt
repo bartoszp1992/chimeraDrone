@@ -1,3 +1,4 @@
 set craft_name = BD1 "Aeria"
 set pilot_name = Bart SQ5SAZ
 set ap_hover_throttle = 1300
+save

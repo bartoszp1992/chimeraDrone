@@ -3,3 +3,4 @@ feature GPS
 feature TELEMETRY
 feature LED_STRIP
 feature OSD
+save

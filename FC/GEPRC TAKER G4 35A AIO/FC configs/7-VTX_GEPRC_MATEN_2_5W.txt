@@ -14,3 +14,4 @@ vtxtable band 8 BAND_O   O CUSTOM  5474 5492 5510 5528 5546 5564 5582 5600
 vtxtable powerlevels 5
 vtxtable powervalues 25 200 600 1600 2500
 vtxtable powerlabels 25 200 600 1W6 MAX
+save
