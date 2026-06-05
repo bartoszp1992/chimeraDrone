@@ -2,16 +2,10 @@
 
 ![chimera photo](images/chimera6.jpg)
 
-**Chimera is 2,2" / 3" freestyle cinewhoop type drone, for 3S/4S batteries, with fully 3D printed construction**
+**Chimera is 2,2" / 3" cinewhoop or freestyle type drone, for 3S/4S batteries, with fully 3D printed construction**
 
-- Ready-to-flight mass(with lamp, battery and wings)
-: <200grams
-- Carry weight
-: Can fly with light action camera
-- flight time
-: 1,5 - 5min
 
-*\*Speed can be reduced in edgeTX system using logical switch based on the speed read from GNSS, and the mix function. The project includes a configuration that limits the speed when SB is UP*
+*Speed can be reduced in edgeTX system using logical switch based on the speed read from GNSS, and the mix function. The project includes a configuration that limits the speed when SB is UP*
 
 [**Youtube Video**](https://www.youtube.com/watch?v=lm06ZXMheoQ)
 
