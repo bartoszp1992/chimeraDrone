@@ -12,4 +12,3 @@ timer B04 AF2
 # dma
 dma pin B04 7
 # pin B04: DMA1 Channel 8 Request 61
-save

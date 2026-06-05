@@ -42,4 +42,3 @@ set pinio_config = 129,1,1,1
 set pinio_box = 39,255,255,255
 set osd_displayport_device = AUTO
 set vcd_video_system = PAL
-save

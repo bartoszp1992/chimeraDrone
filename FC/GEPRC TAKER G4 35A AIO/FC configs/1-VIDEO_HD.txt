@@ -47,4 +47,3 @@ set osd_stat_bitmask = 397246
 set osd_profile = 2
 set pinio_config = 129,1,1,1
 set pinio_box = 39,255,255,255
-save

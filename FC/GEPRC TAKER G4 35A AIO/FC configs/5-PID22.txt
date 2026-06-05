@@ -8,4 +8,3 @@ set d_max_pitch = 27
 set simplified_d_gain = 80
 set simplified_d_max_gain = 80
 set simplified_pitch_d_gain = 80
-save

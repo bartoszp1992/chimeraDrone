@@ -11,4 +11,3 @@ vtxtable band 5 RACEBAND R FACTORY 5658 5695 5732 5769 5806 5843 5880 5917
 vtxtable powerlevels 4
 vtxtable powervalues 25 100 200 400
 vtxtable powerlabels 25 100 200 350
-save

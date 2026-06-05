@@ -11,4 +11,3 @@ set gyro_lpf1_static_hz = 0
 set gyro_lpf1_dyn_min_hz = 0
 set rpm_filter_weights = 100,50,80
 set rpm_filter_q = 775
-save
