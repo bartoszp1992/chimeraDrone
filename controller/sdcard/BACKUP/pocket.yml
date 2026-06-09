@@ -260,6 +260,23 @@ mixData:
    speedDown: 0
    name: "mul"
  -
+   destCh: 3
+   srcRaw: "ch(0)"
+   carryTrim: 0
+   mixWarn: 0
+   mltpx: ADD
+   delayPrec: 0
+   speedPrec: 0
+   flightModes: 000000000
+   weight: 80
+   offset: 0
+   swtch: "SD2"
+   delayUp: 0
+   delayDown: 0
+   speedUp: 0
+   speedDown: 0
+   name: "1hnd"
+ -
    destCh: 4
    srcRaw: "I5"
    carryTrim: 0
@@ -918,41 +935,6 @@ customFn:
       swtch: "SC0"
       func: VARIO
       def: "1"
-flightModeData: 
-   0:
-      trim: 
-         1:
-            value: 2
-            mode: 0
-         2:
-            value: 8
-            mode: 0
-         3:
-            value: 2
-            mode: 0
-      name: ""
-      swtch: "NONE"
-      fadeIn: 0
-      fadeOut: 0
-      gvars: 
-         0:
-            val: 0
-         1:
-            val: 0
-         2:
-            val: 0
-         3:
-            val: 0
-         4:
-            val: 0
-         5:
-            val: 0
-         6:
-            val: 0
-         7:
-            val: 0
-         8:
-            val: 0
 thrTraceSrc: Thr
 switchWarning: 
    SA:
@@ -1039,7 +1021,7 @@ inputNames:
 potsWarnEnabled: 3
 potsWarnPosition: 
    0:
-      val: 64
+      val: 17
    1:
       val: -64
 telemetrySensors: 
@@ -1543,6 +1525,16 @@ screens:
                      val: tele(7)
                   1:
                      val: tele(4)
+   1:
+      type: VALUES
+      u: 
+         lines: 
+            0:
+               sources: 
+                  0:
+                     val: tele(16)
+                  1:
+                     val: tele(15)
 view: 0
 modelRegistrationID: "*\x15*\x15!\x03%\x07"
 usbJoystickExtMode: 0
