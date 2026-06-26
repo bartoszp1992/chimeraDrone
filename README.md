@@ -1,13 +1,10 @@
-# BD1 "Chimera" repo
+# BD1 "Fury" repo
 
-![chimera photo](images/chimera6.jpg)
 
-**Chimera is 2,2" / 3" cinewhoop or freestyle type drone, for 3S/4S batteries, with fully 3D printed construction**
+**Fury is 2,2" / 3" cinewhoop or freestyle type drone, for 3S/4S batteries, with fully 3D printed construction**
 
 
 *Speed can be reduced in edgeTX system using logical switch based on the speed read from GNSS, and the mix function. The project includes a configuration that limits the speed when SB is UP*
-
-[**Youtube Video**](https://www.youtube.com/watch?v=lm06ZXMheoQ)
 
 
 ## 3D printing
